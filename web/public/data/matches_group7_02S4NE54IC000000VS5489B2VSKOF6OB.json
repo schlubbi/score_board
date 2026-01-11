@@ -1,0 +1,128 @@
+{
+  "count": 9,
+  "group": {
+    "id": "group7",
+    "name": "EJKK Kassel Gr. 7"
+  },
+  "matches": [
+    {
+      "id": "02U3FBMA7O000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "homeTeam": "JSG Nieste/​Staufenberg III",
+      "awayTeamId": "02II92G5ES000000VS5489B2VVQ9C6A6",
+      "awayTeam": "JSG Fuldatal II",
+      "homeScore": 4,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jsg-fuldatal-ii/-/spiel/02U3FBMA7O000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAC4000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IH18AAJS000000VS5489B2VU2I8R4H",
+      "homeTeam": "Tuspo Waldau II zg.",
+      "awayTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "awayTeam": "JSG Nieste/​Staufenberg III",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt HEIM",
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMAC4000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAF8000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "homeTeam": "JSG Nieste/​Staufenberg III",
+      "awayTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSV Wolfsanger 3",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-tsv-wolfsanger-3/-/spiel/02U3FBMAF8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAHK000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIB1T8O000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Heiligenrode II",
+      "awayTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "awayTeam": "JSG Nieste/​Staufenberg III",
+      "homeScore": 3,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMAHK000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAO0000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "homeTeam": "JSG Nieste/​Staufenberg III",
+      "awayTeamId": "02IM9EO578000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSG Wilhelmshöhe III",
+      "homeScore": 5,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-tsg-wilhelmshoehe-iii/-/spiel/02U3FBMAO0000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAT4000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "homeTeam": "JSG Nieste/​Staufenberg III",
+      "awayTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "awayTeam": "JFV Söhre IV",
+      "homeScore": 4,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jfv-soehre-iv/-/spiel/02U3FBMAT4000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB34000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TK461K2K000000VS5489BRVUSIJ66A",
+      "homeTeam": "Kasseler SV 2",
+      "awayTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "awayTeam": "JSG Nieste/​Staufenberg III",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMB34000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB70000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "homeTeam": "JSG Nieste/​Staufenberg III",
+      "awayTeamId": "02U2QR4VCG000000VS5489BRVSGGHO8O",
+      "awayTeam": "CSC 03 Kassel 2",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-csc-03-kassel-2/-/spiel/02U3FBMB70000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMBB0000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "homeTeam": "Tuspo Rengershausen II",
+      "awayTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "awayTeam": "JSG Nieste/​Staufenberg III",
+      "homeScore": 6,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMBB0000000VS5489BTVV378D77"
+    }
+  ],
+  "teamId": "02S4NE54IC000000VS5489B2VSKOF6OB"
+}

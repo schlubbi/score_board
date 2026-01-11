@@ -1,0 +1,114 @@
+{
+  "count": 8,
+  "group": {
+    "id": "group8",
+    "name": "EJKK Kassel Gr. 8"
+  },
+  "matches": [
+    {
+      "id": "02TT1FNK00000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "homeTeam": "SV Germ.KS",
+      "awayTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "awayTeam": "RSV Eintracht Vellmar",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-germks-rsv-eintracht-vellmar/-/spiel/02TT1FNK00000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNK5O000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "homeTeam": "RSV Eintracht Vellmar",
+      "awayTeamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
+      "awayTeam": "TSG Sandershausen III",
+      "homeScore": 10,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-tsg-sandershausen-iii/-/spiel/02TT1FNK5O000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNK9G000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
+      "homeTeam": "SV Kaufungen 07 IV",
+      "awayTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "awayTeam": "RSV Eintracht Vellmar",
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNK9G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNKDO000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "homeTeam": "RSV Eintracht Vellmar",
+      "awayTeamId": "02ILRKSQNO000000VS5489B1VSO9MMK0",
+      "awayTeam": "FSK Vollmarshausen II",
+      "homeScore": 7,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-fsk-vollmarshausen-ii/-/spiel/02TT1FNKDO000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNKGK000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TMDS383O000000VS5489BSVTNMVP4D",
+      "homeTeam": "SVH Kassel IV",
+      "awayTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "awayTeam": "RSV Eintracht Vellmar",
+      "homeScore": 1,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/svh-kassel-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNKGK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNKNC000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "homeTeam": "RSV Eintracht Vellmar",
+      "awayTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
+      "awayTeam": "Spvgg. Olympia Kassel IV",
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKNC000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNL2S000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TIS8544K000000VS5489BSVUALD4UK",
+      "homeTeam": "JSG Nieste/​Staufenberg IV",
+      "awayTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "awayTeam": "RSV Eintracht Vellmar",
+      "homeScore": 3,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNL2S000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNL78000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "homeTeam": "RSV Eintracht Vellmar",
+      "awayTeamId": "02EIA8S2R4000000VS5489B2VS183IS6",
+      "awayTeam": "OSC Vellmar II",
+      "homeScore": 6,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-osc-vellmar-ii/-/spiel/02TT1FNL78000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "02M8RTKAKG000000VS5489B2VUHJA7LU"
+}

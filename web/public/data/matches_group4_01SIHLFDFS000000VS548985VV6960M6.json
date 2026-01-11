@@ -1,0 +1,128 @@
+{
+  "count": 9,
+  "group": {
+    "id": "group4",
+    "name": "EJKK Kassel Gr. 4"
+  },
+  "matches": [
+    {
+      "id": "02U3HEV8G4000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "homeTeam": "TSV Oberzwehren",
+      "awayTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "awayTeam": "TSV Wolfsanger 2",
+      "homeScore": 1,
+      "awayScore": 20,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-tsv-wolfsanger-2/-/spiel/02U3HEV8G4000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8K4000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIDBML0000000VTVG0001VTR8C1K7",
+      "homeTeam": "SVH Kassel",
+      "awayTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "awayTeam": "TSV Oberzwehren",
+      "homeScore": 5,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/svh-kassel-tsv-oberzwehren/-/spiel/02U3HEV8K4000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8P0000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02M8OP4GJK000000VS5489B1VT732LUQ",
+      "homeTeam": "Spielverein 06 KS II",
+      "awayTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "awayTeam": "TSV Oberzwehren",
+      "homeScore": 0,
+      "awayScore": 27,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-tsv-oberzwehren/-/spiel/02U3HEV8P0000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8T8000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "homeTeam": "TSV Oberzwehren",
+      "awayTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "awayTeam": "SV Kaufungen 07 III",
+      "homeScore": 5,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-sv-kaufungen-07-iii/-/spiel/02U3HEV8T8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV958000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02B45MRNUG000000VS5489B2VS0NK514",
+      "homeTeam": "JSG Fuldatal I",
+      "awayTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "awayTeam": "TSV Oberzwehren",
+      "homeScore": 6,
+      "awayScore": 7,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-tsv-oberzwehren/-/spiel/02U3HEV958000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV98C000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "homeTeam": "TSV Oberzwehren",
+      "awayTeamId": "02S8L8U0BO000000VS5489B1VVVAF4P8",
+      "awayTeam": "Soccer Academy KS 2",
+      "homeScore": 7,
+      "awayScore": 8,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-soccer-academy-ks-2/-/spiel/02U3HEV98C000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9ES000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "homeTeam": "TSV Oberzwehren",
+      "awayTeamId": "027J4GENR8000000VS5489B1VUA37ON8",
+      "awayTeam": "VfL Kassel III zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-vfl-kassel-iii/-/spiel/02U3HEV9ES000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9J0000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "homeTeam": "TSV Oberzwehren",
+      "awayTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "awayTeam": "JSG Ahnatal II",
+      "homeScore": 1,
+      "awayScore": 11,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-jsg-ahnatal-ii/-/spiel/02U3HEV9J0000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9RS000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02Q09MJ4JK000000VS5489B2VTB2M2VN",
+      "homeTeam": "KSV Baunatal V",
+      "awayTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "awayTeam": "TSV Oberzwehren",
+      "homeScore": 2,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-tsv-oberzwehren/-/spiel/02U3HEV9RS000000VS5489BTVV378D77"
+    }
+  ],
+  "teamId": "01SIHLFDFS000000VS548985VV6960M6"
+}

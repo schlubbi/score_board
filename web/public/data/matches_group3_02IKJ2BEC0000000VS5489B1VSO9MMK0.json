@@ -1,0 +1,88 @@
+{
+  "count": 6,
+  "group": {
+    "id": "group3",
+    "name": "EJKK Kassel Gr. 3"
+  },
+  "matches": [
+    {
+      "id": "02TSNJRPQK000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0",
+      "homeTeam": "JFV Söhre II",
+      "awayTeamId": "02IGMLV9G8000000VS5489B2VU2I8R4H",
+      "awayTeam": "Spielverein 06 KS",
+      "homeScore": 1,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-ii-spielverein-06-ks/-/spiel/02TSNJRPQK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRPTG000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02F1C2CJPS000000VS5489B1VT1H0S9M",
+      "homeTeam": "TSG Sandershausen",
+      "awayTeamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0",
+      "awayTeam": "JFV Söhre II",
+      "homeScore": 3,
+      "awayScore": 9,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-jfv-soehre-ii/-/spiel/02TSNJRPTG000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQ1C000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0",
+      "homeTeam": "JFV Söhre II",
+      "awayTeamId": "02EUPBBDSG000000VS5489B1VT0RKM5V",
+      "awayTeam": "Olympia Kassel III",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-ii-olympia-kassel-iii/-/spiel/02TSNJRQ1C000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQ30000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS5Q1T8O000000VS5489B2VSE05932",
+      "homeTeam": "KSV Baunatal IV",
+      "awayTeamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0",
+      "awayTeam": "JFV Söhre II",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-iv-jfv-soehre-ii/-/spiel/02TSNJRQ30000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQBO000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0",
+      "homeTeam": "JFV Söhre II",
+      "awayTeamId": "027J0UVHSS000000VS5489B2VVDR0U48",
+      "awayTeam": "JSG Nordstadt",
+      "homeScore": 0,
+      "awayScore": 8,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-ii-jsg-nordstadt/-/spiel/02TSNJRQBO000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQH0000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIB21U8000000VTVG0001VTR8C1K7",
+      "homeTeam": "Kasseler SV",
+      "awayTeamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0",
+      "awayTeam": "JFV Söhre II",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/kasseler-sv-jfv-soehre-ii/-/spiel/02TSNJRQH0000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0"
+}

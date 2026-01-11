@@ -1,0 +1,128 @@
+{
+  "count": 9,
+  "group": {
+    "id": "group7",
+    "name": "EJKK Kassel Gr. 7"
+  },
+  "matches": [
+    {
+      "id": "02U3FBMA64000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIB1T8O000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Heiligenrode II",
+      "awayTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSV Wolfsanger 3",
+      "homeScore": 2,
+      "awayScore": 7,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-ii-tsv-wolfsanger-3/-/spiel/02U3FBMA64000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMACS000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IM9EO578000000VS5489B2VVQ9C6A6",
+      "homeTeam": "TSG Wilhelmshöhe III",
+      "awayTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSV Wolfsanger 3",
+      "homeScore": 4,
+      "awayScore": 8,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-iii-tsv-wolfsanger-3/-/spiel/02U3FBMACS000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAF8000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "homeTeam": "JSG Nieste/​Staufenberg III",
+      "awayTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSV Wolfsanger 3",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-tsv-wolfsanger-3/-/spiel/02U3FBMAF8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAL8000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "homeTeam": "TSV Wolfsanger 3",
+      "awayTeamId": "02TK461K2K000000VS5489BRVUSIJ66A",
+      "awayTeam": "Kasseler SV 2",
+      "homeScore": 6,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-3-kasseler-sv-2/-/spiel/02U3FBMAL8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAQ4000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02U2QR4VCG000000VS5489BRVSGGHO8O",
+      "homeTeam": "CSC 03 Kassel 2",
+      "awayTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSV Wolfsanger 3",
+      "homeScore": 2,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/csc-03-kassel-2-tsv-wolfsanger-3/-/spiel/02U3FBMAQ4000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAV8000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "homeTeam": "TSV Wolfsanger 3",
+      "awayTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "awayTeam": "Tuspo Rengershausen II",
+      "homeScore": 6,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-3-tuspo-rengershausen-ii/-/spiel/02U3FBMAV8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB24000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02II92G5ES000000VS5489B2VVQ9C6A6",
+      "homeTeam": "JSG Fuldatal II",
+      "awayTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSV Wolfsanger 3",
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-ii-tsv-wolfsanger-3/-/spiel/02U3FBMB24000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB90000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "homeTeam": "TSV Wolfsanger 3",
+      "awayTeamId": "02IH18AAJS000000VS5489B2VU2I8R4H",
+      "awayTeam": "Tuspo Waldau II zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-3-tuspo-waldau-ii/-/spiel/02U3FBMB90000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB9S000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "homeTeam": "JFV Söhre IV",
+      "awayTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSV Wolfsanger 3",
+      "homeScore": 0,
+      "awayScore": 11,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tsv-wolfsanger-3/-/spiel/02U3FBMB9S000000VS5489BTVV378D77"
+    }
+  ],
+  "teamId": "02IK69D0H8000000VS5489B2VVQ9C6A6"
+}

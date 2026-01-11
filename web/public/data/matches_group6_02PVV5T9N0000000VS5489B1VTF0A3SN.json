@@ -1,0 +1,101 @@
+{
+  "count": 7,
+  "group": {
+    "id": "group6",
+    "name": "EJKK Kassel Gr. 6"
+  },
+  "matches": [
+    {
+      "id": "02TSCSQ004000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "homeTeam": "Eintracht Baunatal IV",
+      "awayTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "awayTeam": "TSG Sandershausen II",
+      "homeScore": 12,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iv-tsg-sandershausen-ii/-/spiel/02TSCSQ004000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ02S000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02ID685NOO000000VS5489B2VU2I8R4H",
+      "homeTeam": "TSV Vellmar II",
+      "awayTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "awayTeam": "Eintracht Baunatal IV",
+      "homeScore": 3,
+      "awayScore": 8,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-vellmar-ii-eintracht-baunatal-iv/-/spiel/02TSCSQ02S000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ05K000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02Q08JPFBC000000VS5489B2VTB2M2VN",
+      "homeTeam": "SVH Kassel III",
+      "awayTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "awayTeam": "Eintracht Baunatal IV",
+      "homeScore": 6,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/svh-kassel-iii-eintracht-baunatal-iv/-/spiel/02TSCSQ05K000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ07C000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "homeTeam": "Eintracht Baunatal IV",
+      "awayTeamId": "023KKO5SK0000000VS548985VTNSAQK7",
+      "awayTeam": "Tuspo Waldau",
+      "homeScore": 8,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iv-tuspo-waldau/-/spiel/02TSCSQ07C000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0C4000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "homeTeam": "Eintracht Baunatal IV",
+      "awayTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "awayTeam": "Tuspo Rengershausen",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iv-tuspo-rengershausen/-/spiel/02TSCSQ0C4000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0FS000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "homeTeam": "Eintracht Baunatal IV",
+      "awayTeamId": "02TLFMCMAG000000VS5489BRVTFKGF73",
+      "awayTeam": "SV Kaufungen 07 V",
+      "homeScore": 8,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iv-sv-kaufungen-07-v/-/spiel/02TSCSQ0FS000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0K0000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02U8KM964C000000VS5489BSVUPHJMG2",
+      "homeTeam": "JFV Söhre V",
+      "awayTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "awayTeam": "Eintracht Baunatal IV",
+      "homeScore": 1,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-v-eintracht-baunatal-iv/-/spiel/02TSCSQ0K0000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "02PVV5T9N0000000VS5489B1VTF0A3SN"
+}

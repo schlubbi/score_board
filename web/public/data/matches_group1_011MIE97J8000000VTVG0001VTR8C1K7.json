@@ -1,0 +1,89 @@
+{
+  "count": 6,
+  "group": {
+    "id": "group1",
+    "name": "EJKK Kassel Gr. 1"
+  },
+  "matches": [
+    {
+      "id": "02TS51PLN4000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIE97J8000000VTVG0001VTR8C1K7",
+      "homeTeam": "JSG Nieste/​Staufenberg 1",
+      "awayTeamId": "012SPDHLPG000000VV0AG811VVMSC00G",
+      "awayTeam": "TSG Wilhelmshöhe zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-1-tsg-wilhelmshoehe/-/spiel/02TS51PLN4000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PLQK000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "01OUTOLJ0O000000VV0AG80NVT74RFIN",
+      "homeTeam": "Olympia Kassel II",
+      "awayTeamId": "011MIE97J8000000VTVG0001VTR8C1K7",
+      "awayTeam": "JSG Nieste/​Staufenberg 1",
+      "homeScore": 2,
+      "awayScore": 10,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/olympia-kassel-ii-jsg-nieste-staufenberg-1/-/spiel/02TS51PLQK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PLUC000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIBVE2O000000VTVG0001VTR8C1K7",
+      "homeTeam": "Eintracht Baunatal II",
+      "awayTeamId": "011MIE97J8000000VTVG0001VTR8C1K7",
+      "awayTeam": "JSG Nieste/​Staufenberg 1",
+      "homeScore": 5,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-ii-jsg-nieste-staufenberg-1/-/spiel/02TS51PLUC000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PM0G000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIE97J8000000VTVG0001VTR8C1K7",
+      "homeTeam": "JSG Nieste/​Staufenberg 1",
+      "awayTeamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
+      "awayTeam": "JFV Söhre I",
+      "homeScore": 4,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-1-jfv-soehre-i/-/spiel/02TS51PM0G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PM5G000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
+      "homeTeam": "OSC Vellmar I",
+      "awayTeamId": "011MIE97J8000000VTVG0001VTR8C1K7",
+      "awayTeam": "JSG Nieste/​Staufenberg 1",
+      "homeScore": 6,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-jsg-nieste-staufenberg-1/-/spiel/02TS51PM5G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PMCG000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "02EI99T74C000000VS5489B2VS183IS6",
+      "homeTeam": "KSV Baunatal II",
+      "awayTeamId": "011MIE97J8000000VTVG0001VTR8C1K7",
+      "awayTeam": "JSG Nieste/​Staufenberg 1",
+      "homeScore": 12,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-ii-jsg-nieste-staufenberg-1/-/spiel/02TS51PMCG000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "011MIE97J8000000VTVG0001VTR8C1K7"
+}

@@ -1,0 +1,101 @@
+{
+  "count": 7,
+  "group": {
+    "id": "group5",
+    "name": "EJKK Kassel Gr. 5"
+  },
+  "matches": [
+    {
+      "id": "02TS5GHTAS000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "homeTeam": "SV Kaufungen 07 II",
+      "awayTeamId": "02PPCOTUB8000000VS5489B2VUGLP840",
+      "awayTeam": "JFV Söhre III",
+      "homeScore": 5,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-jfv-soehre-iii/-/spiel/02TS5GHTAS000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTDG000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIBTMUO000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Vellmar",
+      "awayTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "awayTeam": "SV Kaufungen 07 II",
+      "homeScore": 1,
+      "awayScore": 7,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-vellmar-sv-kaufungen-07-ii/-/spiel/02TS5GHTDG000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTGO000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02EPVED62O000000VS5489B1VT0RKM5V",
+      "homeTeam": "JSG Ahnatal",
+      "awayTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "awayTeam": "SV Kaufungen 07 II",
+      "homeScore": 4,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-sv-kaufungen-07-ii/-/spiel/02TS5GHTGO000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTIK000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "homeTeam": "SV Kaufungen 07 II",
+      "awayTeamId": "029JRT7UNG000000VS5489B1VT684KFR",
+      "awayTeam": "SVH Kassel II",
+      "homeScore": 4,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-svh-kassel-ii/-/spiel/02TS5GHTIK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTNK000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02M84T8CJK000000VS5489B1VT732LUQ",
+      "homeTeam": "TSV Hertingshausen",
+      "awayTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "awayTeam": "SV Kaufungen 07 II",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-hertingshausen-sv-kaufungen-07-ii/-/spiel/02TS5GHTNK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTO8000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "homeTeam": "SV Kaufungen 07 II",
+      "awayTeamId": "011MICAA94000000VTVG0001VTR8C1K7",
+      "awayTeam": "SV Nordshausen",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-sv-nordshausen/-/spiel/02TS5GHTO8000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTTC000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
+      "homeTeam": "TSG Wilhelmshöhe II",
+      "awayTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "awayTeam": "SV Kaufungen 07 II",
+      "homeScore": 4,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ii-sv-kaufungen-07-ii/-/spiel/02TS5GHTTC000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "012SQOC7AK000000VV0AG80NVS1E8EB5"
+}

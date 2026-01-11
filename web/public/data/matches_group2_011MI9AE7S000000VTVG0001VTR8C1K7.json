@@ -1,0 +1,89 @@
+{
+  "count": 6,
+  "group": {
+    "id": "group2",
+    "name": "EJKK Kassel Gr. 2"
+  },
+  "matches": [
+    {
+      "id": "02TS524178000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Heiligenrode",
+      "awayTeamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
+      "awayTeam": "VfL Kassel II",
+      "homeScore": 4,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-vfl-kassel-ii/-/spiel/02TS524178000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241A0000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "027KSP0LOK000000VS5489B2VVDR0U48",
+      "homeTeam": "Eintracht Baunatal III",
+      "awayTeamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
+      "awayTeam": "TSV Heiligenrode",
+      "homeScore": 8,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iii-tsv-heiligenrode/-/spiel/02TS5241A0000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241D8000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SEIRK0LC000000VS548984VVB63HJG",
+      "homeTeam": "CSC 03 Kassel",
+      "awayTeamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
+      "awayTeam": "TSV Heiligenrode",
+      "homeScore": 5,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/csc-03-kassel-tsv-heiligenrode/-/spiel/02TS5241D8000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241F8000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Heiligenrode",
+      "awayTeamId": "011MIBHMMC000000VTVG0001VTR8C1K7",
+      "awayTeam": "FSK Vollmarshausen zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-fsk-vollmarshausen/-/spiel/02TS5241F8000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241LG000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Heiligenrode",
+      "awayTeamId": "02H8P0M4L0000000VS5489B1VUEE4KFG",
+      "awayTeam": "KSV Baunatal III",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-ksv-baunatal-iii/-/spiel/02TS5241LG000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241QK000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Heiligenrode",
+      "awayTeamId": "027I7PBKBS000000VS5489B2VVDR0U48",
+      "awayTeam": "JSG Nieste/​Staufenberg II",
+      "homeScore": 5,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-jsg-nieste-staufenberg-ii/-/spiel/02TS5241QK000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "011MI9AE7S000000VTVG0001VTR8C1K7"
+}

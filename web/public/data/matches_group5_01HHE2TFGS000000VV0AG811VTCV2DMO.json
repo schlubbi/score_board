@@ -1,0 +1,101 @@
+{
+  "count": 7,
+  "group": {
+    "id": "group5",
+    "name": "EJKK Kassel Gr. 5"
+  },
+  "matches": [
+    {
+      "id": "02TS5GHTBK000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02EPVED62O000000VS5489B1VT0RKM5V",
+      "homeTeam": "JSG Ahnatal",
+      "awayTeamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
+      "awayTeam": "TSG Wilhelmshöhe II",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-tsg-wilhelmshoehe-ii/-/spiel/02TS5GHTBK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTES000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
+      "homeTeam": "TSG Wilhelmshöhe II",
+      "awayTeamId": "029JRT7UNG000000VS5489B1VT684KFR",
+      "awayTeam": "SVH Kassel II",
+      "homeScore": 12,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ii-svh-kassel-ii/-/spiel/02TS5GHTES000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTI0000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02M84T8CJK000000VS5489B1VT732LUQ",
+      "homeTeam": "TSV Hertingshausen",
+      "awayTeamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
+      "awayTeam": "TSG Wilhelmshöhe II",
+      "homeScore": 4,
+      "awayScore": 13,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-hertingshausen-tsg-wilhelmshoehe-ii/-/spiel/02TS5GHTI0000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTK0000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
+      "homeTeam": "TSG Wilhelmshöhe II",
+      "awayTeamId": "011MICAA94000000VTVG0001VTR8C1K7",
+      "awayTeam": "SV Nordshausen",
+      "homeScore": 19,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ii-sv-nordshausen/-/spiel/02TS5GHTK0000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTLG000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIBTMUO000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Vellmar",
+      "awayTeamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
+      "awayTeam": "TSG Wilhelmshöhe II",
+      "homeScore": 0,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-vellmar-tsg-wilhelmshoehe-ii/-/spiel/02TS5GHTLG000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTQS000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PPCOTUB8000000VS5489B2VUGLP840",
+      "homeTeam": "JFV Söhre III",
+      "awayTeamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
+      "awayTeam": "TSG Wilhelmshöhe II",
+      "homeScore": 1,
+      "awayScore": 11,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iii-tsg-wilhelmshoehe-ii/-/spiel/02TS5GHTQS000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5GHTTC000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
+      "homeTeam": "TSG Wilhelmshöhe II",
+      "awayTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "awayTeam": "SV Kaufungen 07 II",
+      "homeScore": 4,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ii-sv-kaufungen-07-ii/-/spiel/02TS5GHTTC000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "01HHE2TFGS000000VV0AG811VTCV2DMO"
+}

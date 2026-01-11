@@ -221,6 +221,15 @@ th {
   color: #475569;
 }
 
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+th.sortable:hover {
+  color: #0f172a;
+}
+
 tr:last-child td {
   border-bottom: none;
 }

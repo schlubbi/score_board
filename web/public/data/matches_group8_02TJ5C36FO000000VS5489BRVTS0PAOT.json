@@ -1,0 +1,115 @@
+{
+  "count": 8,
+  "group": {
+    "id": "group8",
+    "name": "EJKK Kassel Gr. 8"
+  },
+  "matches": [
+    {
+      "id": "02TT1FNK00000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "homeTeam": "SV Germ.KS",
+      "awayTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "awayTeam": "RSV Eintracht Vellmar",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-germks-rsv-eintracht-vellmar/-/spiel/02TT1FNK00000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNK6G000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TIS8544K000000VS5489BSVUALD4UK",
+      "homeTeam": "JSG Nieste/​Staufenberg IV",
+      "awayTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "awayTeam": "SV Germ.KS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "U",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-sv-germks/-/spiel/02TT1FNK6G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNK80000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "homeTeam": "SV Germ.KS",
+      "awayTeamId": "02EIA8S2R4000000VS5489B2VS183IS6",
+      "awayTeam": "OSC Vellmar II",
+      "homeScore": 1,
+      "awayScore": 21,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-germks-osc-vellmar-ii/-/spiel/02TT1FNK80000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNKHG000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
+      "homeTeam": "TSG Sandershausen III",
+      "awayTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "awayTeam": "SV Germ.KS",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-sv-germks/-/spiel/02TT1FNKHG000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNKLK000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "homeTeam": "SV Germ.KS",
+      "awayTeamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
+      "awayTeam": "SV Kaufungen 07 IV",
+      "homeScore": 1,
+      "awayScore": 11,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-germks-sv-kaufungen-07-iv/-/spiel/02TT1FNKLK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNKTK000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02ILRKSQNO000000VS5489B1VSO9MMK0",
+      "homeTeam": "FSK Vollmarshausen II",
+      "awayTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "awayTeam": "SV Germ.KS",
+      "homeScore": 1,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/fsk-vollmarshausen-ii-sv-germks/-/spiel/02TT1FNKTK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNKVK000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "homeTeam": "SV Germ.KS",
+      "awayTeamId": "02TMDS383O000000VS5489BSVTNMVP4D",
+      "awayTeam": "SVH Kassel IV",
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-germks-svh-kassel-iv/-/spiel/02TT1FNKVK000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TT1FNL60000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
+      "homeTeam": "Spvgg. Olympia Kassel IV",
+      "awayTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "awayTeam": "SV Germ.KS",
+      "homeScore": 12,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-sv-germks/-/spiel/02TT1FNL60000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "02TJ5C36FO000000VS5489BRVTS0PAOT"
+}

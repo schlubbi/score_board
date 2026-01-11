@@ -1,0 +1,128 @@
+{
+  "count": 9,
+  "group": {
+    "id": "group4",
+    "name": "EJKK Kassel Gr. 4"
+  },
+  "matches": [
+    {
+      "id": "02U3HEV8G4000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "homeTeam": "TSV Oberzwehren",
+      "awayTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "awayTeam": "TSV Wolfsanger 2",
+      "homeScore": 1,
+      "awayScore": 20,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-tsv-wolfsanger-2/-/spiel/02U3HEV8G4000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8NC000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "homeTeam": "TSV Wolfsanger 2",
+      "awayTeamId": "02M8OP4GJK000000VS5489B1VT732LUQ",
+      "awayTeam": "Spielverein 06 KS II",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-spielverein-06-ks-ii/-/spiel/02U3HEV8NC000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8QC000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "awayTeam": "TSV Wolfsanger 2",
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-tsv-wolfsanger-2/-/spiel/02U3HEV8QC000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV90S000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "homeTeam": "TSV Wolfsanger 2",
+      "awayTeamId": "02B45MRNUG000000VS5489B2VS0NK514",
+      "awayTeam": "JSG Fuldatal I",
+      "homeScore": 15,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-jsg-fuldatal-i/-/spiel/02U3HEV90S000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV97C000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S8L8U0BO000000VS5489B1VVVAF4P8",
+      "homeTeam": "Soccer Academy KS 2",
+      "awayTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "awayTeam": "TSV Wolfsanger 2",
+      "homeScore": 2,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-tsv-wolfsanger-2/-/spiel/02U3HEV97C000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9CS000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "homeTeam": "TSV Wolfsanger 2",
+      "awayTeamId": "027J4GENR8000000VS5489B1VUA37ON8",
+      "awayTeam": "VfL Kassel III zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-vfl-kassel-iii/-/spiel/02U3HEV9CS000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9G0000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "homeTeam": "JSG Ahnatal II",
+      "awayTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "awayTeam": "TSV Wolfsanger 2",
+      "homeScore": 2,
+      "awayScore": 8,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-tsv-wolfsanger-2/-/spiel/02U3HEV9G0000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9NK000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "homeTeam": "TSV Wolfsanger 2",
+      "awayTeamId": "02Q09MJ4JK000000VS5489B2VTB2M2VN",
+      "awayTeam": "KSV Baunatal V",
+      "homeScore": 5,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-ksv-baunatal-v/-/spiel/02U3HEV9NK000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9OK000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIDBML0000000VTVG0001VTR8C1K7",
+      "homeTeam": "SVH Kassel",
+      "awayTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "awayTeam": "TSV Wolfsanger 2",
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/svh-kassel-tsv-wolfsanger-2/-/spiel/02U3HEV9OK000000VS5489BTVV378D77"
+    }
+  ],
+  "teamId": "023QS6PAV8000000VS548984VVIKHNJO"
+}

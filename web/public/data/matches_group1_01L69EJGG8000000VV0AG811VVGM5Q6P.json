@@ -1,0 +1,89 @@
+{
+  "count": 6,
+  "group": {
+    "id": "group1",
+    "name": "EJKK Kassel Gr. 1"
+  },
+  "matches": [
+    {
+      "id": "02TS51PLS8000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "02EI99T74C000000VS5489B2VS183IS6",
+      "homeTeam": "KSV Baunatal II",
+      "awayTeamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
+      "awayTeam": "JFV Söhre I",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-ii-jfv-soehre-i/-/spiel/02TS51PLS8000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PLV8000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
+      "homeTeam": "JFV Söhre I",
+      "awayTeamId": "012SPDHLPG000000VV0AG811VVMSC00G",
+      "awayTeam": "TSG Wilhelmshöhe zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-i-tsg-wilhelmshoehe/-/spiel/02TS51PLV8000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PM0G000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIE97J8000000VTVG0001VTR8C1K7",
+      "homeTeam": "JSG Nieste/​Staufenberg 1",
+      "awayTeamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
+      "awayTeam": "JFV Söhre I",
+      "homeScore": 4,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-1-jfv-soehre-i/-/spiel/02TS51PM0G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PM4O000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
+      "homeTeam": "JFV Söhre I",
+      "awayTeamId": "011MIBVE2O000000VTVG0001VTR8C1K7",
+      "awayTeam": "Eintracht Baunatal II",
+      "homeScore": 3,
+      "awayScore": 11,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-i-eintracht-baunatal-ii/-/spiel/02TS51PM4O000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PM8K000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
+      "homeTeam": "JFV Söhre I",
+      "awayTeamId": "01OUTOLJ0O000000VV0AG80NVT74RFIN",
+      "awayTeam": "Olympia Kassel II",
+      "homeScore": 16,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-i-olympia-kassel-ii/-/spiel/02TS51PM8K000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PMDG000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
+      "homeTeam": "OSC Vellmar I",
+      "awayTeamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
+      "awayTeam": "JFV Söhre I",
+      "homeScore": 2,
+      "awayScore": 10,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-jfv-soehre-i/-/spiel/02TS51PMDG000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "01L69EJGG8000000VV0AG811VVGM5Q6P"
+}

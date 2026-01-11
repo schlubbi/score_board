@@ -1,0 +1,128 @@
+{
+  "count": 9,
+  "group": {
+    "id": "group7",
+    "name": "EJKK Kassel Gr. 7"
+  },
+  "matches": [
+    {
+      "id": "02U3FBMA8G000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TK461K2K000000VS5489BRVUSIJ66A",
+      "homeTeam": "Kasseler SV 2",
+      "awayTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "awayTeam": "Tuspo Rengershausen II",
+      "homeScore": 3,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tuspo-rengershausen-ii/-/spiel/02U3FBMA8G000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAAK000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "homeTeam": "Tuspo Rengershausen II",
+      "awayTeamId": "02U2QR4VCG000000VS5489BRVSGGHO8O",
+      "awayTeam": "CSC 03 Kassel 2",
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-csc-03-kassel-2/-/spiel/02U3FBMAAK000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMADK000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "homeTeam": "JFV Söhre IV",
+      "awayTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "awayTeam": "Tuspo Rengershausen II",
+      "homeScore": 3,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-rengershausen-ii/-/spiel/02U3FBMADK000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAJG000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02II92G5ES000000VS5489B2VVQ9C6A6",
+      "homeTeam": "JSG Fuldatal II",
+      "awayTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "awayTeam": "Tuspo Rengershausen II",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-ii-tuspo-rengershausen-ii/-/spiel/02U3FBMAJG000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAN4000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "homeTeam": "Tuspo Rengershausen II",
+      "awayTeamId": "02IH18AAJS000000VS5489B2VU2I8R4H",
+      "awayTeam": "Tuspo Waldau II zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-tuspo-waldau-ii/-/spiel/02U3FBMAN4000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAV8000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "homeTeam": "TSV Wolfsanger 3",
+      "awayTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "awayTeam": "Tuspo Rengershausen II",
+      "homeScore": 6,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-3-tuspo-rengershausen-ii/-/spiel/02U3FBMAV8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB18000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "homeTeam": "Tuspo Rengershausen II",
+      "awayTeamId": "011MIB1T8O000000VTVG0001VTR8C1K7",
+      "awayTeam": "TSV Heiligenrode II",
+      "homeScore": 2,
+      "awayScore": 8,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-tsv-heiligenrode-ii/-/spiel/02U3FBMB18000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB60000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "homeTeam": "Tuspo Rengershausen II",
+      "awayTeamId": "02IM9EO578000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSG Wilhelmshöhe III",
+      "homeScore": 4,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-tsg-wilhelmshoehe-iii/-/spiel/02U3FBMB60000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMBB0000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "homeTeam": "Tuspo Rengershausen II",
+      "awayTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "awayTeam": "JSG Nieste/​Staufenberg III",
+      "homeScore": 6,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMBB0000000VS5489BTVV378D77"
+    }
+  ],
+  "teamId": "02TNJRSCES000000VS5489BRVSS9M1SM"
+}

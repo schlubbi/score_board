@@ -1,0 +1,109 @@
+{
+  "groups": [
+    {
+      "id": "indoor-group1",
+      "name": "E - Junioren Gr. 1",
+      "staffelId": "02UNOF5P0G000005VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.30534Z",
+      "teamCount": 4
+    },
+    {
+      "id": "indoor-group10",
+      "name": "E - Junioren Gr. 10",
+      "staffelId": "02UNOF5QP8000005VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.381313Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group11",
+      "name": "E - Junioren Gr. 11",
+      "staffelId": "02UP2893PO000001VS5489BTVV79N7OL-G",
+      "lastUpdated": "2026-01-11T18:37:47.451689Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group12",
+      "name": "E - Junioren Gr. 12",
+      "staffelId": "02UNOFR5T4000001VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.536882Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group13",
+      "name": "E - Junioren Gr. 13",
+      "staffelId": "02UNOFUFLC000001VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.610834Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group14",
+      "name": "E - Junioren Gr. 14",
+      "staffelId": "02UNOG2L5G000001VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.682362Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group15",
+      "name": "E - Junioren Gr. 15",
+      "staffelId": "02UNOG5KU8000001VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.76325Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group2",
+      "name": "E - Junioren Gr. 2",
+      "staffelId": "02UNOF5PDK000005VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.832896Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group3",
+      "name": "E - Junioren Gr. 3",
+      "staffelId": "02UNOF5PIK000005VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.905593Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group4",
+      "name": "E - Junioren Gr. 4",
+      "staffelId": "02UNOF5PNS000001VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:47.980842Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group5",
+      "name": "E - Junioren Gr. 5",
+      "staffelId": "02UNOF5PTO000001VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:48.052804Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group6",
+      "name": "E - Junioren Gr. 6",
+      "staffelId": "02UNOF5Q40000005VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:48.125895Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group7",
+      "name": "E - Junioren Gr. 7",
+      "staffelId": "02UNOF5Q90000005VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:48.175404Z",
+      "teamCount": 5
+    },
+    {
+      "id": "indoor-group8",
+      "name": "E - Junioren Gr. 8",
+      "staffelId": "02UNOF5QDS000005VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:48.253698Z",
+      "teamCount": 4
+    },
+    {
+      "id": "indoor-group9",
+      "name": "E - Junioren Gr. 9",
+      "staffelId": "02UNOF5QJ4000005VS5489BUVT7U9OTS-G",
+      "lastUpdated": "2026-01-11T18:37:48.299619Z",
+      "teamCount": 5
+    }
+  ]
+}

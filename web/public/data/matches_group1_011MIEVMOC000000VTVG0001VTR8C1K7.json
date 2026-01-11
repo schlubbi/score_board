@@ -1,0 +1,89 @@
+{
+  "count": 6,
+  "group": {
+    "id": "group1",
+    "name": "EJKK Kassel Gr. 1"
+  },
+  "matches": [
+    {
+      "id": "02TS51PLQ0000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
+      "homeTeam": "OSC Vellmar I",
+      "awayTeamId": "01OUTOLJ0O000000VV0AG80NVT74RFIN",
+      "awayTeam": "Olympia Kassel II",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-olympia-kassel-ii/-/spiel/02TS51PLQ0000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PLVS000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
+      "homeTeam": "OSC Vellmar I",
+      "awayTeamId": "02EI99T74C000000VS5489B2VS183IS6",
+      "awayTeam": "KSV Baunatal II",
+      "homeScore": 0,
+      "awayScore": 11,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-ksv-baunatal-ii/-/spiel/02TS51PLVS000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PM2G000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "012SPDHLPG000000VV0AG811VVMSC00G",
+      "homeTeam": "TSG Wilhelmshöhe zg.",
+      "awayTeamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
+      "awayTeam": "OSC Vellmar I",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt HEIM",
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-osc-vellmar-i/-/spiel/02TS51PM2G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PM5G000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
+      "homeTeam": "OSC Vellmar I",
+      "awayTeamId": "011MIE97J8000000VTVG0001VTR8C1K7",
+      "awayTeam": "JSG Nieste/​Staufenberg 1",
+      "homeScore": 6,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-jsg-nieste-staufenberg-1/-/spiel/02TS51PM5G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PM7S000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIBVE2O000000VTVG0001VTR8C1K7",
+      "homeTeam": "Eintracht Baunatal II",
+      "awayTeamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
+      "awayTeam": "OSC Vellmar I",
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-ii-osc-vellmar-i/-/spiel/02TS51PM7S000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS51PMDG000000VS5489BUVVJ8R9DS",
+      "groupId": "group1",
+      "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
+      "homeTeam": "OSC Vellmar I",
+      "awayTeamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
+      "awayTeam": "JFV Söhre I",
+      "homeScore": 2,
+      "awayScore": 10,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-jfv-soehre-i/-/spiel/02TS51PMDG000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "011MIEVMOC000000VTVG0001VTR8C1K7"
+}

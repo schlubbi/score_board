@@ -1,0 +1,88 @@
+{
+  "count": 6,
+  "group": {
+    "id": "group3",
+    "name": "EJKK Kassel Gr. 3"
+  },
+  "matches": [
+    {
+      "id": "02TSNJRPOO000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS5Q1T8O000000VS5489B2VSE05932",
+      "homeTeam": "KSV Baunatal IV",
+      "awayTeamId": "02EUPBBDSG000000VS5489B1VT0RKM5V",
+      "awayTeam": "Olympia Kassel III",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-iv-olympia-kassel-iii/-/spiel/02TSNJRPOO000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQ1C000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0",
+      "homeTeam": "JFV Söhre II",
+      "awayTeamId": "02EUPBBDSG000000VS5489B1VT0RKM5V",
+      "awayTeam": "Olympia Kassel III",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-ii-olympia-kassel-iii/-/spiel/02TSNJRQ1C000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQ5G000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02EUPBBDSG000000VS5489B1VT0RKM5V",
+      "homeTeam": "Olympia Kassel III",
+      "awayTeamId": "011MIB21U8000000VTVG0001VTR8C1K7",
+      "awayTeam": "Kasseler SV",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/olympia-kassel-iii-kasseler-sv/-/spiel/02TSNJRQ5G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQ78000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IGMLV9G8000000VS5489B2VU2I8R4H",
+      "homeTeam": "Spielverein 06 KS",
+      "awayTeamId": "02EUPBBDSG000000VS5489B1VT0RKM5V",
+      "awayTeam": "Olympia Kassel III",
+      "homeScore": 19,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-olympia-kassel-iii/-/spiel/02TSNJRQ78000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQCO000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02EUPBBDSG000000VS5489B1VT0RKM5V",
+      "homeTeam": "Olympia Kassel III",
+      "awayTeamId": "02F1C2CJPS000000VS5489B1VT1H0S9M",
+      "awayTeam": "TSG Sandershausen",
+      "homeScore": 4,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/olympia-kassel-iii-tsg-sandershausen/-/spiel/02TSNJRQCO000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSNJRQDO000000VS5489BUVVJ8R9DS",
+      "groupId": "group3",
+      "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "027J0UVHSS000000VS5489B2VVDR0U48",
+      "homeTeam": "JSG Nordstadt",
+      "awayTeamId": "02EUPBBDSG000000VS5489B1VT0RKM5V",
+      "awayTeam": "Olympia Kassel III",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nordstadt-olympia-kassel-iii/-/spiel/02TSNJRQDO000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "02EUPBBDSG000000VS5489B1VT0RKM5V"
+}

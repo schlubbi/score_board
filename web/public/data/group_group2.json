@@ -1,0 +1,298 @@
+{
+  "group": {
+    "id": "group2",
+    "name": "EJKK Kassel Gr. 2",
+    "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+    "lastUpdated": "2026-01-11T18:37:46.698619Z",
+    "teamCount": 7
+  },
+  "teams": [
+    {
+      "team": {
+        "groupId": "group2",
+        "groupName": "EJKK Kassel Gr. 2",
+        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+        "teamId": "02H8P0M4L0000000VS5489B1VUEE4KFG",
+        "teamName": "KSV Baunatal III",
+        "rank": 1,
+        "games": 5,
+        "wins": 4,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 42,
+        "goalsAgainst": 3,
+        "goalDiff": 39,
+        "points": 13,
+        "scrapedAt": "2026-01-11T18:37:46.646732Z"
+      },
+      "groupMetrics": {
+        "offense": 8.4,
+        "defense": 0.4,
+        "dominance": 7.8,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 8.4,
+        "defense": 0.4,
+        "dominance": 7.8,
+        "normalized": {
+          "offense": 0.7368421052631579,
+          "defense": 1,
+          "dominance": 0.8785046728971964
+        },
+        "powerScore": 0.858288243974422
+      }
+    },
+    {
+      "team": {
+        "groupId": "group2",
+        "groupName": "EJKK Kassel Gr. 2",
+        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+        "teamId": "027KSP0LOK000000VS5489B2VVDR0U48",
+        "teamName": "Eintracht Baunatal III",
+        "rank": 2,
+        "games": 5,
+        "wins": 3,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 26,
+        "goalsAgainst": 11,
+        "goalDiff": 15,
+        "points": 10,
+        "scrapedAt": "2026-01-11T18:37:46.646746Z"
+      },
+      "groupMetrics": {
+        "offense": 5.2,
+        "defense": -1.2000000000000002,
+        "dominance": 3,
+        "normalized": {
+          "offense": 0.6097560975609755,
+          "defense": 0.7037037037037036,
+          "dominance": 0.6470588235294118
+        },
+        "powerScore": 0.6491311971943248
+      },
+      "overallMetrics": {
+        "offense": 5.2,
+        "defense": -1.2000000000000002,
+        "dominance": 3,
+        "normalized": {
+          "offense": 0.45614035087719296,
+          "defense": 0.8709677419354839,
+          "dominance": 0.6542056074766356
+        },
+        "powerScore": 0.640008145174513
+      }
+    },
+    {
+      "team": {
+        "groupId": "group2",
+        "groupName": "EJKK Kassel Gr. 2",
+        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+        "teamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
+        "teamName": "TSV Heiligenrode",
+        "rank": 3,
+        "games": 5,
+        "wins": 2,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 14,
+        "goalsAgainst": 19,
+        "goalDiff": -5,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:46.646759Z"
+      },
+      "groupMetrics": {
+        "offense": 2.8,
+        "defense": -2.8,
+        "dominance": -1,
+        "normalized": {
+          "offense": 0.3170731707317072,
+          "defense": 0.40740740740740744,
+          "dominance": 0.35294117647058826
+        },
+        "powerScore": 0.3549338434560816
+      },
+      "overallMetrics": {
+        "offense": 2.8,
+        "defense": -2.8,
+        "dominance": -1,
+        "normalized": {
+          "offense": 0.24561403508771928,
+          "defense": 0.7419354838709676,
+          "dominance": 0.4672897196261683
+        },
+        "powerScore": 0.4610131750842285
+      }
+    },
+    {
+      "team": {
+        "groupId": "group2",
+        "groupName": "EJKK Kassel Gr. 2",
+        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+        "teamId": "01SEIRK0LC000000VS548984VVB63HJG",
+        "teamName": "CSC 03 Kassel",
+        "rank": 4,
+        "games": 5,
+        "wins": 1,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 8,
+        "goalsAgainst": 14,
+        "goalDiff": -6,
+        "points": 5,
+        "scrapedAt": "2026-01-11T18:37:46.646793Z"
+      },
+      "groupMetrics": {
+        "offense": 1.6,
+        "defense": -1.7999999999999998,
+        "dominance": -1.2,
+        "normalized": {
+          "offense": 0.17073170731707316,
+          "defense": 0.5925925925925926,
+          "dominance": 0.338235294117647
+        },
+        "powerScore": 0.3475410489399011
+      },
+      "overallMetrics": {
+        "offense": 1.6,
+        "defense": -1.7999999999999998,
+        "dominance": -1.2,
+        "normalized": {
+          "offense": 0.14035087719298245,
+          "defense": 0.8225806451612903,
+          "dominance": 0.4579439252336449
+        },
+        "powerScore": 0.4402977219956736
+      }
+    },
+    {
+      "team": {
+        "groupId": "group2",
+        "groupName": "EJKK Kassel Gr. 2",
+        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+        "teamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
+        "teamName": "VfL Kassel II",
+        "rank": 5,
+        "games": 5,
+        "wins": 1,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 11,
+        "goalsAgainst": 25,
+        "goalDiff": -14,
+        "points": 4,
+        "scrapedAt": "2026-01-11T18:37:46.646806Z"
+      },
+      "groupMetrics": {
+        "offense": 2.2,
+        "defense": -4,
+        "dominance": -2.8,
+        "normalized": {
+          "offense": 0.2439024390243902,
+          "defense": 0.18518518518518517,
+          "dominance": 0.22058823529411764
+        },
+        "powerScore": 0.2192930017535469
+      },
+      "overallMetrics": {
+        "offense": 2.2,
+        "defense": -4,
+        "dominance": -2.8,
+        "normalized": {
+          "offense": 0.1929824561403509,
+          "defense": 0.6451612903225806,
+          "dominance": 0.38317757009345793
+        },
+        "powerScore": 0.38569464058095193
+      }
+    },
+    {
+      "team": {
+        "groupId": "group2",
+        "groupName": "EJKK Kassel Gr. 2",
+        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+        "teamId": "027I7PBKBS000000VS5489B2VVDR0U48",
+        "teamName": "JSG Nieste/​Staufenberg II",
+        "rank": 6,
+        "games": 5,
+        "wins": 0,
+        "draws": 3,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 30,
+        "goalDiff": -29,
+        "points": 3,
+        "scrapedAt": "2026-01-11T18:37:46.646819Z"
+      },
+      "groupMetrics": {
+        "offense": 0.2,
+        "defense": -5,
+        "dominance": -5.8,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0.2,
+        "defense": -5,
+        "dominance": -5.8,
+        "normalized": {
+          "offense": 0.017543859649122806,
+          "defense": 0.564516129032258,
+          "dominance": 0.2429906542056075
+        },
+        "powerScore": 0.24926957883100878
+      }
+    },
+    {
+      "team": {
+        "groupId": "group2",
+        "groupName": "EJKK Kassel Gr. 2",
+        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+        "teamId": "011MIBHMMC000000VTVG0001VTR8C1K7",
+        "teamName": "FSK Vollmarshausen zg.",
+        "rank": 7,
+        "games": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDiff": 0,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:46.646831Z"
+      },
+      "groupMetrics": {
+        "offense": 0,
+        "defense": 0,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0,
+        "defense": 0,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      }
+    }
+  ]
+}

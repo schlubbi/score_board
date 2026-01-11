@@ -1,0 +1,101 @@
+{
+  "count": 7,
+  "group": {
+    "id": "group6",
+    "name": "EJKK Kassel Gr. 6"
+  },
+  "matches": [
+    {
+      "id": "02TSCSQ004000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "homeTeam": "Eintracht Baunatal IV",
+      "awayTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "awayTeam": "TSG Sandershausen II",
+      "homeScore": 12,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iv-tsg-sandershausen-ii/-/spiel/02TSCSQ004000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ028000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "homeTeam": "TSG Sandershausen II",
+      "awayTeamId": "02U8KM964C000000VS5489BSVUPHJMG2",
+      "awayTeam": "JFV Söhre V",
+      "homeScore": 5,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-ii-jfv-soehre-v/-/spiel/02TSCSQ028000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ048000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TLFMCMAG000000VS5489BRVTFKGF73",
+      "homeTeam": "SV Kaufungen 07 V",
+      "awayTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "awayTeam": "TSG Sandershausen II",
+      "homeScore": 10,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-v-tsg-sandershausen-ii/-/spiel/02TSCSQ048000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ08O000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02ID685NOO000000VS5489B2VU2I8R4H",
+      "homeTeam": "TSV Vellmar II",
+      "awayTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "awayTeam": "TSG Sandershausen II",
+      "homeScore": 7,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-vellmar-ii-tsg-sandershausen-ii/-/spiel/02TSCSQ08O000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0BC000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "homeTeam": "TSG Sandershausen II",
+      "awayTeamId": "02Q08JPFBC000000VS5489B2VTB2M2VN",
+      "awayTeam": "SVH Kassel III",
+      "homeScore": 5,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-ii-svh-kassel-iii/-/spiel/02TSCSQ0BC000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0E0000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "023KKO5SK0000000VS548985VTNSAQK7",
+      "homeTeam": "Tuspo Waldau",
+      "awayTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "awayTeam": "TSG Sandershausen II",
+      "homeScore": 3,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-tsg-sandershausen-ii/-/spiel/02TSCSQ0E0000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0IC000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "homeTeam": "TSG Sandershausen II",
+      "awayTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "awayTeam": "Tuspo Rengershausen",
+      "homeScore": 2,
+      "awayScore": 12,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-ii-tuspo-rengershausen/-/spiel/02TSCSQ0IC000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "02M5LFNISC000000VS5489B1VT732LUQ"
+}

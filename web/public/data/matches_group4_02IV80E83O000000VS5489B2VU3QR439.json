@@ -1,0 +1,128 @@
+{
+  "count": 9,
+  "group": {
+    "id": "group4",
+    "name": "EJKK Kassel Gr. 4"
+  },
+  "matches": [
+    {
+      "id": "02U3HEV8HS000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "awayTeam": "JSG Ahnatal II",
+      "homeScore": 3,
+      "awayScore": 9,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-jsg-ahnatal-ii/-/spiel/02U3HEV8HS000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8LO000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "homeTeam": "JSG Ahnatal II",
+      "awayTeamId": "02B45MRNUG000000VS5489B2VS0NK514",
+      "awayTeam": "JSG Fuldatal I",
+      "homeScore": 17,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-jsg-fuldatal-i/-/spiel/02U3HEV8LO000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8S8000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S8L8U0BO000000VS5489B1VVVAF4P8",
+      "homeTeam": "Soccer Academy KS 2",
+      "awayTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "awayTeam": "JSG Ahnatal II",
+      "homeScore": 1,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-jsg-ahnatal-ii/-/spiel/02U3HEV8S8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8V0000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "homeTeam": "JSG Ahnatal II",
+      "awayTeamId": "027J4GENR8000000VS5489B1VUA37ON8",
+      "awayTeam": "VfL Kassel III zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-vfl-kassel-iii/-/spiel/02U3HEV8V0000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV91S000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIDBML0000000VTVG0001VTR8C1K7",
+      "homeTeam": "SVH Kassel",
+      "awayTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "awayTeam": "JSG Ahnatal II",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/svh-kassel-jsg-ahnatal-ii/-/spiel/02U3HEV91S000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9B8000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02Q09MJ4JK000000VS5489B2VTB2M2VN",
+      "homeTeam": "KSV Baunatal V",
+      "awayTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "awayTeam": "JSG Ahnatal II",
+      "homeScore": 0,
+      "awayScore": 9,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-jsg-ahnatal-ii/-/spiel/02U3HEV9B8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9G0000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "homeTeam": "JSG Ahnatal II",
+      "awayTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "awayTeam": "TSV Wolfsanger 2",
+      "homeScore": 2,
+      "awayScore": 8,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-tsv-wolfsanger-2/-/spiel/02U3HEV9G0000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9J0000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "homeTeam": "TSV Oberzwehren",
+      "awayTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "awayTeam": "JSG Ahnatal II",
+      "homeScore": 1,
+      "awayScore": 11,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-jsg-ahnatal-ii/-/spiel/02U3HEV9J0000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9QS000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "homeTeam": "JSG Ahnatal II",
+      "awayTeamId": "02M8OP4GJK000000VS5489B1VT732LUQ",
+      "awayTeam": "Spielverein 06 KS II",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-spielverein-06-ks-ii/-/spiel/02U3HEV9QS000000VS5489BTVV378D77"
+    }
+  ],
+  "teamId": "02IV80E83O000000VS5489B2VU3QR439"
+}

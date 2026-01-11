@@ -1,0 +1,89 @@
+{
+  "count": 6,
+  "group": {
+    "id": "group2",
+    "name": "EJKK Kassel Gr. 2"
+  },
+  "matches": [
+    {
+      "id": "02TS524178000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
+      "homeTeam": "TSV Heiligenrode",
+      "awayTeamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
+      "awayTeam": "VfL Kassel II",
+      "homeScore": 4,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-vfl-kassel-ii/-/spiel/02TS524178000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241BS000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
+      "homeTeam": "VfL Kassel II",
+      "awayTeamId": "01SEIRK0LC000000VS548984VVB63HJG",
+      "awayTeam": "CSC 03 Kassel",
+      "homeScore": 6,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/vfl-kassel-ii-csc-03-kassel/-/spiel/02TS5241BS000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241DS000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIBHMMC000000VTVG0001VTR8C1K7",
+      "homeTeam": "FSK Vollmarshausen zg.",
+      "awayTeamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
+      "awayTeam": "VfL Kassel II",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt HEIM",
+      "url": "https://www.fussball.de/spiel/fsk-vollmarshausen-vfl-kassel-ii/-/spiel/02TS5241DS000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241J4000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02H8P0M4L0000000VS5489B1VUEE4KFG",
+      "homeTeam": "KSV Baunatal III",
+      "awayTeamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
+      "awayTeam": "VfL Kassel II",
+      "homeScore": 8,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-iii-vfl-kassel-ii/-/spiel/02TS5241J4000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241O8000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
+      "homeTeam": "VfL Kassel II",
+      "awayTeamId": "027I7PBKBS000000VS5489B2VVDR0U48",
+      "awayTeam": "JSG Nieste/​Staufenberg II",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/vfl-kassel-ii-jsg-nieste-staufenberg-ii/-/spiel/02TS5241O8000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TS5241P0000000VS5489BUVVJ8R9DS",
+      "groupId": "group2",
+      "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "027KSP0LOK000000VS5489B2VVDR0U48",
+      "homeTeam": "Eintracht Baunatal III",
+      "awayTeamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
+      "awayTeam": "VfL Kassel II",
+      "homeScore": 12,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iii-vfl-kassel-ii/-/spiel/02TS5241P0000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "012JPMODGS000000VV0AG80NVVJ79KI7"
+}

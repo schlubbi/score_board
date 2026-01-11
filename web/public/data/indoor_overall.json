@@ -1,0 +1,2998 @@
+{
+  "teams": [
+    {
+      "team": {
+        "groupId": "indoor-group8",
+        "groupName": "E - Junioren Gr. 8",
+        "staffelId": "02UNOF5QDS000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JIGB8QI0000000VS5489B1VV6OGCVO",
+        "teamName": "SV Kaufungen I",
+        "rank": 1,
+        "games": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 24,
+        "goalsAgainst": 0,
+        "goalDiff": 24,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:48.202557Z"
+      },
+      "groupMetrics": {
+        "offense": 8,
+        "defense": 1,
+        "dominance": 8,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 8,
+        "defense": 1,
+        "dominance": 8,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group5",
+        "groupName": "E - Junioren Gr. 5",
+        "staffelId": "02UNOF5PTO000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UI0T8RUK000000VS5489BSVTV6I2DB",
+        "teamName": "KSV Baunatal",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 31,
+        "goalsAgainst": 0,
+        "goalDiff": 31,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:48.004205Z"
+      },
+      "groupMetrics": {
+        "offense": 7.75,
+        "defense": 1,
+        "dominance": 7.75,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 7.75,
+        "defense": 1,
+        "dominance": 7.75,
+        "normalized": {
+          "offense": 0.96875,
+          "defense": 1,
+          "dominance": 0.9830508474576272
+        },
+        "powerScore": 0.9824152542372881
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group9",
+        "groupName": "E - Junioren Gr. 9",
+        "staffelId": "02UNOF5QJ4000005VS5489BUVT7U9OTS-G",
+        "teamId": "02M4V1LTQ8000000VS5489B2VTKNAG5C",
+        "teamName": "JFV Söhre",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 29,
+        "goalsAgainst": 0,
+        "goalDiff": 29,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:48.277083Z"
+      },
+      "groupMetrics": {
+        "offense": 7.25,
+        "defense": 1,
+        "dominance": 7.25,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 7.25,
+        "defense": 1,
+        "dominance": 7.25,
+        "normalized": {
+          "offense": 0.90625,
+          "defense": 1,
+          "dominance": 0.9491525423728814
+        },
+        "powerScore": 0.9472457627118644
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group4",
+        "groupName": "E - Junioren Gr. 4",
+        "staffelId": "02UNOF5PNS000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JU37TAQ0000000VS5489B1VVFL9LLH",
+        "teamName": "KSV Hessen KS I",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 27,
+        "goalsAgainst": 0,
+        "goalDiff": 27,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:47.930143Z"
+      },
+      "groupMetrics": {
+        "offense": 6.75,
+        "defense": 1,
+        "dominance": 6.75,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 6.75,
+        "defense": 1,
+        "dominance": 6.75,
+        "normalized": {
+          "offense": 0.84375,
+          "defense": 1,
+          "dominance": 0.9152542372881356
+        },
+        "powerScore": 0.9120762711864406
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group5",
+        "groupName": "E - Junioren Gr. 5",
+        "staffelId": "02UNOF5PTO000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JTF49EDG000000VS5489B2VTUH5PJJ",
+        "teamName": "Eintr.Baunatal I",
+        "rank": 2,
+        "games": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 27,
+        "goalsAgainst": 1,
+        "goalDiff": 26,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:48.004212Z"
+      },
+      "groupMetrics": {
+        "offense": 6.75,
+        "defense": 0.75,
+        "dominance": 6.5,
+        "normalized": {
+          "offense": 0.8666666666666667,
+          "defense": 0.9565217391304348,
+          "dominance": 0.9038461538461539
+        },
+        "powerScore": 0.9047770345596433
+      },
+      "overallMetrics": {
+        "offense": 6.75,
+        "defense": 0.75,
+        "dominance": 6.5,
+        "normalized": {
+          "offense": 0.84375,
+          "defense": 0.9629629629629629,
+          "dominance": 0.8983050847457628
+        },
+        "powerScore": 0.8958804143126177
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group2",
+        "groupName": "E - Junioren Gr. 2",
+        "staffelId": "02UNOF5PDK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UI0T9J94000000VS5489BSVTV6I2DB",
+        "teamName": "KSV Baunatal 2",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 26,
+        "goalsAgainst": 0,
+        "goalDiff": 26,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:47.786159Z"
+      },
+      "groupMetrics": {
+        "offense": 6.5,
+        "defense": 1,
+        "dominance": 6.5,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 6.5,
+        "defense": 1,
+        "dominance": 6.5,
+        "normalized": {
+          "offense": 0.8125,
+          "defense": 1,
+          "dominance": 0.8983050847457628
+        },
+        "powerScore": 0.8944915254237288
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group11",
+        "groupName": "E - Junioren Gr. 11",
+        "staffelId": "02UP2893PO000001VS5489BTVV79N7OL-G",
+        "teamId": "02JS59RBHC000000VS5489B2VTUH5PJJ",
+        "teamName": "VfL Kassel",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 25,
+        "goalsAgainst": 3,
+        "goalDiff": 22,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:47.405101Z"
+      },
+      "groupMetrics": {
+        "offense": 6.25,
+        "defense": 0.25,
+        "dominance": 5.5,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 6.25,
+        "defense": 0.25,
+        "dominance": 5.5,
+        "normalized": {
+          "offense": 0.78125,
+          "defense": 0.8888888888888888,
+          "dominance": 0.8305084745762712
+        },
+        "powerScore": 0.8283192090395479
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group10",
+        "groupName": "E - Junioren Gr. 10",
+        "staffelId": "02UNOF5QP8000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JEVEMKUC000000VS5489B1VV6OGCVO",
+        "teamName": "TSV Wolfsanger",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 23,
+        "goalsAgainst": 2,
+        "goalDiff": 21,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:47.331184Z"
+      },
+      "groupMetrics": {
+        "offense": 5.75,
+        "defense": 0.5,
+        "dominance": 5.25,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 5.75,
+        "defense": 0.5,
+        "dominance": 5.25,
+        "normalized": {
+          "offense": 0.71875,
+          "defense": 0.9259259259259259,
+          "dominance": 0.8135593220338984
+        },
+        "powerScore": 0.8093455743879473
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group6",
+        "groupName": "E - Junioren Gr. 6",
+        "staffelId": "02UNOF5Q40000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UI0TB28O000000VS5489BSVTV6I2DB",
+        "teamName": "KSV Baunatal 4",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 19,
+        "goalsAgainst": 1,
+        "goalDiff": 18,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:48.079401Z"
+      },
+      "groupMetrics": {
+        "offense": 4.75,
+        "defense": 0.75,
+        "dominance": 4.5,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 4.75,
+        "defense": 0.75,
+        "dominance": 4.5,
+        "normalized": {
+          "offense": 0.59375,
+          "defense": 0.9629629629629629,
+          "dominance": 0.7627118644067796
+        },
+        "powerScore": 0.7552024482109227
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group6",
+        "groupName": "E - Junioren Gr. 6",
+        "staffelId": "02UNOF5Q40000005VS5489BUVT7U9OTS-G",
+        "teamId": "02R6S1HND4000000VS5489B1VTBNC56I",
+        "teamName": "Eintr.Baunatal III",
+        "rank": 2,
+        "games": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 18,
+        "goalsAgainst": 1,
+        "goalDiff": 17,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:48.079412Z"
+      },
+      "groupMetrics": {
+        "offense": 4.5,
+        "defense": 0.75,
+        "dominance": 4.25,
+        "normalized": {
+          "offense": 0.9444444444444444,
+          "defense": 1,
+          "dominance": 0.9767441860465116
+        },
+        "powerScore": 0.9708010335917313
+      },
+      "overallMetrics": {
+        "offense": 4.5,
+        "defense": 0.75,
+        "dominance": 4.25,
+        "normalized": {
+          "offense": 0.5625,
+          "defense": 0.9629629629629629,
+          "dominance": 0.7457627118644068
+        },
+        "powerScore": 0.7376177024482109
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group9",
+        "groupName": "E - Junioren Gr. 9",
+        "staffelId": "02UNOF5QJ4000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JF7RNVQS000000VS5489B1VV6OGCVO",
+        "teamName": "Olympia KS I",
+        "rank": 2,
+        "games": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 17,
+        "goalsAgainst": 2,
+        "goalDiff": 15,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:48.277091Z"
+      },
+      "groupMetrics": {
+        "offense": 4.25,
+        "defense": 0.5,
+        "dominance": 3.75,
+        "normalized": {
+          "offense": 0.5714285714285714,
+          "defense": 0.9166666666666666,
+          "dominance": 0.7307692307692307
+        },
+        "powerScore": 0.7228021978021978
+      },
+      "overallMetrics": {
+        "offense": 4.25,
+        "defense": 0.5,
+        "dominance": 3.75,
+        "normalized": {
+          "offense": 0.53125,
+          "defense": 0.9259259259259259,
+          "dominance": 0.711864406779661
+        },
+        "powerScore": 0.7038370998116761
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group3",
+        "groupName": "E - Junioren Gr. 3",
+        "staffelId": "02UNOF5PIK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UI0TAAPG000000VS5489BSVTV6I2DB",
+        "teamName": "KSV Baunatal 3",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 12,
+        "goalsAgainst": 0,
+        "goalDiff": 12,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:47.855565Z"
+      },
+      "groupMetrics": {
+        "offense": 3,
+        "defense": 1,
+        "dominance": 3,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 3,
+        "defense": 1,
+        "dominance": 3,
+        "normalized": {
+          "offense": 0.375,
+          "defense": 1,
+          "dominance": 0.6610169491525424
+        },
+        "powerScore": 0.6483050847457628
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group1",
+        "groupName": "E - Junioren Gr. 1",
+        "staffelId": "02UNOF5P0G000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JSFHFI1S000000VS5489B1VVFL9LLH",
+        "teamName": "TSV Oberzwehren I",
+        "rank": 1,
+        "games": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 0,
+        "goalDiff": 8,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:47.257701Z"
+      },
+      "groupMetrics": {
+        "offense": 2.6666666666666665,
+        "defense": 1,
+        "dominance": 2.6666666666666665,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 2.6666666666666665,
+        "defense": 1,
+        "dominance": 2.6666666666666665,
+        "normalized": {
+          "offense": 0.3333333333333333,
+          "defense": 1,
+          "dominance": 0.6384180790960452
+        },
+        "powerScore": 0.6248587570621469
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group14",
+        "groupName": "E - Junioren Gr. 14",
+        "staffelId": "02UNOG2L5G000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JVCBN9NS000000VS5489B1VTMLHPVT",
+        "teamName": "OSC Vellmar I",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 0,
+        "goalDiff": 9,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:47.634217Z"
+      },
+      "groupMetrics": {
+        "offense": 2.25,
+        "defense": 1,
+        "dominance": 2.25,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 2.25,
+        "defense": 1,
+        "dominance": 2.25,
+        "normalized": {
+          "offense": 0.28125,
+          "defense": 1,
+          "dominance": 0.6101694915254238
+        },
+        "powerScore": 0.5955508474576271
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group12",
+        "groupName": "E - Junioren Gr. 12",
+        "staffelId": "02UNOFR5T4000001VS5489BUVT7U9OTS-G",
+        "teamId": "02QRQJOS64000000VS5489B2VUEKSRPC",
+        "teamName": "Soccer Academy KS",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 0,
+        "goalDiff": 9,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:47.473775Z"
+      },
+      "groupMetrics": {
+        "offense": 2.25,
+        "defense": 1,
+        "dominance": 2.25,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 2.25,
+        "defense": 1,
+        "dominance": 2.25,
+        "normalized": {
+          "offense": 0.28125,
+          "defense": 1,
+          "dominance": 0.6101694915254238
+        },
+        "powerScore": 0.5955508474576271
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group1",
+        "groupName": "E - Junioren Gr. 1",
+        "staffelId": "02UNOF5P0G000005VS5489BUVT7U9OTS-G",
+        "teamId": "02QRHUN9Q0000000VS5489B2VUEKSRPC",
+        "teamName": "JSG Nieste/​Staufenberg 1",
+        "rank": 2,
+        "games": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDiff": 6,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.257713Z"
+      },
+      "groupMetrics": {
+        "offense": 2.3333333333333335,
+        "defense": 0.6666666666666667,
+        "dominance": 2,
+        "normalized": {
+          "offense": 0.8750000000000001,
+          "defense": 0.888888888888889,
+          "dominance": 0.8823529411764707
+        },
+        "powerScore": 0.881372549019608
+      },
+      "overallMetrics": {
+        "offense": 2.3333333333333335,
+        "defense": 0.6666666666666667,
+        "dominance": 2,
+        "normalized": {
+          "offense": 0.2916666666666667,
+          "defense": 0.9506172839506173,
+          "dominance": 0.5932203389830508
+        },
+        "powerScore": 0.5798179535467671
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group15",
+        "groupName": "E - Junioren Gr. 15",
+        "staffelId": "02UNOG5KU8000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JSHMMP7G000000VS5489B2VTUH5PJJ",
+        "teamName": "TSV Heiligenrode II",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 1,
+        "goalDiff": 8,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:47.710238Z"
+      },
+      "groupMetrics": {
+        "offense": 2.25,
+        "defense": 0.75,
+        "dominance": 2,
+        "normalized": {
+          "offense": 1,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 1
+      },
+      "overallMetrics": {
+        "offense": 2.25,
+        "defense": 0.75,
+        "dominance": 2,
+        "normalized": {
+          "offense": 0.28125,
+          "defense": 0.9629629629629629,
+          "dominance": 0.5932203389830508
+        },
+        "powerScore": 0.5793549905838041
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group6",
+        "groupName": "E - Junioren Gr. 6",
+        "staffelId": "02UNOF5Q40000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JUDLGNCC000000VS5489B1VVFL9LLH",
+        "teamName": "TSG Wilhelmshöhe I",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 13,
+        "goalsAgainst": 6,
+        "goalDiff": 7,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:48.07942Z"
+      },
+      "groupMetrics": {
+        "offense": 3.25,
+        "defense": -0.5,
+        "dominance": 1.75,
+        "normalized": {
+          "offense": 0.6666666666666666,
+          "defense": 0.8,
+          "dominance": 0.7441860465116279
+        },
+        "powerScore": 0.7299224806201551
+      },
+      "overallMetrics": {
+        "offense": 3.25,
+        "defense": -0.5,
+        "dominance": 1.75,
+        "normalized": {
+          "offense": 0.40625,
+          "defense": 0.7777777777777778,
+          "dominance": 0.576271186440678
+        },
+        "powerScore": 0.5687146892655367
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group7",
+        "groupName": "E - Junioren Gr. 7",
+        "staffelId": "02UNOF5Q90000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JEVFFFA4000000VS5489B1VV6OGCVO",
+        "teamName": "TSV Wolfsanger 2",
+        "rank": 1,
+        "games": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 1,
+        "goalDiff": 7,
+        "points": 12,
+        "scrapedAt": "2026-01-11T18:37:48.148368Z"
+      },
+      "groupMetrics": {
+        "offense": 2,
+        "defense": 0.75,
+        "dominance": 1.75,
+        "normalized": {
+          "offense": 0.7,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 0.8799999999999999
+      },
+      "overallMetrics": {
+        "offense": 2,
+        "defense": 0.75,
+        "dominance": 1.75,
+        "normalized": {
+          "offense": 0.25,
+          "defense": 0.9629629629629629,
+          "dominance": 0.576271186440678
+        },
+        "powerScore": 0.5617702448210923
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group7",
+        "groupName": "E - Junioren Gr. 7",
+        "staffelId": "02UNOF5Q90000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UI0TBRTG000000VS5489BSVTV6I2DB",
+        "teamName": "KSV Baunatal 5",
+        "rank": 2,
+        "games": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 11,
+        "goalsAgainst": 5,
+        "goalDiff": 6,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:48.148383Z"
+      },
+      "groupMetrics": {
+        "offense": 2.75,
+        "defense": -0.25,
+        "dominance": 1.5,
+        "normalized": {
+          "offense": 1,
+          "defense": 0.2,
+          "dominance": 0.9166666666666666
+        },
+        "powerScore": 0.735
+      },
+      "overallMetrics": {
+        "offense": 2.75,
+        "defense": -0.25,
+        "dominance": 1.5,
+        "normalized": {
+          "offense": 0.34375,
+          "defense": 0.8148148148148148,
+          "dominance": 0.559322033898305
+        },
+        "powerScore": 0.549741054613936
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group14",
+        "groupName": "E - Junioren Gr. 14",
+        "staffelId": "02UNOG2L5G000001VS5489BUVT7U9OTS-G",
+        "teamId": "02QRRGLSL4000000VS5489B2VUEKSRPC",
+        "teamName": "SVH Kassel I",
+        "rank": 2,
+        "games": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDiff": 6,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:47.634232Z"
+      },
+      "groupMetrics": {
+        "offense": 1.75,
+        "defense": 0.75,
+        "dominance": 1.5,
+        "normalized": {
+          "offense": 0.7777777777777778,
+          "defense": 0.9166666666666666,
+          "dominance": 0.8571428571428571
+        },
+        "powerScore": 0.8432539682539683
+      },
+      "overallMetrics": {
+        "offense": 1.75,
+        "defense": 0.75,
+        "dominance": 1.5,
+        "normalized": {
+          "offense": 0.21875,
+          "defense": 0.9629629629629629,
+          "dominance": 0.559322033898305
+        },
+        "powerScore": 0.5441854990583804
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group2",
+        "groupName": "E - Junioren Gr. 2",
+        "staffelId": "02UNOF5PDK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02NDP79LQK000000VS5489B2VUET0P3R",
+        "teamName": "Eintr.Baunatal II",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 10,
+        "goalsAgainst": 5,
+        "goalDiff": 5,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.78619Z"
+      },
+      "groupMetrics": {
+        "offense": 2.5,
+        "defense": -0.25,
+        "dominance": 1.25,
+        "normalized": {
+          "offense": 0.38461538461538464,
+          "defense": 0.7368421052631579,
+          "dominance": 0.5227272727272727
+        },
+        "powerScore": 0.531716967243283
+      },
+      "overallMetrics": {
+        "offense": 2.5,
+        "defense": -0.25,
+        "dominance": 1.25,
+        "normalized": {
+          "offense": 0.3125,
+          "defense": 0.8148148148148148,
+          "dominance": 0.5423728813559322
+        },
+        "powerScore": 0.5321563088512241
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group4",
+        "groupName": "E - Junioren Gr. 4",
+        "staffelId": "02UNOF5PNS000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JS59SIF0000000VS5489B2VTUH5PJJ",
+        "teamName": "VfL Kassel 2",
+        "rank": 2,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 11,
+        "goalsAgainst": 7,
+        "goalDiff": 4,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.930162Z"
+      },
+      "groupMetrics": {
+        "offense": 2.75,
+        "defense": -0.75,
+        "dominance": 1,
+        "normalized": {
+          "offense": 0.4074074074074074,
+          "defense": 0.7407407407407407,
+          "dominance": 0.5740740740740741
+        },
+        "powerScore": 0.5574074074074074
+      },
+      "overallMetrics": {
+        "offense": 2.75,
+        "defense": -0.75,
+        "dominance": 1,
+        "normalized": {
+          "offense": 0.34375,
+          "defense": 0.7407407407407407,
+          "dominance": 0.5254237288135594
+        },
+        "powerScore": 0.51734934086629
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group12",
+        "groupName": "E - Junioren Gr. 12",
+        "staffelId": "02UNOFR5T4000001VS5489BUVT7U9OTS-G",
+        "teamId": "02QRQFQS6G000000VS5489B1VUTHSI7G",
+        "teamName": "CSC 03 Kassel",
+        "rank": 2,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 8,
+        "goalsAgainst": 4,
+        "goalDiff": 4,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.473782Z"
+      },
+      "groupMetrics": {
+        "offense": 2,
+        "defense": 0,
+        "dominance": 1,
+        "normalized": {
+          "offense": 0.8888888888888888,
+          "defense": 0.6666666666666666,
+          "dominance": 0.7619047619047619
+        },
+        "powerScore": 0.7841269841269841
+      },
+      "overallMetrics": {
+        "offense": 2,
+        "defense": 0,
+        "dominance": 1,
+        "normalized": {
+          "offense": 0.25,
+          "defense": 0.8518518518518519,
+          "dominance": 0.5254237288135594
+        },
+        "powerScore": 0.5131826741996234
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group15",
+        "groupName": "E - Junioren Gr. 15",
+        "staffelId": "02UNOG5KU8000001VS5489BUVT7U9OTS-G",
+        "teamId": "02QRHP27LO000000VS5489B2VUEKSRPC",
+        "teamName": "Olympia KS 4",
+        "rank": 2,
+        "games": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 1,
+        "goalDiff": 4,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:47.710254Z"
+      },
+      "groupMetrics": {
+        "offense": 1.25,
+        "defense": 0.75,
+        "dominance": 1,
+        "normalized": {
+          "offense": 0.5555555555555556,
+          "defense": 1,
+          "dominance": 0.7142857142857143
+        },
+        "powerScore": 0.7365079365079366
+      },
+      "overallMetrics": {
+        "offense": 1.25,
+        "defense": 0.75,
+        "dominance": 1,
+        "normalized": {
+          "offense": 0.15625,
+          "defense": 0.9629629629629629,
+          "dominance": 0.5254237288135594
+        },
+        "powerScore": 0.5090160075329566
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group4",
+        "groupName": "E - Junioren Gr. 4",
+        "staffelId": "02UNOF5PNS000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UIMHKBKK000000VS5489BRVT3080BC",
+        "teamName": "Spielverein KS-R.",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 10,
+        "goalsAgainst": 7,
+        "goalDiff": 3,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.930271Z"
+      },
+      "groupMetrics": {
+        "offense": 2.5,
+        "defense": -0.75,
+        "dominance": 0.75,
+        "normalized": {
+          "offense": 0.37037037037037035,
+          "defense": 0.7407407407407407,
+          "dominance": 0.5555555555555556
+        },
+        "powerScore": 0.537037037037037
+      },
+      "overallMetrics": {
+        "offense": 2.5,
+        "defense": -0.75,
+        "dominance": 0.75,
+        "normalized": {
+          "offense": 0.3125,
+          "defense": 0.7407407407407407,
+          "dominance": 0.5084745762711864
+        },
+        "powerScore": 0.4997645951035781
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group2",
+        "groupName": "E - Junioren Gr. 2",
+        "staffelId": "02UNOF5PDK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02NDGD2CU8000000VS5489B2VUET0P3R",
+        "teamName": "JSG Ahnatal 2",
+        "rank": 2,
+        "games": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 6,
+        "goalDiff": 3,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:47.786176Z"
+      },
+      "groupMetrics": {
+        "offense": 2.25,
+        "defense": -0.5,
+        "dominance": 0.75,
+        "normalized": {
+          "offense": 0.34615384615384615,
+          "defense": 0.6842105263157895,
+          "dominance": 0.4772727272727273
+        },
+        "powerScore": 0.48690651453809347
+      },
+      "overallMetrics": {
+        "offense": 2.25,
+        "defense": -0.5,
+        "dominance": 0.75,
+        "normalized": {
+          "offense": 0.28125,
+          "defense": 0.7777777777777778,
+          "dominance": 0.5084745762711864
+        },
+        "powerScore": 0.49837570621468924
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group11",
+        "groupName": "E - Junioren Gr. 11",
+        "staffelId": "02UP2893PO000001VS5489BTVV79N7OL-G",
+        "teamId": "02Q1JVU7VO000000VS5489B2VT450JFN",
+        "teamName": "OSC Vellmar III",
+        "rank": 4,
+        "games": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 10,
+        "goalsAgainst": 8,
+        "goalDiff": 2,
+        "points": 3,
+        "scrapedAt": "2026-01-11T18:37:47.405136Z"
+      },
+      "groupMetrics": {
+        "offense": 2.5,
+        "defense": -1,
+        "dominance": 0.5,
+        "normalized": {
+          "offense": 0.4,
+          "defense": 0.782608695652174,
+          "dominance": 0.5833333333333334
+        },
+        "powerScore": 0.5697826086956522
+      },
+      "overallMetrics": {
+        "offense": 2.5,
+        "defense": -1,
+        "dominance": 0.5,
+        "normalized": {
+          "offense": 0.3125,
+          "defense": 0.7037037037037037,
+          "dominance": 0.4915254237288136
+        },
+        "powerScore": 0.48356873822975516
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group11",
+        "groupName": "E - Junioren Gr. 11",
+        "staffelId": "02UP2893PO000001VS5489BTVV79N7OL-G",
+        "teamId": "02JU384DIO000000VS5489B1VVFL9LLH",
+        "teamName": "Tuspo Waldau II",
+        "rank": 2,
+        "games": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 7,
+        "goalsAgainst": 5,
+        "goalDiff": 2,
+        "points": 7,
+        "scrapedAt": "2026-01-11T18:37:47.405113Z"
+      },
+      "groupMetrics": {
+        "offense": 1.75,
+        "defense": -0.25,
+        "dominance": 0.5,
+        "normalized": {
+          "offense": 0.28,
+          "defense": 0.9130434782608695,
+          "dominance": 0.5833333333333334
+        },
+        "powerScore": 0.5609130434782609
+      },
+      "overallMetrics": {
+        "offense": 1.75,
+        "defense": -0.25,
+        "dominance": 0.5,
+        "normalized": {
+          "offense": 0.21875,
+          "defense": 0.8148148148148148,
+          "dominance": 0.4915254237288136
+        },
+        "powerScore": 0.4794020715630885
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group12",
+        "groupName": "E - Junioren Gr. 12",
+        "staffelId": "02UNOFR5T4000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JF7RTORO000000VS5489B1VV6OGCVO",
+        "teamName": "Olympia KS 2",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "goalDiff": 2,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.473787Z"
+      },
+      "groupMetrics": {
+        "offense": 1.5,
+        "defense": 0,
+        "dominance": 0.5,
+        "normalized": {
+          "offense": 0.6666666666666666,
+          "defense": 0.6666666666666666,
+          "dominance": 0.6666666666666666
+        },
+        "powerScore": 0.6666666666666666
+      },
+      "overallMetrics": {
+        "offense": 1.5,
+        "defense": 0,
+        "dominance": 0.5,
+        "normalized": {
+          "offense": 0.1875,
+          "defense": 0.8518518518518519,
+          "dominance": 0.4915254237288136
+        },
+        "powerScore": 0.4780131826741996
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group13",
+        "groupName": "E - Junioren Gr. 13",
+        "staffelId": "02UNOFUFLC000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UH2BVBP8000000VS5489BRVU8PIU17",
+        "teamName": "VfL Kassel 4",
+        "rank": 1,
+        "games": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDiff": 2,
+        "points": 9,
+        "scrapedAt": "2026-01-11T18:37:47.559787Z"
+      },
+      "groupMetrics": {
+        "offense": 1,
+        "defense": 0.5,
+        "dominance": 0.5,
+        "normalized": {
+          "offense": 0.6666666666666666,
+          "defense": 1,
+          "dominance": 1
+        },
+        "powerScore": 0.8666666666666667
+      },
+      "overallMetrics": {
+        "offense": 1,
+        "defense": 0.5,
+        "dominance": 0.5,
+        "normalized": {
+          "offense": 0.125,
+          "defense": 0.9259259259259259,
+          "dominance": 0.4915254237288136
+        },
+        "powerScore": 0.47523540489642185
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group13",
+        "groupName": "E - Junioren Gr. 13",
+        "staffelId": "02UNOFUFLC000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JU3838I8000000VS5489B1VVFL9LLH",
+        "teamName": "Tuspo Waldau I",
+        "rank": 2,
+        "games": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDiff": 1,
+        "points": 7,
+        "scrapedAt": "2026-01-11T18:37:47.55983Z"
+      },
+      "groupMetrics": {
+        "offense": 1.25,
+        "defense": 0,
+        "dominance": 0.25,
+        "normalized": {
+          "offense": 1,
+          "defense": 0.3333333333333333,
+          "dominance": 0.8
+        },
+        "powerScore": 0.74
+      },
+      "overallMetrics": {
+        "offense": 1.25,
+        "defense": 0,
+        "dominance": 0.25,
+        "normalized": {
+          "offense": 0.15625,
+          "defense": 0.8518518518518519,
+          "dominance": 0.4745762711864407
+        },
+        "powerScore": 0.4604284369114877
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group11",
+        "groupName": "E - Junioren Gr. 11",
+        "staffelId": "02UP2893PO000001VS5489BTVV79N7OL-G",
+        "teamId": "02UI0QQSVO000000VS5489BSVTV6I2DB",
+        "teamName": "JSG Nieste/​Staufenberg 3",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 6,
+        "goalDiff": 0,
+        "points": 7,
+        "scrapedAt": "2026-01-11T18:37:47.405125Z"
+      },
+      "groupMetrics": {
+        "offense": 1.5,
+        "defense": -0.5,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0.24,
+          "defense": 0.8695652173913043,
+          "dominance": 0.5416666666666666
+        },
+        "powerScore": 0.5193695652173913
+      },
+      "overallMetrics": {
+        "offense": 1.5,
+        "defense": -0.5,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0.1875,
+          "defense": 0.7777777777777778,
+          "dominance": 0.4576271186440678
+        },
+        "powerScore": 0.4456214689265537
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group13",
+        "groupName": "E - Junioren Gr. 13",
+        "staffelId": "02UNOFUFLC000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UH28FT4C000000VS5489BRVU8PIU17",
+        "teamName": "OSC Vellmar IV",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDiff": 0,
+        "points": 7,
+        "scrapedAt": "2026-01-11T18:37:47.559855Z"
+      },
+      "groupMetrics": {
+        "offense": 1.25,
+        "defense": -0.25,
+        "dominance": 0,
+        "normalized": {
+          "offense": 1,
+          "defense": 0,
+          "dominance": 0.6
+        },
+        "powerScore": 0.58
+      },
+      "overallMetrics": {
+        "offense": 1.25,
+        "defense": -0.25,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0.15625,
+          "defense": 0.8148148148148148,
+          "dominance": 0.4576271186440678
+        },
+        "powerScore": 0.44423258003766475
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group14",
+        "groupName": "E - Junioren Gr. 14",
+        "staffelId": "02UNOG2L5G000001VS5489BUVT7U9OTS-G",
+        "teamId": "02NBH3859G000000VS5489B2VUET0P3R",
+        "teamName": "TSV Oberzwehren II",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDiff": 0,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.634247Z"
+      },
+      "groupMetrics": {
+        "offense": 1.25,
+        "defense": -0.25,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0.5555555555555556,
+          "defense": 0.5833333333333334,
+          "dominance": 0.5714285714285714
+        },
+        "powerScore": 0.5686507936507936
+      },
+      "overallMetrics": {
+        "offense": 1.25,
+        "defense": -0.25,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0.15625,
+          "defense": 0.8148148148148148,
+          "dominance": 0.4576271186440678
+        },
+        "powerScore": 0.44423258003766475
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group13",
+        "groupName": "E - Junioren Gr. 13",
+        "staffelId": "02UNOFUFLC000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UHVLBSK4000000VS5489BRVT3080BC",
+        "teamName": "Eintr.Baunatal IV",
+        "rank": 4,
+        "games": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 4,
+        "goalDiff": 0,
+        "points": 4,
+        "scrapedAt": "2026-01-11T18:37:47.55987Z"
+      },
+      "groupMetrics": {
+        "offense": 1,
+        "defense": 0,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0.6666666666666666,
+          "defense": 0.3333333333333333,
+          "dominance": 0.6
+        },
+        "powerScore": 0.5466666666666666
+      },
+      "overallMetrics": {
+        "offense": 1,
+        "defense": 0,
+        "dominance": 0,
+        "normalized": {
+          "offense": 0.125,
+          "defense": 0.8518518518518519,
+          "dominance": 0.4576271186440678
+        },
+        "powerScore": 0.44284369114877586
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group15",
+        "groupName": "E - Junioren Gr. 15",
+        "staffelId": "02UNOG5KU8000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UFOPNNM8000000VS5489BSVS7PO6K9",
+        "teamName": "SV Kaufungen V",
+        "rank": 3,
+        "games": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDiff": -1,
+        "points": 4,
+        "scrapedAt": "2026-01-11T18:37:47.710268Z"
+      },
+      "groupMetrics": {
+        "offense": 0.75,
+        "defense": 0,
+        "dominance": -0.25,
+        "normalized": {
+          "offense": 0.3333333333333333,
+          "defense": 0.5,
+          "dominance": 0.35714285714285715
+        },
+        "powerScore": 0.3904761904761905
+      },
+      "overallMetrics": {
+        "offense": 0.75,
+        "defense": 0,
+        "dominance": -0.25,
+        "normalized": {
+          "offense": 0.09375,
+          "defense": 0.8518518518518519,
+          "dominance": 0.4406779661016949
+        },
+        "powerScore": 0.425258945386064
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group3",
+        "groupName": "E - Junioren Gr. 3",
+        "staffelId": "02UNOF5PIK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02PUD89GAS000000VS5489B1VVQNIHJA",
+        "teamName": "OSC Vellmar II",
+        "rank": 3,
+        "games": 4,
+        "wins": 0,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDiff": -1,
+        "points": 3,
+        "scrapedAt": "2026-01-11T18:37:47.855593Z"
+      },
+      "groupMetrics": {
+        "offense": 0.5,
+        "defense": 0.25,
+        "dominance": -0.25,
+        "normalized": {
+          "offense": 0.09090909090909091,
+          "defense": 0.5,
+          "dominance": 0.1875
+        },
+        "powerScore": 0.24261363636363636
+      },
+      "overallMetrics": {
+        "offense": 0.5,
+        "defense": 0.25,
+        "dominance": -0.25,
+        "normalized": {
+          "offense": 0.0625,
+          "defense": 0.8888888888888888,
+          "dominance": 0.4406779661016949
+        },
+        "powerScore": 0.4238700564971751
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group9",
+        "groupName": "E - Junioren Gr. 9",
+        "staffelId": "02UNOF5QJ4000005VS5489BUVT7U9OTS-G",
+        "teamId": "02QGU04RCK000000VS5489B1VSCH9KQR",
+        "teamName": "TSV Wolfsanger 3",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 8,
+        "goalDiff": -2,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:48.277098Z"
+      },
+      "groupMetrics": {
+        "offense": 1.5,
+        "defense": -1,
+        "dominance": -0.5,
+        "normalized": {
+          "offense": 0.17857142857142858,
+          "defense": 0.6666666666666666,
+          "dominance": 0.40384615384615385
+        },
+        "powerScore": 0.3925824175824176
+      },
+      "overallMetrics": {
+        "offense": 1.5,
+        "defense": -1,
+        "dominance": -0.5,
+        "normalized": {
+          "offense": 0.1875,
+          "defense": 0.7037037037037037,
+          "dominance": 0.423728813559322
+        },
+        "powerScore": 0.4132297551789077
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group10",
+        "groupName": "E - Junioren Gr. 10",
+        "staffelId": "02UNOF5QP8000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UCS46UAK000000VS5489BRVTRSB17S",
+        "teamName": "Tuspo Rengershausen",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 10,
+        "goalDiff": -3,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.331413Z"
+      },
+      "groupMetrics": {
+        "offense": 1.75,
+        "defense": -1.5,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.23809523809523808,
+          "defense": 0,
+          "dominance": 0.1724137931034483
+        },
+        "powerScore": 0.1469622331691297
+      },
+      "overallMetrics": {
+        "offense": 1.75,
+        "defense": -1.5,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.21875,
+          "defense": 0.6296296296296297,
+          "dominance": 0.4067796610169492
+        },
+        "powerScore": 0.39842278719397367
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group12",
+        "groupName": "E - Junioren Gr. 12",
+        "staffelId": "02UNOFR5T4000001VS5489BUVT7U9OTS-G",
+        "teamId": "02QRHV9JD8000000VS5489B2VUEKSRPC",
+        "teamName": "JSG Nieste/​Staufenberg 2",
+        "rank": 4,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 7,
+        "goalDiff": -3,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.473793Z"
+      },
+      "groupMetrics": {
+        "offense": 1,
+        "defense": -0.75,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.4444444444444444,
+          "defense": 0.4166666666666667,
+          "dominance": 0.42857142857142855
+        },
+        "powerScore": 0.43134920634920637
+      },
+      "overallMetrics": {
+        "offense": 1,
+        "defense": -0.75,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.125,
+          "defense": 0.7407407407407407,
+          "dominance": 0.4067796610169492
+        },
+        "powerScore": 0.39425612052730696
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group3",
+        "groupName": "E - Junioren Gr. 3",
+        "staffelId": "02UNOF5PIK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02REHP12O4000000VS5489B1VS1H04V9",
+        "teamName": "CSC 03 Kassel 2",
+        "rank": 2,
+        "games": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 6,
+        "goalDiff": -3,
+        "points": 7,
+        "scrapedAt": "2026-01-11T18:37:47.855579Z"
+      },
+      "groupMetrics": {
+        "offense": 0.75,
+        "defense": -0.5,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.18181818181818182,
+          "defense": 0,
+          "dominance": 0.0625
+        },
+        "powerScore": 0.09147727272727274
+      },
+      "overallMetrics": {
+        "offense": 0.75,
+        "defense": -0.5,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.09375,
+          "defense": 0.7777777777777778,
+          "dominance": 0.4067796610169492
+        },
+        "powerScore": 0.3928672316384181
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group7",
+        "groupName": "E - Junioren Gr. 7",
+        "staffelId": "02UNOF5Q90000005VS5489BUVT7U9OTS-G",
+        "teamId": "02NCQ0S9IS000000VS5489B1VU1BDIM8",
+        "teamName": "TSG Wilhelmshöhe II",
+        "rank": 3,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 6,
+        "goalDiff": -3,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:48.148397Z"
+      },
+      "groupMetrics": {
+        "offense": 0.75,
+        "defense": -0.5,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.2,
+          "defense": 0,
+          "dominance": 0.16666666666666666
+        },
+        "powerScore": 0.13
+      },
+      "overallMetrics": {
+        "offense": 0.75,
+        "defense": -0.5,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.09375,
+          "defense": 0.7777777777777778,
+          "dominance": 0.4067796610169492
+        },
+        "powerScore": 0.3928672316384181
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group14",
+        "groupName": "E - Junioren Gr. 14",
+        "staffelId": "02UNOG2L5G000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JSHMIP7C000000VS5489B2VTUH5PJJ",
+        "teamName": "TSV Heiligenrode",
+        "rank": 4,
+        "games": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 3,
+        "goalsAgainst": 6,
+        "goalDiff": -3,
+        "points": 3,
+        "scrapedAt": "2026-01-11T18:37:47.63426Z"
+      },
+      "groupMetrics": {
+        "offense": 0.75,
+        "defense": -0.5,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.3333333333333333,
+          "defense": 0.5,
+          "dominance": 0.42857142857142855
+        },
+        "powerScore": 0.4119047619047619
+      },
+      "overallMetrics": {
+        "offense": 0.75,
+        "defense": -0.5,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.09375,
+          "defense": 0.7777777777777778,
+          "dominance": 0.4067796610169492
+        },
+        "powerScore": 0.3928672316384181
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group13",
+        "groupName": "E - Junioren Gr. 13",
+        "staffelId": "02UNOFUFLC000001VS5489BUVT7U9OTS-G",
+        "teamId": "02SFDNU700000000VS5489B2VS0SNERT",
+        "teamName": "TSV Heiligenrode III",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 5,
+        "goalDiff": -3,
+        "points": 1,
+        "scrapedAt": "2026-01-11T18:37:47.559883Z"
+      },
+      "groupMetrics": {
+        "offense": 0.5,
+        "defense": -0.25,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0.5,
+        "defense": -0.25,
+        "dominance": -0.75,
+        "normalized": {
+          "offense": 0.0625,
+          "defense": 0.8148148148148148,
+          "dominance": 0.4067796610169492
+        },
+        "powerScore": 0.3914783427495292
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group3",
+        "groupName": "E - Junioren Gr. 3",
+        "staffelId": "02UNOF5PIK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02IBMSAGCO000000VS5489B1VUG7QVAU",
+        "teamName": "Kasseler SV",
+        "rank": 4,
+        "games": 4,
+        "wins": 0,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDiff": -4,
+        "points": 2,
+        "scrapedAt": "2026-01-11T18:37:47.855607Z"
+      },
+      "groupMetrics": {
+        "offense": 0.25,
+        "defense": -0.25,
+        "dominance": -1,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.16666666666666666,
+          "dominance": 0
+        },
+        "powerScore": 0.049999999999999996
+      },
+      "overallMetrics": {
+        "offense": 0.25,
+        "defense": -0.25,
+        "dominance": -1,
+        "normalized": {
+          "offense": 0.03125,
+          "defense": 0.8148148148148148,
+          "dominance": 0.3898305084745763
+        },
+        "powerScore": 0.3738935969868173
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group3",
+        "groupName": "E - Junioren Gr. 3",
+        "staffelId": "02UNOF5PIK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JF7S8GGS000000VS5489B1VV6OGCVO",
+        "teamName": "Olympia KS 3",
+        "rank": 4,
+        "games": 4,
+        "wins": 0,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDiff": -4,
+        "points": 2,
+        "scrapedAt": "2026-01-11T18:37:47.855619Z"
+      },
+      "groupMetrics": {
+        "offense": 0.25,
+        "defense": -0.25,
+        "dominance": -1,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.16666666666666666,
+          "dominance": 0
+        },
+        "powerScore": 0.049999999999999996
+      },
+      "overallMetrics": {
+        "offense": 0.25,
+        "defense": -0.25,
+        "dominance": -1,
+        "normalized": {
+          "offense": 0.03125,
+          "defense": 0.8148148148148148,
+          "dominance": 0.3898305084745763
+        },
+        "powerScore": 0.3738935969868173
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group10",
+        "groupName": "E - Junioren Gr. 10",
+        "staffelId": "02UNOF5QP8000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UD7424EO000000VS5489BRVTRSB17S",
+        "teamName": "JSG Fuldatal 3",
+        "rank": 2,
+        "games": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 10,
+        "goalDiff": -5,
+        "points": 7,
+        "scrapedAt": "2026-01-11T18:37:47.331194Z"
+      },
+      "groupMetrics": {
+        "offense": 1.25,
+        "defense": -1.5,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0.14285714285714285,
+          "defense": 0,
+          "dominance": 0.10344827586206896
+        },
+        "powerScore": 0.08817733990147783
+      },
+      "overallMetrics": {
+        "offense": 1.25,
+        "defense": -1.5,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0.15625,
+          "defense": 0.6296296296296297,
+          "dominance": 0.3728813559322034
+        },
+        "powerScore": 0.3632532956685499
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group10",
+        "groupName": "E - Junioren Gr. 10",
+        "staffelId": "02UNOF5QP8000005VS5489BUVT7U9OTS-G",
+        "teamId": "02TM9AV25C000000VS5489BSVUCOJR2F",
+        "teamName": "JFV Söhre II",
+        "rank": 4,
+        "games": 4,
+        "wins": 0,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 8,
+        "goalDiff": -5,
+        "points": 2,
+        "scrapedAt": "2026-01-11T18:37:47.331425Z"
+      },
+      "groupMetrics": {
+        "offense": 0.75,
+        "defense": -1,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0.047619047619047616,
+          "defense": 0.25,
+          "dominance": 0.10344827586206896
+        },
+        "powerScore": 0.12508210180623974
+      },
+      "overallMetrics": {
+        "offense": 0.75,
+        "defense": -1,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0.09375,
+          "defense": 0.7037037037037037,
+          "dominance": 0.3728813559322034
+        },
+        "powerScore": 0.36047551789077215
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group15",
+        "groupName": "E - Junioren Gr. 15",
+        "staffelId": "02UNOG5KU8000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UI0Q0RT8000000VS5489BSVTV6I2DB",
+        "teamName": "SV Germ.KS",
+        "rank": 4,
+        "games": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 7,
+        "goalDiff": -5,
+        "points": 4,
+        "scrapedAt": "2026-01-11T18:37:47.710283Z"
+      },
+      "groupMetrics": {
+        "offense": 0.5,
+        "defense": -0.75,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0.2222222222222222,
+          "defense": 0,
+          "dominance": 0.07142857142857142
+        },
+        "powerScore": 0.11031746031746031
+      },
+      "overallMetrics": {
+        "offense": 0.5,
+        "defense": -0.75,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0.0625,
+          "defense": 0.7407407407407407,
+          "dominance": 0.3728813559322034
+        },
+        "powerScore": 0.3590866290018832
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group7",
+        "groupName": "E - Junioren Gr. 7",
+        "staffelId": "02UNOF5Q90000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JSFH6OOK000000VS5489B1VVFL9LLH",
+        "teamName": "TSG Sandershausen 1",
+        "rank": 4,
+        "games": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 6,
+        "goalDiff": -5,
+        "points": 1,
+        "scrapedAt": "2026-01-11T18:37:48.148492Z"
+      },
+      "groupMetrics": {
+        "offense": 0.25,
+        "defense": -0.5,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0.25,
+        "defense": -0.5,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0.03125,
+          "defense": 0.7777777777777778,
+          "dominance": 0.3728813559322034
+        },
+        "powerScore": 0.3576977401129943
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group7",
+        "groupName": "E - Junioren Gr. 7",
+        "staffelId": "02UNOF5Q90000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UD73E1H0000000VS5489BRVTRSB17S",
+        "teamName": "JSG Fuldatal 2",
+        "rank": 4,
+        "games": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 6,
+        "goalDiff": -5,
+        "points": 1,
+        "scrapedAt": "2026-01-11T18:37:48.148411Z"
+      },
+      "groupMetrics": {
+        "offense": 0.25,
+        "defense": -0.5,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0.25,
+        "defense": -0.5,
+        "dominance": -1.25,
+        "normalized": {
+          "offense": 0.03125,
+          "defense": 0.7777777777777778,
+          "dominance": 0.3728813559322034
+        },
+        "powerScore": 0.3576977401129943
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group15",
+        "groupName": "E - Junioren Gr. 15",
+        "staffelId": "02UNOG5KU8000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UKANQ1JG000000VS5489BRVS0D3BPJ",
+        "teamName": "SVH Kassel 4",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 0,
+        "goalsAgainst": 6,
+        "goalDiff": -6,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:47.710297Z"
+      },
+      "groupMetrics": {
+        "offense": 0,
+        "defense": -0.5,
+        "dominance": -1.5,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.16666666666666666,
+          "dominance": 0
+        },
+        "powerScore": 0.049999999999999996
+      },
+      "overallMetrics": {
+        "offense": 0,
+        "defense": -0.5,
+        "dominance": -1.5,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.7777777777777778,
+          "dominance": 0.3559322033898305
+        },
+        "powerScore": 0.34011299435028247
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group1",
+        "groupName": "E - Junioren Gr. 1",
+        "staffelId": "02UNOF5P0G000005VS5489BUVT7U9OTS-G",
+        "teamId": "02QRUTE83G000000VS5489B2VUEKSRPC",
+        "teamName": "SV Kaufungen II",
+        "rank": 3,
+        "games": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 8,
+        "goalDiff": -5,
+        "points": 3,
+        "scrapedAt": "2026-01-11T18:37:47.257723Z"
+      },
+      "groupMetrics": {
+        "offense": 1,
+        "defense": -1.6666666666666665,
+        "dominance": -1.6666666666666667,
+        "normalized": {
+          "offense": 0.375,
+          "defense": 0.11111111111111116,
+          "dominance": 0.23529411764705885
+        },
+        "powerScore": 0.253921568627451
+      },
+      "overallMetrics": {
+        "offense": 1,
+        "defense": -1.6666666666666665,
+        "dominance": -1.6666666666666667,
+        "normalized": {
+          "offense": 0.125,
+          "defense": 0.6049382716049384,
+          "dominance": 0.3446327683615819
+        },
+        "powerScore": 0.33487131198995607
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group8",
+        "groupName": "E - Junioren Gr. 8",
+        "staffelId": "02UNOF5QDS000005VS5489BUVT7U9OTS-G",
+        "teamId": "02N2668P88000000VS5489B1VV4EJP38",
+        "teamName": "TSG Sandershausen 2",
+        "rank": 2,
+        "games": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 6,
+        "goalDiff": -5,
+        "points": 4,
+        "scrapedAt": "2026-01-11T18:37:48.202573Z"
+      },
+      "groupMetrics": {
+        "offense": 0.3333333333333333,
+        "defense": -1,
+        "dominance": -1.6666666666666667,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.5714285714285715,
+          "dominance": 0.19444444444444442
+        },
+        "powerScore": 0.22976190476190478
+      },
+      "overallMetrics": {
+        "offense": 0.3333333333333333,
+        "defense": -1,
+        "dominance": -1.6666666666666667,
+        "normalized": {
+          "offense": 0.041666666666666664,
+          "defense": 0.7037037037037037,
+          "dominance": 0.3446327683615819
+        },
+        "powerScore": 0.33116760828625236
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group4",
+        "groupName": "E - Junioren Gr. 4",
+        "staffelId": "02UNOF5PNS000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UFOPEEGG000000VS5489BSVS7PO6K9",
+        "teamName": "SV Kaufungen III",
+        "rank": 4,
+        "games": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 12,
+        "goalDiff": -7,
+        "points": 6,
+        "scrapedAt": "2026-01-11T18:37:47.930291Z"
+      },
+      "groupMetrics": {
+        "offense": 1.25,
+        "defense": -2,
+        "dominance": -1.75,
+        "normalized": {
+          "offense": 0.18518518518518517,
+          "defense": 0.5555555555555556,
+          "dominance": 0.37037037037037035
+        },
+        "powerScore": 0.3518518518518518
+      },
+      "overallMetrics": {
+        "offense": 1.25,
+        "defense": -2,
+        "dominance": -1.75,
+        "normalized": {
+          "offense": 0.15625,
+          "defense": 0.5555555555555556,
+          "dominance": 0.3389830508474576
+        },
+        "powerScore": 0.3308615819209039
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group10",
+        "groupName": "E - Junioren Gr. 10",
+        "staffelId": "02UNOF5QP8000005VS5489BUVT7U9OTS-G",
+        "teamId": "02NCQ0UC5O000000VS5489B1VU1BDIM8",
+        "teamName": "TSG Wilhelmshöhe III",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 10,
+        "goalDiff": -8,
+        "points": 1,
+        "scrapedAt": "2026-01-11T18:37:47.331432Z"
+      },
+      "groupMetrics": {
+        "offense": 0.5,
+        "defense": -1.5,
+        "dominance": -2,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0.5,
+        "defense": -1.5,
+        "dominance": -2,
+        "normalized": {
+          "offense": 0.0625,
+          "defense": 0.6296296296296297,
+          "dominance": 0.3220338983050847
+        },
+        "powerScore": 0.3104990583804143
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group8",
+        "groupName": "E - Junioren Gr. 8",
+        "staffelId": "02UNOF5QDS000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JU6PNBJ0000000VS5489B1VVFL9LLH",
+        "teamName": "JSG Nordstadt",
+        "rank": 4,
+        "games": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 8,
+        "goalDiff": -7,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:48.202602Z"
+      },
+      "groupMetrics": {
+        "offense": 0.3333333333333333,
+        "defense": -1.6666666666666665,
+        "dominance": -2.3333333333333335,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.42857142857142866,
+          "dominance": 0.13888888888888887
+        },
+        "powerScore": 0.17023809523809524
+      },
+      "overallMetrics": {
+        "offense": 0.3333333333333333,
+        "defense": -1.6666666666666665,
+        "dominance": -2.3333333333333335,
+        "normalized": {
+          "offense": 0.041666666666666664,
+          "defense": 0.6049382716049384,
+          "dominance": 0.29943502824858753
+        },
+        "powerScore": 0.2879786566227244
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group1",
+        "groupName": "E - Junioren Gr. 1",
+        "staffelId": "02UNOF5P0G000005VS5489BUVT7U9OTS-G",
+        "teamId": "02QS09PD48000000VS5489B1VUTHSI7G",
+        "teamName": "SVH Kassel 2",
+        "rank": 4,
+        "games": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 0,
+        "goalsAgainst": 9,
+        "goalDiff": -9,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:47.257731Z"
+      },
+      "groupMetrics": {
+        "offense": 0,
+        "defense": -2,
+        "dominance": -3,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0,
+        "defense": -2,
+        "dominance": -3,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.5555555555555556,
+          "dominance": 0.2542372881355932
+        },
+        "powerScore": 0.24293785310734461
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group12",
+        "groupName": "E - Junioren Gr. 12",
+        "staffelId": "02UNOFR5T4000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JUOV1778000000VS5489B2VTUH5PJJ",
+        "teamName": "FSK Vollmarshausen I",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 0,
+        "goalsAgainst": 12,
+        "goalDiff": -12,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:47.4738Z"
+      },
+      "groupMetrics": {
+        "offense": 0,
+        "defense": -2,
+        "dominance": -3,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0,
+        "defense": -2,
+        "dominance": -3,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.5555555555555556,
+          "dominance": 0.2542372881355932
+        },
+        "powerScore": 0.24293785310734461
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group14",
+        "groupName": "E - Junioren Gr. 14",
+        "staffelId": "02UNOG2L5G000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UIMHL7H4000000VS5489BRVT3080BC",
+        "teamName": "Spielverein KS-R. 2",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 0,
+        "goalsAgainst": 12,
+        "goalDiff": -12,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:47.634274Z"
+      },
+      "groupMetrics": {
+        "offense": 0,
+        "defense": -2,
+        "dominance": -3,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0,
+        "defense": -2,
+        "dominance": -3,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.5555555555555556,
+          "dominance": 0.2542372881355932
+        },
+        "powerScore": 0.24293785310734461
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group2",
+        "groupName": "E - Junioren Gr. 2",
+        "staffelId": "02UNOF5PDK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UI0QROAK000000VS5489BSVTV6I2DB",
+        "teamName": "JSG Nieste/​Staufenberg 4",
+        "rank": 4,
+        "games": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 3,
+        "goalsAgainst": 19,
+        "goalDiff": -16,
+        "points": 3,
+        "scrapedAt": "2026-01-11T18:37:47.786204Z"
+      },
+      "groupMetrics": {
+        "offense": 0.75,
+        "defense": -3.75,
+        "dominance": -4,
+        "normalized": {
+          "offense": 0.11538461538461539,
+          "defense": 0,
+          "dominance": 0.045454545454545456
+        },
+        "powerScore": 0.05979020979020979
+      },
+      "overallMetrics": {
+        "offense": 0.75,
+        "defense": -3.75,
+        "dominance": -4,
+        "normalized": {
+          "offense": 0.09375,
+          "defense": 0.2962962962962963,
+          "dominance": 0.1864406779661017
+        },
+        "powerScore": 0.1823210922787194
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group8",
+        "groupName": "E - Junioren Gr. 8",
+        "staffelId": "02UNOF5QDS000005VS5489BUVT7U9OTS-G",
+        "teamId": "02QMQIAJ3C000000VS5489B2VUEKSRPC",
+        "teamName": "JSG Fuldatal",
+        "rank": 3,
+        "games": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 14,
+        "goalDiff": -12,
+        "points": 4,
+        "scrapedAt": "2026-01-11T18:37:48.202589Z"
+      },
+      "groupMetrics": {
+        "offense": 0.6666666666666666,
+        "defense": -3.666666666666667,
+        "dominance": -4,
+        "normalized": {
+          "offense": 0.043478260869565216,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0.017391304347826087
+      },
+      "overallMetrics": {
+        "offense": 0.6666666666666666,
+        "defense": -3.666666666666667,
+        "dominance": -4,
+        "normalized": {
+          "offense": 0.08333333333333333,
+          "defense": 0.30864197530864196,
+          "dominance": 0.1864406779661017
+        },
+        "powerScore": 0.18185812931575643
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group6",
+        "groupName": "E - Junioren Gr. 6",
+        "staffelId": "02UNOF5Q40000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UFOPJIE0000000VS5489BSVS7PO6K9",
+        "teamName": "SV Kaufungen IV",
+        "rank": 4,
+        "games": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 19,
+        "goalDiff": -17,
+        "points": 3,
+        "scrapedAt": "2026-01-11T18:37:48.079429Z"
+      },
+      "groupMetrics": {
+        "offense": 0.5,
+        "defense": -3.75,
+        "dominance": -4.25,
+        "normalized": {
+          "offense": 0.05555555555555555,
+          "defense": 0.28,
+          "dominance": 0.18604651162790697
+        },
+        "powerScore": 0.1620361757105943
+      },
+      "overallMetrics": {
+        "offense": 0.5,
+        "defense": -3.75,
+        "dominance": -4.25,
+        "normalized": {
+          "offense": 0.0625,
+          "defense": 0.2962962962962963,
+          "dominance": 0.1694915254237288
+        },
+        "powerScore": 0.16473634651600752
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group5",
+        "groupName": "E - Junioren Gr. 5",
+        "staffelId": "02UNOF5PTO000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UKANOQIO000000VS5489BRVS0D3BPJ",
+        "teamName": "SVH Kassel 3",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 18,
+        "goalDiff": -17,
+        "points": 1,
+        "scrapedAt": "2026-01-11T18:37:48.004229Z"
+      },
+      "groupMetrics": {
+        "offense": 0.25,
+        "defense": -3.5,
+        "dominance": -4.25,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.21739130434782608,
+          "dominance": 0.07692307692307693
+        },
+        "powerScore": 0.0882943143812709
+      },
+      "overallMetrics": {
+        "offense": 0.25,
+        "defense": -3.5,
+        "dominance": -4.25,
+        "normalized": {
+          "offense": 0.03125,
+          "defense": 0.3333333333333333,
+          "dominance": 0.1694915254237288
+        },
+        "powerScore": 0.16334745762711864
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group2",
+        "groupName": "E - Junioren Gr. 2",
+        "staffelId": "02UNOF5PDK000005VS5489BUVT7U9OTS-G",
+        "teamId": "02TM9B0RQS000000VS5489BSVUCOJR2F",
+        "teamName": "JFV Söhre III",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 0,
+        "goalsAgainst": 18,
+        "goalDiff": -18,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:47.786216Z"
+      },
+      "groupMetrics": {
+        "offense": 0,
+        "defense": -3.5,
+        "dominance": -4.5,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.05263157894736842,
+          "dominance": 0
+        },
+        "powerScore": 0.015789473684210523
+      },
+      "overallMetrics": {
+        "offense": 0,
+        "defense": -3.5,
+        "dominance": -4.5,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.3333333333333333,
+          "dominance": 0.15254237288135594
+        },
+        "powerScore": 0.14576271186440679
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group5",
+        "groupName": "E - Junioren Gr. 5",
+        "staffelId": "02UNOF5PTO000001VS5489BUVT7U9OTS-G",
+        "teamId": "02JTF3DACS000000VS5489B2VTUH5PJJ",
+        "teamName": "JSG Ahnatal 1",
+        "rank": 4,
+        "games": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 21,
+        "goalDiff": -19,
+        "points": 3,
+        "scrapedAt": "2026-01-11T18:37:48.004224Z"
+      },
+      "groupMetrics": {
+        "offense": 0.5,
+        "defense": -4.25,
+        "dominance": -4.75,
+        "normalized": {
+          "offense": 0.03333333333333333,
+          "defense": 0.08695652173913043,
+          "dominance": 0.038461538461538464
+        },
+        "powerScore": 0.050958751393534
+      },
+      "overallMetrics": {
+        "offense": 0.5,
+        "defense": -4.25,
+        "dominance": -4.75,
+        "normalized": {
+          "offense": 0.0625,
+          "defense": 0.2222222222222222,
+          "dominance": 0.13559322033898305
+        },
+        "powerScore": 0.1323446327683616
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group9",
+        "groupName": "E - Junioren Gr. 9",
+        "staffelId": "02UNOF5QJ4000005VS5489BUVT7U9OTS-G",
+        "teamId": "02UFE1L6EC000000VS5489BSVS7PO6K9",
+        "teamName": "Tuspo Rengershausen 2",
+        "rank": 4,
+        "games": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 20,
+        "goalDiff": -19,
+        "points": 1,
+        "scrapedAt": "2026-01-11T18:37:48.277105Z"
+      },
+      "groupMetrics": {
+        "offense": 0.25,
+        "defense": -4,
+        "dominance": -4.75,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.16666666666666666,
+          "dominance": 0.07692307692307693
+        },
+        "powerScore": 0.07307692307692307
+      },
+      "overallMetrics": {
+        "offense": 0.25,
+        "defense": -4,
+        "dominance": -4.75,
+        "normalized": {
+          "offense": 0.03125,
+          "defense": 0.25925925925925924,
+          "dominance": 0.13559322033898305
+        },
+        "powerScore": 0.1309557438794727
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group5",
+        "groupName": "E - Junioren Gr. 5",
+        "staffelId": "02UNOF5PTO000001VS5489BUVT7U9OTS-G",
+        "teamId": "02NGN6LQA4000000VS5489B2VVE1OKEV",
+        "teamName": "SV KS-Nordshausen",
+        "rank": 3,
+        "games": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 23,
+        "goalDiff": -21,
+        "points": 4,
+        "scrapedAt": "2026-01-11T18:37:48.004218Z"
+      },
+      "groupMetrics": {
+        "offense": 0.5,
+        "defense": -4.75,
+        "dominance": -5.25,
+        "normalized": {
+          "offense": 0.03333333333333333,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0.013333333333333334
+      },
+      "overallMetrics": {
+        "offense": 0.5,
+        "defense": -4.75,
+        "dominance": -5.25,
+        "normalized": {
+          "offense": 0.0625,
+          "defense": 0.14814814814814814,
+          "dominance": 0.1016949152542373
+        },
+        "powerScore": 0.09995291902071564
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group9",
+        "groupName": "E - Junioren Gr. 9",
+        "staffelId": "02UNOF5QJ4000005VS5489BUVT7U9OTS-G",
+        "teamId": "02JS59TTO4000000VS5489B2VTUH5PJJ",
+        "teamName": "VfL Kassel 3",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 24,
+        "goalDiff": -23,
+        "points": 1,
+        "scrapedAt": "2026-01-11T18:37:48.277111Z"
+      },
+      "groupMetrics": {
+        "offense": 0.25,
+        "defense": -5,
+        "dominance": -5.75,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0.25,
+        "defense": -5,
+        "dominance": -5.75,
+        "normalized": {
+          "offense": 0.03125,
+          "defense": 0.1111111111111111,
+          "dominance": 0.06779661016949153
+        },
+        "powerScore": 0.0661723163841808
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group6",
+        "groupName": "E - Junioren Gr. 6",
+        "staffelId": "02UNOF5Q40000005VS5489BUVT7U9OTS-G",
+        "teamId": "02TM9B4TUG000000VS5489BSVUCOJR2F",
+        "teamName": "JFV Söhre IV",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 1,
+        "goalsAgainst": 26,
+        "goalDiff": -25,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:48.079437Z"
+      },
+      "groupMetrics": {
+        "offense": 0.25,
+        "defense": -5.5,
+        "dominance": -6.25,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0.25,
+        "defense": -5.5,
+        "dominance": -6.25,
+        "normalized": {
+          "offense": 0.03125,
+          "defense": 0.037037037037037035,
+          "dominance": 0.03389830508474576
+        },
+        "powerScore": 0.03378060263653484
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group11",
+        "groupName": "E - Junioren Gr. 11",
+        "staffelId": "02UP2893PO000001VS5489BTVV79N7OL-G",
+        "teamId": "02UIJD01BC000000VS5489BSVTV6I2DB",
+        "teamName": "TSG Sandershausen 3",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 0,
+        "goalsAgainst": 26,
+        "goalDiff": -26,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:47.405146Z"
+      },
+      "groupMetrics": {
+        "offense": 0,
+        "defense": -5.5,
+        "dominance": -6.5,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0,
+        "defense": -5.5,
+        "dominance": -6.5,
+        "normalized": {
+          "offense": 0,
+          "defense": 0.037037037037037035,
+          "dominance": 0.01694915254237288
+        },
+        "powerScore": 0.016195856873822974
+      }
+    },
+    {
+      "team": {
+        "groupId": "indoor-group4",
+        "groupName": "E - Junioren Gr. 4",
+        "staffelId": "02UNOF5PNS000001VS5489BUVT7U9OTS-G",
+        "teamId": "02UH277FM8000000VS5489BRVU8PIU17",
+        "teamName": "Kasseler SV 2",
+        "rank": 5,
+        "games": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 0,
+        "goalsAgainst": 27,
+        "goalDiff": -27,
+        "points": 0,
+        "scrapedAt": "2026-01-11T18:37:47.930305Z"
+      },
+      "groupMetrics": {
+        "offense": 0,
+        "defense": -5.75,
+        "dominance": -6.75,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      },
+      "overallMetrics": {
+        "offense": 0,
+        "defense": -5.75,
+        "dominance": -6.75,
+        "normalized": {
+          "offense": 0,
+          "defense": 0,
+          "dominance": 0
+        },
+        "powerScore": 0
+      }
+    }
+  ],
+  "updatedAt": "2026-01-11T18:37:48.299619Z"
+}

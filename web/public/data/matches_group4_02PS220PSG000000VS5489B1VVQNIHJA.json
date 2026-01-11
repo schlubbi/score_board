@@ -1,0 +1,128 @@
+{
+  "count": 9,
+  "group": {
+    "id": "group4",
+    "name": "EJKK Kassel Gr. 4"
+  },
+  "matches": [
+    {
+      "id": "02U3HEV8HS000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "02IV80E83O000000VS5489B2VU3QR439",
+      "awayTeam": "JSG Ahnatal II",
+      "homeScore": 3,
+      "awayScore": 9,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-jsg-ahnatal-ii/-/spiel/02U3HEV8HS000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8MK000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02Q09MJ4JK000000VS5489B2VTB2M2VN",
+      "homeTeam": "KSV Baunatal V",
+      "awayTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "awayTeam": "SV Kaufungen 07 III",
+      "homeScore": 8,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-sv-kaufungen-07-iii/-/spiel/02U3HEV8MK000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8QC000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "023QS6PAV8000000VS548984VVIKHNJO",
+      "awayTeam": "TSV Wolfsanger 2",
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-tsv-wolfsanger-2/-/spiel/02U3HEV8QC000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV8T8000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "01SIHLFDFS000000VS548985VV6960M6",
+      "homeTeam": "TSV Oberzwehren",
+      "awayTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "awayTeam": "SV Kaufungen 07 III",
+      "homeScore": 5,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-sv-kaufungen-07-iii/-/spiel/02U3HEV8T8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV93O000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "02M8OP4GJK000000VS5489B1VT732LUQ",
+      "awayTeam": "Spielverein 06 KS II",
+      "homeScore": 11,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-spielverein-06-ks-ii/-/spiel/02U3HEV93O000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9A8000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "011MIDBML0000000VTVG0001VTR8C1K7",
+      "awayTeam": "SVH Kassel",
+      "homeScore": 5,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-svh-kassel/-/spiel/02U3HEV9A8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9H0000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "02B45MRNUG000000VS5489B2VS0NK514",
+      "awayTeam": "JSG Fuldatal I",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-jsg-fuldatal-i/-/spiel/02U3HEV9H0000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9L8000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "02S8L8U0BO000000VS5489B1VVVAF4P8",
+      "awayTeam": "Soccer Academy KS 2",
+      "homeScore": 4,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-soccer-academy-ks-2/-/spiel/02U3HEV9L8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3HEV9PO000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "027J4GENR8000000VS5489B1VUA37ON8",
+      "awayTeam": "VfL Kassel III zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-vfl-kassel-iii/-/spiel/02U3HEV9PO000000VS5489BTVV378D77"
+    }
+  ],
+  "teamId": "02PS220PSG000000VS5489B1VVQNIHJA"
+}

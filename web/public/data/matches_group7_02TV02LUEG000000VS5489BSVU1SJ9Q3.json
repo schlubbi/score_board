@@ -1,0 +1,128 @@
+{
+  "count": 9,
+  "group": {
+    "id": "group7",
+    "name": "EJKK Kassel Gr. 7"
+  },
+  "matches": [
+    {
+      "id": "02U3FBMA98000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02U2QR4VCG000000VS5489BRVSGGHO8O",
+      "homeTeam": "CSC 03 Kassel 2",
+      "awayTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "awayTeam": "JFV Söhre IV",
+      "homeScore": 29,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/csc-03-kassel-2-jfv-soehre-iv/-/spiel/02U3FBMA98000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMA9S000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "homeTeam": "JFV Söhre IV",
+      "awayTeamId": "011MIB1T8O000000VTVG0001VTR8C1K7",
+      "awayTeam": "TSV Heiligenrode II",
+      "homeScore": 1,
+      "awayScore": 17,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tsv-heiligenrode-ii/-/spiel/02U3FBMA9S000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMADK000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "homeTeam": "JFV Söhre IV",
+      "awayTeamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+      "awayTeam": "Tuspo Rengershausen II",
+      "homeScore": 3,
+      "awayScore": 5,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-rengershausen-ii/-/spiel/02U3FBMADK000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAIK000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02IM9EO578000000VS5489B2VVQ9C6A6",
+      "homeTeam": "TSG Wilhelmshöhe III",
+      "awayTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "awayTeam": "JFV Söhre IV",
+      "homeScore": 21,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-iii-jfv-soehre-iv/-/spiel/02U3FBMAIK000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAM8000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "homeTeam": "JFV Söhre IV",
+      "awayTeamId": "02II92G5ES000000VS5489B2VVQ9C6A6",
+      "awayTeam": "JSG Fuldatal II",
+      "homeScore": 0,
+      "awayScore": 14,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-jsg-fuldatal-ii/-/spiel/02U3FBMAM8000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMAT4000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
+      "homeTeam": "JSG Nieste/​Staufenberg III",
+      "awayTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "awayTeam": "JFV Söhre IV",
+      "homeScore": 4,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jfv-soehre-iv/-/spiel/02U3FBMAT4000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB08000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "homeTeam": "JFV Söhre IV",
+      "awayTeamId": "02IH18AAJS000000VS5489B2VU2I8R4H",
+      "awayTeam": "Tuspo Waldau II zg.",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "not_played",
+      "note": "Nichtantritt GAST",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-waldau-ii/-/spiel/02U3FBMB08000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB7S000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TK461K2K000000VS5489BRVUSIJ66A",
+      "homeTeam": "Kasseler SV 2",
+      "awayTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "awayTeam": "JFV Söhre IV",
+      "homeScore": 3,
+      "awayScore": 6,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jfv-soehre-iv/-/spiel/02U3FBMB7S000000VS5489BTVV378D77"
+    },
+    {
+      "id": "02U3FBMB9S000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
+      "homeTeam": "JFV Söhre IV",
+      "awayTeamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
+      "awayTeam": "TSV Wolfsanger 3",
+      "homeScore": 0,
+      "awayScore": 11,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tsv-wolfsanger-3/-/spiel/02U3FBMB9S000000VS5489BTVV378D77"
+    }
+  ],
+  "teamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3"
+}

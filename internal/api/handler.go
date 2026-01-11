@@ -34,6 +34,7 @@ func (h *Handler) RegisterRoutes(r chi.Router) {
 		r.Get("/groups/{groupID}", h.handleGroupDetail)
 		r.Get("/groups/{groupID}/teams/{teamID}/matches", h.handleTeamMatches)
 		r.Get("/overall", h.handleOverall)
+		r.Get("/overall/elo", h.handleOverallElo)
 		r.Get("/indoor/groups", h.handleIndoorGroups)
 		r.Get("/indoor/overall", h.handleIndoorOverall)
 		r.Get("/recommendations/simple", h.handleSimpleRecommendation)
@@ -178,6 +179,60 @@ func (h *Handler) handleOverall(w http.ResponseWriter, r *http.Request) {
 	}
 
 	writeJSON(w, http.StatusOK, resp)
+}
+
+func (h *Handler) handleOverallElo(w http.ResponseWriter, r *http.Request) {
+	repo := h.svc.Repository()
+	snaps := repo.Snapshots()
+
+	allMatches := make([]model.MatchResult, 0)
+	for _, snap := range snaps {
+		allMatches = append(allMatches, snap.Matches...)
+	}
+	if len(allMatches) == 0 {
+		writeJSON(w, http.StatusServiceUnavailable, map[string]string{"error": "no matches available"})
+		return
+	}
+
+	sort.SliceStable(allMatches, func(i, j int) bool {
+		return allMatches[i].ID < allMatches[j].ID
+	})
+
+	elo := power.ComputeElo(allMatches, 1500, 20)
+	teams := repo.AllTeams()
+
+	type teamElo struct {
+		Team  model.TeamStats `json:"team"`
+		Elo   float64         `json:"elo"`
+		Games int             `json:"games"`
+	}
+
+	entries := make([]teamElo, 0, len(teams))
+	for _, team := range teams {
+		res := elo[team.TeamID]
+		if res.Rating == 0 {
+			res.Rating = 1500
+		}
+		entries = append(entries, teamElo{Team: team, Elo: res.Rating, Games: res.Games})
+	}
+
+	sort.Slice(entries, func(i, j int) bool {
+		if entries[i].Elo != entries[j].Elo {
+			return entries[i].Elo > entries[j].Elo
+		}
+		if entries[i].Team.GoalDiff != entries[j].Team.GoalDiff {
+			return entries[i].Team.GoalDiff > entries[j].Team.GoalDiff
+		}
+		if entries[i].Team.Points != entries[j].Team.Points {
+			return entries[i].Team.Points > entries[j].Team.Points
+		}
+		return entries[i].Team.TeamName < entries[j].Team.TeamName
+	})
+
+	writeJSON(w, http.StatusOK, map[string]any{
+		"updatedAt": repo.LastUpdated(),
+		"teams":     entries,
+	})
 }
 
 func (h *Handler) handleIndoorGroups(w http.ResponseWriter, r *http.Request) {

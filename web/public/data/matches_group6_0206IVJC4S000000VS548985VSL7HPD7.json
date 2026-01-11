@@ -1,0 +1,101 @@
+{
+  "count": 7,
+  "group": {
+    "id": "group6",
+    "name": "EJKK Kassel Gr. 6"
+  },
+  "matches": [
+    {
+      "id": "02TSCSPVVG000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "homeTeam": "Tuspo Rengershausen",
+      "awayTeamId": "02ID685NOO000000VS5489B2VU2I8R4H",
+      "awayTeam": "TSV Vellmar II",
+      "homeScore": 10,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-tsv-vellmar-ii/-/spiel/02TSCSPVVG000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ03G000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02Q08JPFBC000000VS5489B2VTB2M2VN",
+      "homeTeam": "SVH Kassel III",
+      "awayTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "awayTeam": "Tuspo Rengershausen",
+      "homeScore": 4,
+      "awayScore": 4,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/svh-kassel-iii-tuspo-rengershausen/-/spiel/02TSCSQ03G000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ050000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "homeTeam": "Tuspo Rengershausen",
+      "awayTeamId": "023KKO5SK0000000VS548985VTNSAQK7",
+      "awayTeam": "Tuspo Waldau",
+      "homeScore": 9,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-tuspo-waldau/-/spiel/02TSCSQ050000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ080000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "homeTeam": "Tuspo Rengershausen",
+      "awayTeamId": "02TLFMCMAG000000VS5489BRVTFKGF73",
+      "awayTeam": "SV Kaufungen 07 V",
+      "homeScore": 4,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-sv-kaufungen-07-v/-/spiel/02TSCSQ080000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0C4000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "homeTeam": "Eintracht Baunatal IV",
+      "awayTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "awayTeam": "Tuspo Rengershausen",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iv-tuspo-rengershausen/-/spiel/02TSCSQ0C4000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0ES000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "homeTeam": "Tuspo Rengershausen",
+      "awayTeamId": "02U8KM964C000000VS5489BSVUPHJMG2",
+      "awayTeam": "JFV Söhre V",
+      "homeScore": 6,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-jfv-soehre-v/-/spiel/02TSCSQ0ES000000VS5489BUVVJ8R9DS"
+    },
+    {
+      "id": "02TSCSQ0IC000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02M5LFNISC000000VS5489B1VT732LUQ",
+      "homeTeam": "TSG Sandershausen II",
+      "awayTeamId": "0206IVJC4S000000VS548985VSL7HPD7",
+      "awayTeam": "Tuspo Rengershausen",
+      "homeScore": 2,
+      "awayScore": 12,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-ii-tuspo-rengershausen/-/spiel/02TSCSQ0IC000000VS5489BUVVJ8R9DS"
+    }
+  ],
+  "teamId": "0206IVJC4S000000VS548985VSL7HPD7"
+}

@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import './App.css';
 
-const API_BASE = '/api';
+const API_BASE =
+  (import.meta as any).env?.VITE_API_BASE ||
+  (typeof window !== 'undefined' && window.location.hostname === 'localhost' ? '/api' : '/data');
 const LOCALE_STORAGE_KEY = 'score-board-locale';
 const LOCALES = ['en', 'de'] as const;
 type Locale = (typeof LOCALES)[number];
@@ -62,6 +64,17 @@ type OverallResponse = {
   teams: TeamPower[];
 };
 
+type EloEntry = {
+  team: TeamStats;
+  elo: number;
+  games: number;
+};
+
+type EloResponse = {
+  updatedAt: string;
+  teams: EloEntry[];
+};
+
 type TeamMatch = {
   id: string;
   homeTeamId: string;
@@ -88,7 +101,7 @@ type SimpleRecommendation = {
   groups: RecommendationGroup[];
 };
 
-type View = 'overview' | 'groups' | 'recommendations' | 'indoor';
+type View = 'overview' | 'groups' | 'compare' | 'recommendations' | 'indoor';
 
 type Translation = {
   eyebrow: string;
@@ -96,6 +109,10 @@ type Translation = {
   lede: string;
   groupHeadline: string;
   groupLede: string;
+  compareHeadline: string;
+  compareLede: string;
+  compareTitle: string;
+  compareUpdated: string;
   indoorHeadline: string;
   indoorLede: string;
   indoorTitle: string;
@@ -143,6 +160,7 @@ type Translation = {
   nav: {
     overview: string;
     groups: string;
+    compare: string;
     indoor: string;
     recommendations: string;
   };
@@ -163,6 +181,11 @@ type Translation = {
     generated: string;
     groupLabel: (index: number) => string;
   };
+  algorithms: {
+    title: string;
+    overall: string[];
+    compare: string[];
+  };
 };
 
 const translations: Record<Locale, Translation> = {
@@ -173,6 +196,10 @@ const translations: Record<Locale, Translation> = {
       'Scrapes fussball.de standings, normalizes offense/defense/dominance per group, and compares every team across all groups.',
     groupHeadline: 'Group standings & match history',
     groupLede: 'Select a group to inspect the standings and click a team to view its match history.',
+    compareHeadline: 'Compare ranking approaches',
+    compareLede: 'Side-by-side comparison of the current normalized power score and an Elo rating computed from match results.',
+    compareTitle: 'Overall comparison',
+    compareUpdated: 'Updated',
     indoorHeadline: 'Indoor pre-games power ranking',
     indoorLede:
       'Scrapes the Hallen-Kreisturnier pre-game groups (loaded behind expandable headers on fussball.de) and ranks all participating teams.',
@@ -221,6 +248,7 @@ const translations: Record<Locale, Translation> = {
     nav: {
       overview: 'Overall',
       groups: 'Groups',
+      compare: 'Compare',
       indoor: 'Indoor',
       recommendations: 'Recommendations',
     },
@@ -241,6 +269,19 @@ const translations: Record<Locale, Translation> = {
       generated: 'Generated',
       groupLabel: (index: number) => `Group ${index}`,
     },
+    algorithms: {
+      title: 'Algorithm',
+      overall: [
+        'PowerScore is based on three per-match metrics: offense (goals for / games), defense (1 - goals against / games), dominance ((goals for - goals against) / games).',
+        'Each metric is normalized to 0..1 across all teams (overall), then combined: 0.4 * offense + 0.3 * defense + 0.3 * dominance.',
+        'Sorting: PowerScore desc, then goal difference, points, goals for.',
+      ],
+      compare: [
+        'Elo starts every team at 1500 and updates after each played match using expected result (rating diff) and actual result (win=1, draw=0.5, loss=0).',
+        'We use K=20 and a small goal-difference multiplier (capped) so bigger wins move ratings slightly more.',
+        'Teams with 0 Elo games (or “zg.”) are marked inactive and listed at the bottom.',
+      ],
+    },
   },
   de: {
     eyebrow: 'Score Board MVP',
@@ -248,6 +289,10 @@ const translations: Record<Locale, Translation> = {
     lede: 'Scraped die fussball.de-Tabellen, normalisiert Offense/Defense/Dominanz je Gruppe und vergleicht alle Teams.',
     groupHeadline: 'Gruppentabelle & Spielhistorie',
     groupLede: 'Wähle eine Gruppe und klicke ein Team an, um die Spiele zu sehen.',
+    compareHeadline: 'Ranking-Ansätze vergleichen',
+    compareLede: 'Vergleich des aktuellen normalisierten Power-Scores mit einem Elo-Rating, berechnet aus den Spielergebnissen.',
+    compareTitle: 'Gesamtvergleich',
+    compareUpdated: 'Stand',
     indoorHeadline: 'Indoor-Vorrunden Power-Ranking',
     indoorLede:
       'Scraped die Hallen-Kreisturnier-Vorrundengruppen (auf fussball.de hinter ausklappbaren Überschriften) und rankt alle Teams.',
@@ -296,6 +341,7 @@ const translations: Record<Locale, Translation> = {
     nav: {
       overview: 'Gesamt',
       groups: 'Gruppen',
+      compare: 'Vergleich',
       indoor: 'Indoor',
       recommendations: 'Empfehlungen',
     },
@@ -315,6 +361,19 @@ const translations: Record<Locale, Translation> = {
       subtitle: 'Teams werden nach aktuellem Power-Ranking gleichmäßig verteilt. Erste Gruppen erhalten den Überhang.',
       generated: 'Erstellt am',
       groupLabel: (index: number) => `Gruppe ${index}`,
+    },
+    algorithms: {
+      title: 'Algorithmus',
+      overall: [
+        'Der PowerScore basiert auf drei Kennzahlen pro Spiel: Offense (Tore / Spiele), Defense (1 - Gegentore / Spiele), Dominanz ((Tore - Gegentore) / Spiele).',
+        'Jede Kennzahl wird über alle Teams auf 0..1 normalisiert und dann kombiniert: 0,4 * Offense + 0,3 * Defense + 0,3 * Dominanz.',
+        'Sortierung: PowerScore absteigend, dann Tordifferenz, Punkte, erzielte Tore.',
+      ],
+      compare: [
+        'Elo startet jedes Team bei 1500 und wird nach jedem gespielten Spiel aktualisiert (Erwartungswert aus Rating-Differenz; Ergebnis: Sieg=1, Remis=0,5, Niederlage=0).',
+        'Wir verwenden K=20 und einen kleinen Tordifferenz-Faktor (gedeckelt), damit klare Siege das Rating etwas stärker bewegen.',
+        'Teams ohne Elo-Spiele (oder „zg.“) werden als inaktiv markiert und am Ende gelistet.',
+      ],
     },
   },
 };
@@ -350,6 +409,61 @@ const detectInitialLocale = (): Locale => {
   return 'en';
 };
 
+type SortDir = 'asc' | 'desc';
+type SortState<K extends string> = {
+  key: K;
+  dir: SortDir;
+};
+
+type SortableValue = string | number | null | undefined;
+
+const toggleSort = <K extends string>(current: SortState<K> | null, key: K): SortState<K> => {
+  if (!current || current.key !== key) {
+    return { key, dir: 'desc' };
+  }
+  return { key, dir: current.dir === 'desc' ? 'asc' : 'desc' };
+};
+
+const compareValues = (a: SortableValue, b: SortableValue, dir: SortDir) => {
+  if (a == null && b == null) return 0;
+  if (a == null) return 1;
+  if (b == null) return -1;
+
+  const mul = dir === 'asc' ? 1 : -1;
+  if (typeof a === 'number' && typeof b === 'number') {
+    return mul * (a - b);
+  }
+  return mul * String(a).localeCompare(String(b));
+};
+
+type GroupSortKey =
+  | 'default'
+  | 'rank'
+  | 'team'
+  | 'games'
+  | 'ratio'
+  | 'points'
+  | 'offense'
+  | 'defense'
+  | 'dominance'
+  | 'powerGroup'
+  | 'powerOverall';
+
+type MatchSortKey = 'default' | 'opponent' | 'result' | 'status';
+type OverallSortKey =
+  | 'default'
+  | 'team'
+  | 'group'
+  | 'games'
+  | 'ratio'
+  | 'points'
+  | 'power'
+  | 'offense'
+  | 'defense'
+  | 'dominance';
+
+type CompareSortKey = 'default' | 'team' | 'group' | 'elo' | 'games' | 'power' | 'delta';
+
 function App() {
   const [locale, setLocale] = useState<Locale>(() => detectInitialLocale());
   const [groups, setGroups] = useState<GroupSummary[]>([]);
@@ -357,22 +471,43 @@ function App() {
   const [groupDetail, setGroupDetail] = useState<GroupDetail | null>(null);
   const [overall, setOverall] = useState<OverallResponse | null>(null);
   const [indoorOverall, setIndoorOverall] = useState<OverallResponse | null>(null);
+  const [eloOverall, setEloOverall] = useState<EloResponse | null>(null);
   const [recommendation, setRecommendation] = useState<SimpleRecommendation | null>(null);
   const [selectedTeam, setSelectedTeam] = useState<TeamPower | null>(null);
   const [teamMatches, setTeamMatches] = useState<TeamMatch[]>([]);
   const [loadingGroup, setLoadingGroup] = useState(false);
   const [loadingOverall, setLoadingOverall] = useState(false);
   const [loadingIndoorOverall, setLoadingIndoorOverall] = useState(false);
+  const [loadingEloOverall, setLoadingEloOverall] = useState(false);
   const [loadingRecommendation, setLoadingRecommendation] = useState(false);
   const [loadingTeamMatches, setLoadingTeamMatches] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [view, setView] = useState<View>('groups');
 
+  const [groupSort, setGroupSort] = useState<SortState<GroupSortKey> | null>(null);
+  const [matchSort, setMatchSort] = useState<SortState<MatchSortKey> | null>(null);
+  const [overallSort, setOverallSort] = useState<SortState<OverallSortKey> | null>(null);
+  const [indoorSort, setIndoorSort] = useState<SortState<OverallSortKey> | null>(null);
+  const [compareSort, setCompareSort] = useState<SortState<CompareSortKey> | null>(null);
+
   const t = translations[locale];
   const headline =
-    view === 'indoor' ? t.indoorHeadline : view === 'groups' ? t.groupHeadline : t.headline;
-  const lede = view === 'indoor' ? t.indoorLede : view === 'groups' ? t.groupLede : t.lede;
+    view === 'compare'
+      ? t.compareHeadline
+      : view === 'indoor'
+        ? t.indoorHeadline
+        : view === 'groups'
+          ? t.groupHeadline
+          : t.headline;
+  const lede =
+    view === 'compare'
+      ? t.compareLede
+      : view === 'indoor'
+        ? t.indoorLede
+        : view === 'groups'
+          ? t.groupLede
+          : t.lede;
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -383,7 +518,9 @@ function App() {
   useEffect(() => {
     const loadGroups = async () => {
       try {
-        const data = await fetchJSON<{ groups: GroupSummary[] }>(`${API_BASE}/groups`);
+        const data = await fetchJSON<{ groups: GroupSummary[] }>(
+          `${API_BASE}${API_BASE === '/data' ? '/groups.json' : '/groups'}`
+        );
         setGroups(data.groups);
         if (data.groups.length) {
           setSelectedGroupId((current) => current || data.groups[0].id);
@@ -400,7 +537,11 @@ function App() {
       if (!selectedGroupId) return;
       setLoadingGroup(true);
       try {
-        const data = await fetchJSON<GroupDetail>(`${API_BASE}/groups/${selectedGroupId}`);
+        const data = await fetchJSON<GroupDetail>(
+          `${API_BASE}${
+            API_BASE === '/data' ? `/group_${selectedGroupId}.json` : `/groups/${selectedGroupId}`
+          }`
+        );
         setGroupDetail(data);
       } catch (err) {
         setError((err as Error).message);
@@ -429,7 +570,7 @@ function App() {
     const loadOverall = async () => {
       setLoadingOverall(true);
       try {
-        const data = await fetchJSON<OverallResponse>(`${API_BASE}/overall`);
+        const data = await fetchJSON<OverallResponse>(`${API_BASE}${API_BASE === '/data' ? '/overall.json' : '/overall'}`);
         setOverall(data);
       } catch (err) {
         setError((err as Error).message);
@@ -444,7 +585,9 @@ function App() {
     const loadIndoorOverall = async () => {
       setLoadingIndoorOverall(true);
       try {
-        const data = await fetchJSON<OverallResponse>(`${API_BASE}/indoor/overall`);
+        const data = await fetchJSON<OverallResponse>(
+          `${API_BASE}${API_BASE === '/data' ? '/indoor_overall.json' : '/indoor/overall'}`
+        );
         setIndoorOverall(data);
       } catch (err) {
         setError((err as Error).message);
@@ -456,10 +599,29 @@ function App() {
   }, []);
 
   useEffect(() => {
+    const loadEloOverall = async () => {
+      setLoadingEloOverall(true);
+      try {
+        const data = await fetchJSON<EloResponse>(
+          `${API_BASE}${API_BASE === '/data' ? '/overall_elo.json' : '/overall/elo'}`
+        );
+        setEloOverall(data);
+      } catch (err) {
+        setError((err as Error).message);
+      } finally {
+        setLoadingEloOverall(false);
+      }
+    };
+    loadEloOverall();
+  }, []);
+
+  useEffect(() => {
     const loadRecommendations = async () => {
       setLoadingRecommendation(true);
       try {
-        const data = await fetchJSON<SimpleRecommendation>(`${API_BASE}/recommendations/simple`);
+        const data = await fetchJSON<SimpleRecommendation>(
+          `${API_BASE}${API_BASE === '/data' ? '/recommendations_simple.json' : '/recommendations/simple'}`
+        );
         setRecommendation(data);
       } catch (err) {
         setError((err as Error).message);
@@ -479,7 +641,11 @@ function App() {
       setLoadingTeamMatches(true);
       try {
         const data = await fetchJSON<{ matches: TeamMatch[] }>(
-          `${API_BASE}/groups/${selectedGroupId}/teams/${selectedTeam.team.teamId}/matches`
+          `${API_BASE}${
+            API_BASE === '/data'
+              ? `/matches_${selectedGroupId}_${selectedTeam.team.teamId}.json`
+              : `/groups/${selectedGroupId}/teams/${selectedTeam.team.teamId}/matches`
+          }`
         );
         setTeamMatches(data.matches);
       } catch (err) {
@@ -496,28 +662,102 @@ function App() {
     [groups, selectedGroupId]
   );
 
+  const sortableHeader = <K extends string>(
+    label: string,
+    key: K,
+    sort: SortState<K> | null,
+    setSort: (next: SortState<K>) => void
+  ) => {
+    const active = sort?.key === key;
+    const suffix = active ? (sort?.dir === 'asc' ? ' ▲' : ' ▼') : '';
+    return (
+      <th
+        className="sortable"
+        role="button"
+        tabIndex={0}
+        onClick={() => setSort(toggleSort(sort, key))}
+        onKeyDown={(evt) => {
+          if (evt.key === 'Enter' || evt.key === ' ') {
+            evt.preventDefault();
+            setSort(toggleSort(sort, key));
+          }
+        }}
+      >
+        {label}
+        {suffix}
+      </th>
+    );
+  };
+
   const handleRefresh = async () => {
+    if (!API_BASE.startsWith('/api')) {
+      return;
+    }
+
     setRefreshing(true);
     try {
       await fetchJSON(`${API_BASE}/refresh`, { method: 'POST' });
       const [groupsData, overallData, groupData] = await Promise.all([
-        fetchJSON<{ groups: GroupSummary[] }>(`${API_BASE}/groups`),
-        fetchJSON<OverallResponse>(`${API_BASE}/overall`),
-        selectedGroupId ? fetchJSON<GroupDetail>(`${API_BASE}/groups/${selectedGroupId}`) : Promise.resolve(groupDetail),
+        fetchJSON<{ groups: GroupSummary[] }>(`${API_BASE}${API_BASE === '/data' ? '/groups.json' : '/groups'}`),
+        fetchJSON<OverallResponse>(`${API_BASE}${API_BASE === '/data' ? '/overall.json' : '/overall'}`),
+        selectedGroupId
+          ? fetchJSON<GroupDetail>(
+              `${API_BASE}${
+                API_BASE === '/data' ? `/group_${selectedGroupId}.json` : `/groups/${selectedGroupId}`
+              }`
+            )
+          : Promise.resolve(groupDetail),
       ]);
       setGroups(groupsData.groups);
       setOverall(overallData);
       if (groupData) {
         setGroupDetail(groupData);
       }
-      fetchJSON<OverallResponse>(`${API_BASE}/indoor/overall`).then(setIndoorOverall).catch(() => undefined);
-      fetchJSON<SimpleRecommendation>(`${API_BASE}/recommendations/simple`).then(setRecommendation);
+      fetchJSON<OverallResponse>(
+        `${API_BASE}${API_BASE === '/data' ? '/indoor_overall.json' : '/indoor/overall'}`
+      )
+        .then(setIndoorOverall)
+        .catch(() => undefined);
+      fetchJSON<EloResponse>(`${API_BASE}${API_BASE === '/data' ? '/overall_elo.json' : '/overall/elo'}`)
+        .then(setEloOverall)
+        .catch(() => undefined);
+      fetchJSON<SimpleRecommendation>(
+        `${API_BASE}${API_BASE === '/data' ? '/recommendations_simple.json' : '/recommendations/simple'}`
+      ).then(setRecommendation);
     } catch (err) {
       setError((err as Error).message);
     } finally {
       setRefreshing(false);
     }
   };
+
+  const groupTeamsSorted = useMemo(() => {
+    if (!groupDetail) return [];
+    const base = groupDetail.teams;
+    if (!groupSort) return base;
+
+    const indexByID = new Map(base.map((entry, idx) => [entry.team.teamId, idx]));
+
+    const getValue = (entry: TeamPower): Record<GroupSortKey, SortableValue> => ({
+      default: indexByID.get(entry.team.teamId) ?? 0,
+      rank: entry.team.rank,
+      team: entry.team.teamName,
+      games: entry.team.games,
+      ratio: entry.team.goalsFor - entry.team.goalsAgainst,
+      points: entry.team.points,
+      offense: entry.groupMetrics.offense,
+      defense: entry.groupMetrics.defense,
+      dominance: entry.groupMetrics.dominance,
+      powerGroup: entry.groupMetrics.powerScore,
+      powerOverall: entry.overallMetrics.powerScore,
+    });
+
+    return [...base].sort((a, b) => {
+      const va = getValue(a)[groupSort.key];
+      const vb = getValue(b)[groupSort.key];
+      return compareValues(va, vb, groupSort.dir);
+    });
+  }, [groupDetail, groupSort]);
 
   const renderGroupTable = () => {
     if (loadingGroup) {
@@ -534,20 +774,20 @@ function App() {
         <table className="group-table">
           <thead>
             <tr>
-              <th>{columns.rank}</th>
-              <th>{columns.team}</th>
-              <th>{columns.games}</th>
-              <th>{columns.ratio}</th>
-              <th>{columns.points}</th>
-              <th>{columns.offense}</th>
-              <th>{columns.defense}</th>
-              <th>{columns.dominance}</th>
-              <th>{columns.powerGroup}</th>
-              <th>{columns.powerOverall}</th>
+              {sortableHeader(columns.rank, 'rank', groupSort, setGroupSort)}
+              {sortableHeader(columns.team, 'team', groupSort, setGroupSort)}
+              {sortableHeader(columns.games, 'games', groupSort, setGroupSort)}
+              {sortableHeader(columns.ratio, 'ratio', groupSort, setGroupSort)}
+              {sortableHeader(columns.points, 'points', groupSort, setGroupSort)}
+              {sortableHeader(columns.offense, 'offense', groupSort, setGroupSort)}
+              {sortableHeader(columns.defense, 'defense', groupSort, setGroupSort)}
+              {sortableHeader(columns.dominance, 'dominance', groupSort, setGroupSort)}
+              {sortableHeader(columns.powerGroup, 'powerGroup', groupSort, setGroupSort)}
+              {sortableHeader(columns.powerOverall, 'powerOverall', groupSort, setGroupSort)}
             </tr>
           </thead>
           <tbody>
-            {groupDetail.teams.map((entry) => (
+            {groupTeamsSorted.map((entry) => (
               <tr
                 key={entry.team.teamId}
                 className={selectedTeam?.team.teamId === entry.team.teamId ? 'selected-row' : ''}
@@ -573,6 +813,37 @@ function App() {
     );
   };
 
+  const matchesSorted = useMemo(() => {
+    if (!selectedTeam) return teamMatches;
+    const base = teamMatches;
+    if (!matchSort) return base;
+
+    const indexByID = new Map(base.map((m, idx) => [m.id, idx]));
+
+    const getOpponent = (match: TeamMatch) =>
+      match.homeTeamId === selectedTeam.team.teamId ? match.awayTeam : match.homeTeam;
+
+    const getResultValue = (match: TeamMatch) => {
+      if (match.status !== 'played') return null;
+      const isHome = match.homeTeamId === selectedTeam.team.teamId;
+      const diff = match.homeScore - match.awayScore;
+      return isHome ? diff : -diff;
+    };
+
+    const getValue = (match: TeamMatch): Record<MatchSortKey, SortableValue> => ({
+      default: indexByID.get(match.id) ?? 0,
+      opponent: getOpponent(match),
+      result: getResultValue(match),
+      status: match.status,
+    });
+
+    return [...base].sort((a, b) => {
+      const va = getValue(a)[matchSort.key];
+      const vb = getValue(b)[matchSort.key];
+      return compareValues(va, vb, matchSort.dir);
+    });
+  }, [teamMatches, matchSort, selectedTeam]);
+
   const renderMatchesSection = () => {
     if (!selectedTeam) {
       return <p className="status">{t.matches.placeholder}</p>;
@@ -589,14 +860,14 @@ function App() {
         <table>
           <thead>
             <tr>
-              <th>{t.matches.opponent}</th>
-              <th>{t.matches.result}</th>
-              <th>{t.matches.status}</th>
+              {sortableHeader(t.matches.opponent, 'opponent', matchSort, setMatchSort)}
+              {sortableHeader(t.matches.result, 'result', matchSort, setMatchSort)}
+              {sortableHeader(t.matches.status, 'status', matchSort, setMatchSort)}
               <th></th>
             </tr>
           </thead>
           <tbody>
-            {teamMatches.map((match) => {
+            {matchesSorted.map((match) => {
               const isHome = match.homeTeamId === selectedTeam.team.teamId;
               const opponent = isHome ? match.awayTeam : match.homeTeam;
               const result =
@@ -629,6 +900,33 @@ function App() {
     );
   };
 
+  const overallTeamsSorted = useMemo(() => {
+    if (!overall) return [];
+    const base = overall.teams;
+    if (!overallSort) return base;
+
+    const indexByID = new Map(base.map((entry, idx) => [entry.team.teamId, idx]));
+
+    const getValue = (entry: TeamPower): Record<OverallSortKey, SortableValue> => ({
+      default: indexByID.get(entry.team.teamId) ?? 0,
+      team: entry.team.teamName,
+      group: entry.team.groupName,
+      games: entry.team.games,
+      ratio: entry.team.goalsFor - entry.team.goalsAgainst,
+      points: entry.team.points,
+      power: entry.overallMetrics.powerScore,
+      offense: entry.overallMetrics.offense,
+      defense: entry.overallMetrics.defense,
+      dominance: entry.overallMetrics.dominance,
+    });
+
+    return [...base].sort((a, b) => {
+      const va = getValue(a)[overallSort.key];
+      const vb = getValue(b)[overallSort.key];
+      return compareValues(va, vb, overallSort.dir);
+    });
+  }, [overall, overallSort]);
+
   const renderOverallTable = () => {
     if (loadingOverall || !overall) {
       return <p className="status">{t.states.loadingOverall}</p>;
@@ -641,20 +939,20 @@ function App() {
         <table>
           <thead>
             <tr>
-              <th>{columns.position}</th>
-              <th>{columns.team}</th>
-              <th>{columns.group}</th>
-              <th>{columns.games}</th>
-              <th>{columns.ratio}</th>
-              <th>{columns.points}</th>
-              <th>{columns.power}</th>
-              <th>{columns.offense}</th>
-              <th>{columns.defense}</th>
-              <th>{columns.dominance}</th>
+              {sortableHeader(columns.position, 'default', overallSort, setOverallSort)}
+              {sortableHeader(columns.team, 'team', overallSort, setOverallSort)}
+              {sortableHeader(columns.group, 'group', overallSort, setOverallSort)}
+              {sortableHeader(columns.games, 'games', overallSort, setOverallSort)}
+              {sortableHeader(columns.ratio, 'ratio', overallSort, setOverallSort)}
+              {sortableHeader(columns.points, 'points', overallSort, setOverallSort)}
+              {sortableHeader(columns.power, 'power', overallSort, setOverallSort)}
+              {sortableHeader(columns.offense, 'offense', overallSort, setOverallSort)}
+              {sortableHeader(columns.defense, 'defense', overallSort, setOverallSort)}
+              {sortableHeader(columns.dominance, 'dominance', overallSort, setOverallSort)}
             </tr>
           </thead>
           <tbody>
-            {overall.teams.map((entry, index) => (
+            {overallTeamsSorted.map((entry, index) => (
               <tr key={entry.team.teamId}>
                 <td>{index + 1}</td>
                 <td className="team-name">{entry.team.teamName}</td>
@@ -676,6 +974,33 @@ function App() {
     );
   };
 
+  const indoorTeamsSorted = useMemo(() => {
+    if (!indoorOverall) return [];
+    const base = indoorOverall.teams;
+    if (!indoorSort) return base;
+
+    const indexByID = new Map(base.map((entry, idx) => [entry.team.teamId, idx]));
+
+    const getValue = (entry: TeamPower): Record<OverallSortKey, SortableValue> => ({
+      default: indexByID.get(entry.team.teamId) ?? 0,
+      team: entry.team.teamName,
+      group: entry.team.groupName,
+      games: entry.team.games,
+      ratio: entry.team.goalsFor - entry.team.goalsAgainst,
+      points: entry.team.points,
+      power: entry.overallMetrics.powerScore,
+      offense: entry.overallMetrics.offense,
+      defense: entry.overallMetrics.defense,
+      dominance: entry.overallMetrics.dominance,
+    });
+
+    return [...base].sort((a, b) => {
+      const va = getValue(a)[indoorSort.key];
+      const vb = getValue(b)[indoorSort.key];
+      return compareValues(va, vb, indoorSort.dir);
+    });
+  }, [indoorOverall, indoorSort]);
+
   const renderIndoorOverallTable = () => {
     if (loadingIndoorOverall || !indoorOverall) {
       return <p className="status">{t.states.loadingOverall}</p>;
@@ -688,20 +1013,20 @@ function App() {
         <table>
           <thead>
             <tr>
-              <th>{columns.position}</th>
-              <th>{columns.team}</th>
-              <th>{columns.group}</th>
-              <th>{columns.games}</th>
-              <th>{columns.ratio}</th>
-              <th>{columns.points}</th>
-              <th>{columns.power}</th>
-              <th>{columns.offense}</th>
-              <th>{columns.defense}</th>
-              <th>{columns.dominance}</th>
+              {sortableHeader(columns.position, 'default', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.team, 'team', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.group, 'group', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.games, 'games', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.ratio, 'ratio', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.points, 'points', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.power, 'power', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.offense, 'offense', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.defense, 'defense', indoorSort, setIndoorSort)}
+              {sortableHeader(columns.dominance, 'dominance', indoorSort, setIndoorSort)}
             </tr>
           </thead>
           <tbody>
-            {indoorOverall.teams.map((entry, index) => (
+            {indoorTeamsSorted.map((entry, index) => (
               <tr key={entry.team.teamId}>
                 <td>{index + 1}</td>
                 <td className="team-name">{entry.team.teamName}</td>
@@ -715,6 +1040,106 @@ function App() {
                 <td>{formatNumber(entry.overallMetrics.offense)}</td>
                 <td>{formatNumber(entry.overallMetrics.defense)}</td>
                 <td>{formatNumber(entry.overallMetrics.dominance)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  };
+
+  const compareRowsSorted = useMemo(() => {
+    if (!eloOverall || !overall) return [];
+
+    const powerRank = new Map<string, number>();
+    overall.teams.forEach((entry, idx) => powerRank.set(entry.team.teamId, idx + 1));
+
+    const powerScoreById = new Map<string, number>();
+    overall.teams.forEach((entry) => powerScoreById.set(entry.team.teamId, entry.overallMetrics.powerScore));
+
+    const inactivePrefix = 'zg.';
+    const isInactive = (entry: EloEntry) => entry.games === 0 || entry.team.teamName.toLowerCase().startsWith(inactivePrefix);
+
+    const defaultOrder = [...eloOverall.teams].sort((a, b) => {
+      const aInactive = isInactive(a);
+      const bInactive = isInactive(b);
+      if (aInactive !== bInactive) return aInactive ? 1 : -1;
+      if (a.elo !== b.elo) return b.elo - a.elo;
+      return a.team.teamName.localeCompare(b.team.teamName);
+    });
+
+    const eloRank = new Map<string, number>();
+    defaultOrder.forEach((entry, idx) => eloRank.set(entry.team.teamId, idx + 1));
+
+    if (!compareSort) {
+      return defaultOrder.map((entry) => ({
+        entry,
+        inactive: isInactive(entry),
+        power: powerScoreById.get(entry.team.teamId) ?? 0,
+        delta: (powerRank.get(entry.team.teamId) ?? 0) - (eloRank.get(entry.team.teamId) ?? 0),
+      }));
+    }
+
+    const getValue = (wrapped: { entry: EloEntry; inactive: boolean; power: number; delta: number }): Record<CompareSortKey, SortableValue> => ({
+      default: eloRank.get(wrapped.entry.team.teamId) ?? 0,
+      team: wrapped.entry.team.teamName,
+      group: wrapped.entry.team.groupName,
+      elo: wrapped.entry.elo,
+      games: wrapped.entry.games,
+      power: wrapped.power,
+      delta: wrapped.delta,
+    });
+
+    const wrapped = defaultOrder.map((entry) => ({
+      entry,
+      inactive: isInactive(entry),
+      power: powerScoreById.get(entry.team.teamId) ?? 0,
+      delta: (powerRank.get(entry.team.teamId) ?? 0) - (eloRank.get(entry.team.teamId) ?? 0),
+    }));
+
+    return [...wrapped].sort((a, b) => {
+      if (a.inactive !== b.inactive) return a.inactive ? 1 : -1;
+      const va = getValue(a)[compareSort.key];
+      const vb = getValue(b)[compareSort.key];
+      return compareValues(va, vb, compareSort.dir);
+    });
+  }, [eloOverall, overall, compareSort]);
+
+  const renderCompareTable = () => {
+    if (loadingEloOverall || !eloOverall) {
+      return <p className="status">{t.states.loadingOverall}</p>;
+    }
+    if (!overall) {
+      return <p className="status">{t.states.loadingOverall}</p>;
+    }
+
+    return (
+      <div className="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              {sortableHeader('#', 'default', compareSort, setCompareSort)}
+              {sortableHeader(t.overallTableColumns.team, 'team', compareSort, setCompareSort)}
+              {sortableHeader(t.overallTableColumns.group, 'group', compareSort, setCompareSort)}
+              {sortableHeader('Elo', 'elo', compareSort, setCompareSort)}
+              {sortableHeader(t.overallTableColumns.games, 'games', compareSort, setCompareSort)}
+              {sortableHeader(t.overallTableColumns.power, 'power', compareSort, setCompareSort)}
+              {sortableHeader('Δ Rank', 'delta', compareSort, setCompareSort)}
+            </tr>
+          </thead>
+          <tbody>
+            {compareRowsSorted.map((row, idx) => (
+              <tr key={row.entry.team.teamId}>
+                <td>{idx + 1}</td>
+                <td className="team-name">
+                  {row.entry.team.teamName}
+                  {row.inactive ? ' (inactive)' : ''}
+                </td>
+                <td>{row.entry.team.groupName}</td>
+                <td>{formatNumber(row.entry.elo, 1)}</td>
+                <td>{row.entry.games}</td>
+                <td>{formatNumber(row.power)}</td>
+                <td>{row.delta > 0 ? `+${row.delta}` : `${row.delta}`}</td>
               </tr>
             ))}
           </tbody>
@@ -768,6 +1193,9 @@ function App() {
           <li className={view === 'groups' ? 'active' : ''}>
             <button onClick={() => setView('groups')}>{t.nav.groups}</button>
           </li>
+          <li className={view === 'compare' ? 'active' : ''}>
+            <button onClick={() => setView('compare')}>{t.nav.compare}</button>
+          </li>
           <li className={view === 'indoor' ? 'active' : ''}>
             <button onClick={() => setView('indoor')}>{t.nav.indoor}</button>
           </li>
@@ -788,9 +1216,11 @@ function App() {
               </select>
             </label>
           </div>
-          <button onClick={handleRefresh} disabled={refreshing}>
-            {refreshing ? t.refreshing : t.refresh}
-          </button>
+          {API_BASE.startsWith('/api') && (
+            <button onClick={handleRefresh} disabled={refreshing}>
+              {refreshing ? t.refreshing : t.refresh}
+            </button>
+          )}
         </div>
       </nav>
 
@@ -808,6 +1238,11 @@ function App() {
         {view === 'overview' && overall && (
           <span className="muted">
             {t.overallUpdated}: {formatDate(overall.updatedAt, dateLocales[locale])}
+          </span>
+        )}
+        {view === 'compare' && eloOverall && (
+          <span className="muted">
+            {t.compareUpdated}: {formatDate(eloOverall.updatedAt, dateLocales[locale])}
           </span>
         )}
         {view === 'indoor' && indoorOverall && (
@@ -858,17 +1293,61 @@ function App() {
       )}
 
       {view === 'overview' && (
-        <section>
-          <div className="section-header">
-            <h2>{t.overallTitle}</h2>
-            {overall && (
-              <span className="muted">
-                {t.overallUpdated}: {formatDate(overall.updatedAt, dateLocales[locale])}
-              </span>
-            )}
-          </div>
-          {renderOverallTable()}
-        </section>
+        <>
+          <section>
+            <div className="section-header">
+              <h2>{t.overallTitle}</h2>
+              {overall && (
+                <span className="muted">
+                  {t.overallUpdated}: {formatDate(overall.updatedAt, dateLocales[locale])}
+                </span>
+              )}
+            </div>
+            {renderOverallTable()}
+          </section>
+
+          <section>
+            <div className="section-header">
+              <h2>{t.algorithms.title}</h2>
+            </div>
+            <ul>
+              {t.algorithms.overall.map((line) => (
+                <li key={line} className="muted">
+                  {line}
+                </li>
+              ))}
+            </ul>
+          </section>
+        </>
+      )}
+
+      {view === 'compare' && (
+        <>
+          <section>
+            <div className="section-header">
+              <h2>{t.compareTitle}</h2>
+              {eloOverall && (
+                <span className="muted">
+                  {t.compareUpdated}: {formatDate(eloOverall.updatedAt, dateLocales[locale])}
+                </span>
+              )}
+            </div>
+            {renderCompareTable()}
+          </section>
+
+          <section>
+            <div className="section-header">
+              <h2>{t.algorithms.title}</h2>
+            </div>
+            <ul>
+              {t.algorithms.compare.map((line) => (
+                <li key={line} className="muted">
+                  {line}
+                </li>
+              ))}
+            </ul>
+          </section>
+        </>
       )}
 
       {view === 'indoor' && (
