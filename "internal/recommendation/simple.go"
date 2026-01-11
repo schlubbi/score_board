@@ -1,0 +1,50 @@
+package recommendation
+
+import "github.com/schlubbi/score_board/internal/model"
+
+// Group represents a simple grouping suggestion.
+type Group struct {
+	Index int               `json:"index"`
+	Teams []model.TeamPower `json:"teams"`
+}
+
+// SimpleBalancedGroups splits the sorted teams into numGroups buckets where the first
+// groups receive one extra team when the division isn't perfect.
+func SimpleBalancedGroups(sortedTeams []model.TeamPower, numGroups int) []Group {
+	if numGroups <= 0 {
+		numGroups = 1
+	}
+	total := len(sortedTeams)
+	groups := make([]Group, 0, numGroups)
+	base := 0
+	if numGroups > 0 {
+		base = total / numGroups
+	}
+	remainder := 0
+	if numGroups > 0 {
+		remainder = total % numGroups
+	}
+
+	cursor := 0
+	for i := 0; i < numGroups; i++ {
+		size := base
+		if i < remainder {
+			size++
+		}
+		if size == 0 && cursor >= total {
+			groups = append(groups, Group{Index: i + 1, Teams: []model.TeamPower{}})
+			continue
+		}
+		end := cursor + size
+		if end > total {
+			end = total
+		}
+		segment := append([]model.TeamPower(nil), sortedTeams[cursor:end]...)
+		groups = append(groups, Group{
+			Index: i + 1,
+			Teams: segment,
+		})
+		cursor = end
+	}
+	return groups
+}

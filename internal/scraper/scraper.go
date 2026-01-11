@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -18,7 +19,6 @@ import (
 const (
 	tableURLTemplate      = "https://www.fussball.de/ajax.table/-/staffel/%s"
 	crossTableURLTemplate = "https://www.fussball.de/ajax.table.cross/-/staffel/%s"
-	matchURLTemplate      = "https://www.fussball.de/spiel/-/-/spiel/%s"
 )
 
 var (
@@ -62,11 +62,7 @@ func (s *Scraper) FetchGroup(ctx context.Context, cfg model.GroupConfig) (model.
 	if err != nil {
 		return model.GroupSnapshot{}, err
 	}
-	matchIDs := collectMatchIDs(crossDoc)
-	matches, err := s.fetchMatches(ctx, cfg, matchIDs)
-	if err != nil {
-		return model.GroupSnapshot{}, err
-	}
+	matches := s.parseCrossTableMatches(crossDoc, cfg)
 
 	teams = model.ApplyMatchAggregates(teams, matches)
 
@@ -137,6 +133,14 @@ func parseTeamID(href string) string {
 }
 
 func parseMatchID(href string) string {
+	if href == "" {
+		return ""
+	}
+	if idx := strings.LastIndex(href, "/-/spiel/"); idx >= 0 {
+		id := href[idx+len("/-/spiel/"):]
+		id = strings.Trim(id, "/")
+		return id
+	}
 	matches := matchIDRegex.FindStringSubmatch(href)
 	if len(matches) == 2 {
 		return matches[1]
@@ -190,106 +194,6 @@ func (s *Scraper) fetchDocument(ctx context.Context, url string) (*goquery.Docum
 	return doc, nil
 }
 
-func collectMatchIDs(doc *goquery.Document) []string {
-	seen := make(map[string]struct{})
-	doc.Find("a[href*=\"/spiel/\"]").Each(func(_ int, sel *goquery.Selection) {
-		href, ok := sel.Attr("href")
-		if !ok {
-			return
-		}
-		id := parseMatchID(href)
-		if id == "" {
-			return
-		}
-		seen[id] = struct{}{}
-	})
-	ids := make([]string, 0, len(seen))
-	for id := range seen {
-		ids = append(ids, id)
-	}
-	return ids
-}
-
-func (s *Scraper) fetchMatches(ctx context.Context, cfg model.GroupConfig, ids []string) ([]model.MatchResult, error) {
-	results := make([]model.MatchResult, 0, len(ids))
-	seen := make(map[string]struct{})
-	for _, id := range ids {
-		if id == "" {
-			continue
-		}
-		if _, ok := seen[id]; ok {
-			continue
-		}
-		seen[id] = struct{}{}
-
-		match, err := s.fetchMatch(ctx, cfg, id)
-		if err != nil {
-			return nil, err
-		}
-		results = append(results, match)
-	}
-	return results, nil
-}
-
-func (s *Scraper) fetchMatch(ctx context.Context, cfg model.GroupConfig, id string) (model.MatchResult, error) {
-	url := fmt.Sprintf(matchURLTemplate, id)
-	doc, err := s.fetchDocument(ctx, url)
-	if err != nil {
-		return model.MatchResult{}, err
-	}
-
-	homeLink := doc.Find(".match-stage .team-home .team-name a")
-	awayLink := doc.Find(".match-stage .team-away .team-name a")
-	homeName := strings.TrimSpace(homeLink.Text())
-	awayName := strings.TrimSpace(awayLink.Text())
-	homeTeamID := parseTeamID(getAttr(homeLink, "href"))
-	awayTeamID := parseTeamID(getAttr(awayLink, "href"))
-
-	resultSel := doc.Find(".match-stage .result .end-result")
-	var (
-		homeGoals int
-		awayGoals int
-		status    = model.MatchStatusPlayed
-		note      string
-	)
-
-	if info := resultSel.Find(".info-text"); info.Length() > 0 {
-		status = model.MatchStatusNotPlayed
-		note = strings.TrimSpace(info.Text())
-	} else {
-		leftScore, leftOK, err := s.decodeScoreSpan(resultSel.Find(".score-left"))
-		if err != nil {
-			return model.MatchResult{}, err
-		}
-		rightScore, rightOK, err := s.decodeScoreSpan(resultSel.Find(".score-right"))
-		if err != nil {
-			return model.MatchResult{}, err
-		}
-		if !leftOK || !rightOK {
-			status = model.MatchStatusNotPlayed
-			note = "not available"
-		} else {
-			homeGoals = leftScore
-			awayGoals = rightScore
-		}
-	}
-
-	return model.MatchResult{
-		ID:         id,
-		GroupID:    cfg.ID,
-		StaffelID:  cfg.StaffelID,
-		HomeTeamID: homeTeamID,
-		HomeTeam:   homeName,
-		AwayTeamID: awayTeamID,
-		AwayTeam:   awayName,
-		HomeScore:  homeGoals,
-		AwayScore:  awayGoals,
-		Status:     status,
-		Note:       note,
-		URL:        url,
-	}, nil
-}
-
 func (s *Scraper) decodeScoreSpan(sel *goquery.Selection) (int, bool, error) {
 	decoded, err := s.decodeObfuscated(sel)
 	if err != nil {
@@ -322,7 +226,172 @@ func (s *Scraper) decodeObfuscated(sel *goquery.Selection) (string, error) {
 	return strings.TrimSpace(decoded), nil
 }
 
-func getAttr(sel *goquery.Selection, attr string) string {
-	v, _ := sel.Attr(attr)
-	return v
+type crossTeam struct {
+	ID   string
+	Name string
+}
+
+func extractCrossTeams(doc *goquery.Document) []crossTeam {
+	teams := make([]crossTeam, 0)
+	doc.Find(".cross-table-teams-container table tbody tr").Each(func(_ int, row *goquery.Selection) {
+		anchor := row.Find("a")
+		if anchor.Length() == 0 {
+			return
+		}
+		href, _ := anchor.Attr("href")
+		id := parseTeamID(href)
+		name := strings.TrimSpace(anchor.Find(".club-name").Text())
+		if id == "" || name == "" {
+			return
+		}
+		teams = append(teams, crossTeam{
+			ID:   id,
+			Name: name,
+		})
+	})
+	return teams
+}
+
+func (s *Scraper) parseCrossTableMatches(doc *goquery.Document, cfg model.GroupConfig) []model.MatchResult {
+	teams := extractCrossTeams(doc)
+	if len(teams) == 0 {
+		return nil
+	}
+
+	matches := make([]model.MatchResult, 0)
+	seen := make(map[string]struct{})
+
+	doc.Find("table.cross-table tbody tr").Each(func(i int, row *goquery.Selection) {
+		if i >= len(teams) {
+			return
+		}
+		homeTeam := teams[i]
+		row.Find("td").Each(func(j int, cell *goquery.Selection) {
+			if j >= len(teams) {
+				return
+			}
+			awayTeam := teams[j]
+			if homeTeam.ID == "" || awayTeam.ID == "" || homeTeam.ID == awayTeam.ID {
+				return
+			}
+
+			link := cell.Find("a")
+			if link.Length() == 0 {
+				return
+			}
+
+			href, _ := link.Attr("href")
+			matchID := parseMatchID(href)
+			if matchID == "" {
+				return
+			}
+			if _, ok := seen[matchID]; ok {
+				return
+			}
+			seen[matchID] = struct{}{}
+
+			note := strings.TrimSpace(link.Find(".info-text").Text())
+			status := model.MatchStatusPlayed
+			if note != "" {
+				status = model.MatchStatusNotPlayed
+			}
+
+			homeScore, homeOK, _ := s.decodeScoreSpan(link.Find(".score-left"))
+			awayScore, awayOK, _ := s.decodeScoreSpan(link.Find(".score-right"))
+			if !homeOK || !awayOK {
+				status = model.MatchStatusNotPlayed
+				homeScore = 0
+				awayScore = 0
+			}
+
+			matches = append(matches, model.MatchResult{
+				ID:         matchID,
+				GroupID:    cfg.ID,
+				StaffelID:  cfg.StaffelID,
+				HomeTeamID: homeTeam.ID,
+				HomeTeam:   homeTeam.Name,
+				AwayTeamID: awayTeam.ID,
+				AwayTeam:   awayTeam.Name,
+				HomeScore:  homeScore,
+				AwayScore:  awayScore,
+				Status:     status,
+				Note:       note,
+				URL:        href,
+			})
+		})
+	})
+
+	return matches
+}
+
+const tournamentURLTemplate = "https://www.fussball.de/spieltagsuebersicht/-/staffel/%s"
+
+var (
+	tournamentStaffelRegex = regexp.MustCompile(`staffel/([A-Z0-9-]+)`) // reused for ajax links
+	tournamentGroupNum     = regexp.MustCompile(`(?i)gr\.\s*(\d+)`)
+)
+
+// DiscoverTournamentGroups scrapes the tournament overview page and returns the
+// embedded group staffel IDs (e.g. "E - Junioren Gr. 1"), which are otherwise only
+// loaded after clicking the headers.
+func (s *Scraper) DiscoverTournamentGroups(ctx context.Context, tournamentStaffelID string) ([]model.GroupConfig, error) {
+	doc, err := s.fetchDocument(ctx, fmt.Sprintf(tournamentURLTemplate, tournamentStaffelID))
+	if err != nil {
+		return nil, err
+	}
+
+	seen := make(map[string]model.GroupConfig)
+	doc.Find("a[data-ajax-resource*='ajax.fixtures.tournament']").Each(func(_ int, sel *goquery.Selection) {
+		label := strings.TrimSpace(sel.Find("span").First().Text())
+		if label == "" {
+			return
+		}
+		norm := strings.ToLower(label)
+		if !strings.Contains(norm, "e - junioren") && !strings.Contains(norm, "e-junioren") {
+			return
+		}
+
+		resource, _ := sel.Attr("data-ajax-resource")
+		if resource == "" {
+			resource, _ = sel.Attr("href")
+		}
+		staffelID := extractStaffelID(resource)
+		if staffelID == "" {
+			target, _ := sel.Attr("data-ajax-target")
+			staffelID = extractStaffelID(target)
+		}
+		if staffelID == "" {
+			return
+		}
+
+		id := "indoor-" + staffelID
+		if m := tournamentGroupNum.FindStringSubmatch(label); len(m) == 2 {
+			id = "indoor-group" + m[1]
+		}
+
+		seen[staffelID] = model.GroupConfig{ID: id, Name: label, StaffelID: staffelID}
+	})
+
+	if len(seen) == 0 {
+		return nil, fmt.Errorf("no tournament groups discovered")
+	}
+
+	cfgs := make([]model.GroupConfig, 0, len(seen))
+	for _, cfg := range seen {
+		cfgs = append(cfgs, cfg)
+	}
+
+	sort.Slice(cfgs, func(i, j int) bool {
+		return cfgs[i].ID < cfgs[j].ID
+	})
+
+	return cfgs, nil
+}
+
+func extractStaffelID(input string) string {
+	matches := tournamentStaffelRegex.FindStringSubmatch(input)
+	if len(matches) == 2 {
+		return matches[1]
+	}
+	return ""
 }

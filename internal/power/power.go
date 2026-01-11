@@ -16,19 +16,29 @@ func ComputeMetrics(teams []model.TeamStats) map[string]model.MetricSet {
 	offenses := make([]float64, len(teams))
 	defenses := make([]float64, len(teams))
 	dominances := make([]float64, len(teams))
+	valid := make([]bool, len(teams))
 
 	for i, team := range teams {
+		if team.Games <= 0 {
+			valid[i] = false
+			continue
+		}
+		valid[i] = true
 		offense, defense, dominance := calculateRaw(team)
 		offenses[i] = offense
 		defenses[i] = defense
 		dominances[i] = dominance
 	}
 
-	offenseNorm := normalize(offenses)
-	defenseNorm := normalize(defenses)
-	dominanceNorm := normalize(dominances)
+	offenseNorm := normalize(offenses, valid)
+	defenseNorm := normalize(defenses, valid)
+	dominanceNorm := normalize(dominances, valid)
 
 	for i, team := range teams {
+		score := 0.0
+		if valid[i] {
+			score = 0.4*offenseNorm[i] + 0.3*defenseNorm[i] + 0.3*dominanceNorm[i]
+		}
 		metrics[team.TeamID] = model.MetricSet{
 			Offense:   offenses[i],
 			Defense:   defenses[i],
@@ -38,7 +48,7 @@ func ComputeMetrics(teams []model.TeamStats) map[string]model.MetricSet {
 				Defense:   defenseNorm[i],
 				Dominance: dominanceNorm[i],
 			},
-			PowerScore: 0.4*offenseNorm[i] + 0.3*defenseNorm[i] + 0.3*dominanceNorm[i],
+			PowerScore: score,
 		}
 	}
 
@@ -57,7 +67,7 @@ func calculateRaw(team model.TeamStats) (offense, defense, dominance float64) {
 	return offense, defense, dominance
 }
 
-func normalize(values []float64) []float64 {
+func normalize(values []float64, valid []bool) []float64 {
 	normalized := make([]float64, len(values))
 	if len(values) == 0 {
 		return normalized
@@ -65,7 +75,12 @@ func normalize(values []float64) []float64 {
 
 	minVal := math.Inf(1)
 	maxVal := math.Inf(-1)
-	for _, v := range values {
+	hasValid := false
+	for i, v := range values {
+		if !valid[i] {
+			continue
+		}
+		hasValid = true
 		if v < minVal {
 			minVal = v
 		}
@@ -74,16 +89,25 @@ func normalize(values []float64) []float64 {
 		}
 	}
 
+	if !hasValid {
+		return normalized
+	}
+
 	rangeVal := maxVal - minVal
 	if rangeVal == 0 {
-		// All values identical; treat them as baseline 0.5 to avoid zeroed scores.
 		for i := range normalized {
-			normalized[i] = 0.5
+			if valid[i] {
+				normalized[i] = 0.5
+			}
 		}
 		return normalized
 	}
 
 	for i, v := range values {
+		if !valid[i] {
+			normalized[i] = 0
+			continue
+		}
 		normalized[i] = (v - minVal) / rangeVal
 	}
 	return normalized

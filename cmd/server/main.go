@@ -35,11 +35,15 @@ func main() {
 	}
 
 	repo := repository.New()
-	svc := service.New(scraper.New(nil), repo, groupConfigs)
+	indoorRepo := repository.New()
+	svc := service.New(scraper.New(nil), repo, groupConfigs, indoorRepo, groups.IndoorPreGamesStaffelID)
 
 	log.Println("scraping initial data ...")
 	if err := svc.Refresh(ctx); err != nil {
 		log.Fatalf("initial scrape failed: %v", err)
+	}
+	if err := svc.RefreshIndoor(ctx); err != nil {
+		log.Printf("indoor scrape failed: %v", err)
 	}
 
 	handler := api.NewHandler(svc)

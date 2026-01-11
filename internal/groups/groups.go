@@ -20,3 +20,7 @@ func KasselEJugend() []Config {
 		{ID: "group8", Name: "EJKK Kassel Gr. 8", StaffelID: "02TT1ER3KO000004VS5489BUVVJ8R9DS-G"},
 	}
 }
+
+// IndoorPreGamesStaffelID points at the "Hallen-Kreisturnier" tournament overview
+// that contains the pre-game groups (E - Junioren Gr. X) behind expandable headers.
+const IndoorPreGamesStaffelID = "02TFRJDJVO000000VS5489BSVTA87VEB-C"

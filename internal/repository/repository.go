@@ -64,6 +64,14 @@ func (r *Repository) Snapshot(groupID string) (model.GroupSnapshot, bool) {
 	return snap, ok
 }
 
+// Upsert updates or inserts a single snapshot.
+func (r *Repository) Upsert(snap model.GroupSnapshot) {
+	r.mu.Lock()
+	defer r.mu.Unlock()
+
+	r.groups[snap.Config.ID] = snap
+}
+
 // Snapshots returns all snapshots as a slice copy.
 func (r *Repository) Snapshots() []model.GroupSnapshot {
 	r.mu.RLock()
