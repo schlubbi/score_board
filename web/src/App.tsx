@@ -273,7 +273,7 @@ const translations: Record<Locale, Translation> = {
       title: 'Algorithm',
       overall: [
         'PowerScore is based on three per-match metrics: offense (goals for / games), defense (1 - goals against / games), dominance ((goals for - goals against) / games).',
-        'Each metric is normalized to 0..1 across all teams (overall), then combined: 0.4 * offense + 0.3 * defense + 0.3 * dominance.',
+        'Each metric is normalized to 0..1 across all teams (overall), then combined: 0.4 * offense + 0.4 * defense + 0.2 * dominance.',
         'Sorting: PowerScore desc, then goal difference, points, goals for.',
       ],
       compare: [
@@ -366,7 +366,7 @@ const translations: Record<Locale, Translation> = {
       title: 'Algorithmus',
       overall: [
         'Der PowerScore basiert auf drei Kennzahlen pro Spiel: Offense (Tore / Spiele), Defense (1 - Gegentore / Spiele), Dominanz ((Tore - Gegentore) / Spiele).',
-        'Jede Kennzahl wird über alle Teams auf 0..1 normalisiert und dann kombiniert: 0,4 * Offense + 0,3 * Defense + 0,3 * Dominanz.',
+        'Jede Kennzahl wird über alle Teams auf 0..1 normalisiert und dann kombiniert: 0,4 * Offense + 0,4 * Defense + 0,2 * Dominanz.',
         'Sortierung: PowerScore absteigend, dann Tordifferenz, Punkte, erzielte Tore.',
       ],
       compare: [

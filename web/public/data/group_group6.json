@@ -3,7 +3,7 @@
     "id": "group6",
     "name": "EJKK Kassel Gr. 6",
     "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
-    "lastUpdated": "2026-01-11T18:37:47.035095Z",
+    "lastUpdated": "2026-01-11T20:59:24.364908Z",
     "teamCount": 8
   },
   "teams": [
@@ -23,7 +23,7 @@
         "goalsAgainst": 10,
         "goalDiff": 38,
         "points": 19,
-        "scrapedAt": "2026-01-11T18:37:46.977383Z"
+        "scrapedAt": "2026-01-11T20:59:24.291049Z"
       },
       "groupMetrics": {
         "offense": 6.857142857142857,
@@ -45,7 +45,7 @@
           "defense": 0.933179723502304,
           "dominance": 0.7676902536715622
         },
-        "powerScore": 0.7508624969115583
+        "powerScore": 0.7674114438946326
       }
     },
     {
@@ -64,7 +64,7 @@
         "goalsAgainst": 19,
         "goalDiff": 26,
         "points": 15,
-        "scrapedAt": "2026-01-11T18:37:46.977398Z"
+        "scrapedAt": "2026-01-11T20:59:24.291058Z"
       },
       "groupMetrics": {
         "offense": 6.428571428571429,
@@ -75,7 +75,7 @@
           "defense": 0.7352941176470589,
           "dominance": 0.7894736842105264
         },
-        "powerScore": 0.8199303405572756
+        "powerScore": 0.814512383900929
       },
       "overallMetrics": {
         "offense": 6.428571428571429,
@@ -86,7 +86,7 @@
           "defense": 0.8294930875576035,
           "dominance": 0.6875834445927905
         },
-        "powerScore": 0.6806868694195544
+        "powerScore": 0.6948778337160356
       }
     },
     {
@@ -105,7 +105,7 @@
         "goalsAgainst": 35,
         "goalDiff": -9,
         "points": 10,
-        "scrapedAt": "2026-01-11T18:37:46.977413Z"
+        "scrapedAt": "2026-01-11T20:59:24.291068Z"
       },
       "groupMetrics": {
         "offense": 3.7142857142857144,
@@ -116,7 +116,7 @@
           "defense": 0.2647058823529412,
           "dominance": 0.1754385964912281
         },
-        "powerScore": 0.2570433436532508
+        "powerScore": 0.26597007223942215
       },
       "overallMetrics": {
         "offense": 3.7142857142857144,
@@ -127,7 +127,7 @@
           "defense": 0.6451612903225806,
           "dominance": 0.4539385847797063
         },
-        "powerScore": 0.46005577706702694
+        "powerScore": 0.47917804762131433
       }
     },
     {
@@ -146,7 +146,7 @@
         "goalsAgainst": 30,
         "goalDiff": -9,
         "points": 10,
-        "scrapedAt": "2026-01-11T18:37:46.977429Z"
+        "scrapedAt": "2026-01-11T20:59:24.291076Z"
       },
       "groupMetrics": {
         "offense": 3,
@@ -157,7 +157,7 @@
           "defense": 0.411764705882353,
           "dominance": 0.1754385964912281
         },
-        "powerScore": 0.23866099071207433
+        "powerScore": 0.2622936016511868
       },
       "overallMetrics": {
         "offense": 3,
@@ -168,7 +168,7 @@
           "defense": 0.7027649769585254,
           "dominance": 0.4539385847797063
         },
-        "powerScore": 0.45227422641620635
+        "powerScore": 0.4771568656340882
       }
     },
     {
@@ -187,7 +187,7 @@
         "goalsAgainst": 35,
         "goalDiff": -5,
         "points": 9,
-        "scrapedAt": "2026-01-11T18:37:46.977441Z"
+        "scrapedAt": "2026-01-11T20:59:24.291083Z"
       },
       "groupMetrics": {
         "offense": 4.285714285714286,
@@ -198,7 +198,7 @@
           "defense": 0.2647058823529412,
           "dominance": 0.2456140350877193
         },
-        "powerScore": 0.3280959752321982
+        "powerScore": 0.3300051599587203
       },
       "overallMetrics": {
         "offense": 4.285714285714286,
@@ -209,7 +209,7 @@
           "defense": 0.6451612903225806,
           "dominance": 0.4806408544726302
         },
-        "powerScore": 0.4881165832881873
+        "powerScore": 0.5045686268731824
       }
     },
     {
@@ -228,7 +228,7 @@
         "goalsAgainst": 44,
         "goalDiff": -16,
         "points": 9,
-        "scrapedAt": "2026-01-11T18:37:46.977454Z"
+        "scrapedAt": "2026-01-11T20:59:24.29109Z"
       },
       "groupMetrics": {
         "offense": 4,
@@ -239,7 +239,7 @@
           "defense": 0,
           "dominance": 0.05263157894736845
         },
-        "powerScore": 0.16578947368421057
+        "powerScore": 0.1605263157894737
       },
       "overallMetrics": {
         "offense": 4,
@@ -250,7 +250,7 @@
           "defense": 0.5414746543778802,
           "dominance": 0.4072096128170895
         },
-        "powerScore": 0.42495615735147335
+        "powerScore": 0.43838266150755245
       }
     },
     {
@@ -269,7 +269,7 @@
         "goalsAgainst": 26,
         "goalDiff": -6,
         "points": 5,
-        "scrapedAt": "2026-01-11T18:37:46.977466Z"
+        "scrapedAt": "2026-01-11T20:59:24.291098Z"
       },
       "groupMetrics": {
         "offense": 2.857142857142857,
@@ -280,7 +280,7 @@
           "defense": 0.5294117647058824,
           "dominance": 0.2280701754385965
         },
-        "powerScore": 0.2772445820433437
+        "powerScore": 0.3073787409700723
       },
       "overallMetrics": {
         "offense": 2.857142857142857,
@@ -291,7 +291,7 @@
           "defense": 0.748847926267281,
           "dominance": 0.4739652870493992
         },
-        "powerScore": 0.46709459056142005
+        "powerScore": 0.4945828544832083
       }
     },
     {
@@ -310,7 +310,7 @@
         "goalsAgainst": 35,
         "goalDiff": -19,
         "points": 4,
-        "scrapedAt": "2026-01-11T18:37:46.97748Z"
+        "scrapedAt": "2026-01-11T20:59:24.291105Z"
       },
       "groupMetrics": {
         "offense": 2.2857142857142856,
@@ -321,7 +321,7 @@
           "defense": 0.2647058823529412,
           "dominance": 0
         },
-        "powerScore": 0.07941176470588235
+        "powerScore": 0.10588235294117648
       },
       "overallMetrics": {
         "offense": 2.2857142857142856,
@@ -332,7 +332,7 @@
           "defense": 0.6451612903225806,
           "dominance": 0.3871829105473965
         },
-        "powerScore": 0.389903761514126
+        "powerScore": 0.41570159949164437
       }
     }
   ]

@@ -37,7 +37,7 @@ func ComputeMetrics(teams []model.TeamStats) map[string]model.MetricSet {
 	for i, team := range teams {
 		score := 0.0
 		if valid[i] {
-			score = 0.4*offenseNorm[i] + 0.3*defenseNorm[i] + 0.3*dominanceNorm[i]
+			score = 0.4*offenseNorm[i] + 0.4*defenseNorm[i] + 0.2*dominanceNorm[i]
 		}
 		metrics[team.TeamID] = model.MetricSet{
 			Offense:   offenses[i],
