@@ -17,7 +17,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-iii-tuspo-waldau-ii/-/spiel/02U3FBMA74000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-iii-tuspo-waldau-ii/-/spiel/02U3FBMA74000000VS5489BTVV378D77",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3FBMAC4000000VS5489BTVV378D77",
@@ -31,7 +33,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMAC4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMAC4000000VS5489BTVV378D77",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3FBMAG0000000VS5489BTVV378D77",
@@ -45,7 +49,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tuspo-waldau-ii/-/spiel/02U3FBMAG0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tuspo-waldau-ii/-/spiel/02U3FBMAG0000000VS5489BTVV378D77",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3FBMAKC000000VS5489BTVV378D77",
@@ -59,7 +65,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-csc-03-kassel-2/-/spiel/02U3FBMAKC000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-csc-03-kassel-2/-/spiel/02U3FBMAKC000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02U3FBMAN4000000VS5489BTVV378D77",
@@ -73,7 +81,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-tuspo-waldau-ii/-/spiel/02U3FBMAN4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-tuspo-waldau-ii/-/spiel/02U3FBMAN4000000VS5489BTVV378D77",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3FBMAUC000000VS5489BTVV378D77",
@@ -87,7 +97,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-jsg-fuldatal-ii/-/spiel/02U3FBMAUC000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-jsg-fuldatal-ii/-/spiel/02U3FBMAUC000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3FBMB08000000VS5489BTVV378D77",
@@ -101,7 +113,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-waldau-ii/-/spiel/02U3FBMB08000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-waldau-ii/-/spiel/02U3FBMB08000000VS5489BTVV378D77",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02U3FBMB90000000VS5489BTVV378D77",
@@ -115,7 +129,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-3-tuspo-waldau-ii/-/spiel/02U3FBMB90000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-3-tuspo-waldau-ii/-/spiel/02U3FBMB90000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02U3FBMBD0000000VS5489BTVV378D77",
@@ -129,7 +145,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-tsv-heiligenrode-ii/-/spiel/02U3FBMBD0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-tsv-heiligenrode-ii/-/spiel/02U3FBMBD0000000VS5489BTVV378D77",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02IH18AAJS000000VS5489B2VU2I8R4H"

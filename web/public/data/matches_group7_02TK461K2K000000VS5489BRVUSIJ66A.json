@@ -16,20 +16,9 @@
       "homeScore": 3,
       "awayScore": 4,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tuspo-rengershausen-ii/-/spiel/02U3FBMA8G000000VS5489BTVV378D77"
-    },
-    {
-      "id": "02U3FBMABC000000VS5489BTVV378D77",
-      "groupId": "group7",
-      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
-      "homeTeamId": "02II92G5ES000000VS5489B2VVQ9C6A6",
-      "homeTeam": "JSG Fuldatal II",
-      "awayTeamId": "02TK461K2K000000VS5489BRVUSIJ66A",
-      "awayTeam": "Kasseler SV 2",
-      "homeScore": 10,
-      "awayScore": 1,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-fuldatal-ii-kasseler-sv-2/-/spiel/02U3FBMABC000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tuspo-rengershausen-ii/-/spiel/02U3FBMA8G000000VS5489BTVV378D77",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3FBMAG0000000VS5489BTVV378D77",
@@ -43,7 +32,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tuspo-waldau-ii/-/spiel/02U3FBMAG0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tuspo-waldau-ii/-/spiel/02U3FBMAG0000000VS5489BTVV378D77",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3FBMAL8000000VS5489BTVV378D77",
@@ -56,7 +47,24 @@
       "homeScore": 6,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-3-kasseler-sv-2/-/spiel/02U3FBMAL8000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-3-kasseler-sv-2/-/spiel/02U3FBMAL8000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
+    },
+    {
+      "id": "02U3FBMABC000000VS5489BTVV378D77",
+      "groupId": "group7",
+      "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02II92G5ES000000VS5489B2VVQ9C6A6",
+      "homeTeam": "JSG Fuldatal II",
+      "awayTeamId": "02TK461K2K000000VS5489BRVUSIJ66A",
+      "awayTeam": "Kasseler SV 2",
+      "homeScore": 10,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-ii-kasseler-sv-2/-/spiel/02U3FBMABC000000VS5489BTVV378D77",
+      "matchDate": "2025-09-25",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3FBMAOS000000VS5489BTVV378D77",
@@ -69,7 +77,9 @@
       "homeScore": 1,
       "awayScore": 6,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tsv-heiligenrode-ii/-/spiel/02U3FBMAOS000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-tsv-heiligenrode-ii/-/spiel/02U3FBMAOS000000VS5489BTVV378D77",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3FBMAS4000000VS5489BTVV378D77",
@@ -82,7 +92,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-iii-kasseler-sv-2/-/spiel/02U3FBMAS4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-iii-kasseler-sv-2/-/spiel/02U3FBMAS4000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3FBMB34000000VS5489BTVV378D77",
@@ -95,7 +107,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMB34000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMB34000000VS5489BTVV378D77",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02U3FBMB7S000000VS5489BTVV378D77",
@@ -108,7 +122,9 @@
       "homeScore": 3,
       "awayScore": 6,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jfv-soehre-iv/-/spiel/02U3FBMB7S000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jfv-soehre-iv/-/spiel/02U3FBMB7S000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02U3FBMBE4000000VS5489BTVV378D77",
@@ -121,7 +137,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/csc-03-kassel-2-kasseler-sv-2/-/spiel/02U3FBMBE4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/csc-03-kassel-2-kasseler-sv-2/-/spiel/02U3FBMBE4000000VS5489BTVV378D77",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02TK461K2K000000VS5489BRVUSIJ66A"

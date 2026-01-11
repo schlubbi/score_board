@@ -16,7 +16,9 @@
       "homeScore": 3,
       "awayScore": 11,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/eintracht-baunatal-ii-ksv-baunatal-ii/-/spiel/02TS51PLOK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-ii-ksv-baunatal-ii/-/spiel/02TS51PLOK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-29",
+      "matchdayTag": "1"
     },
     {
       "id": "02TS51PLS8000000VS5489BUVVJ8R9DS",
@@ -29,7 +31,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/ksv-baunatal-ii-jfv-soehre-i/-/spiel/02TS51PLS8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-ii-jfv-soehre-i/-/spiel/02TS51PLS8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TS51PLVS000000VS5489BUVVJ8R9DS",
@@ -42,7 +46,9 @@
       "homeScore": 0,
       "awayScore": 11,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-i-ksv-baunatal-ii/-/spiel/02TS51PLVS000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-ksv-baunatal-ii/-/spiel/02TS51PLVS000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02TS51PM3C000000VS5489BUVVJ8R9DS",
@@ -55,7 +61,9 @@
       "homeScore": 0,
       "awayScore": 12,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/olympia-kassel-ii-ksv-baunatal-ii/-/spiel/02TS51PM3C000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/olympia-kassel-ii-ksv-baunatal-ii/-/spiel/02TS51PM3C000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02TS51PM9C000000VS5489BUVVJ8R9DS",
@@ -69,7 +77,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ksv-baunatal-ii/-/spiel/02TS51PM9C000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ksv-baunatal-ii/-/spiel/02TS51PM9C000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TS51PMCG000000VS5489BUVVJ8R9DS",
@@ -82,7 +92,9 @@
       "homeScore": 12,
       "awayScore": 4,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/ksv-baunatal-ii-jsg-nieste-staufenberg-1/-/spiel/02TS51PMCG000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-ii-jsg-nieste-staufenberg-1/-/spiel/02TS51PMCG000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     }
   ],
   "teamId": "02EI99T74C000000VS5489B2VS183IS6"

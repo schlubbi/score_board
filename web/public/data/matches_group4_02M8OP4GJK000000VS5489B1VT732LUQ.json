@@ -16,7 +16,9 @@
       "homeScore": 0,
       "awayScore": 21,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-ksv-baunatal-v/-/spiel/02U3HEV8H0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-ksv-baunatal-v/-/spiel/02U3HEV8H0000000VS5489BTVV378D77",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3HEV8NC000000VS5489BTVV378D77",
@@ -29,7 +31,9 @@
       "homeScore": 3,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-spielverein-06-ks-ii/-/spiel/02U3HEV8NC000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-spielverein-06-ks-ii/-/spiel/02U3HEV8NC000000VS5489BTVV378D77",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3HEV8P0000000VS5489BTVV378D77",
@@ -42,7 +46,9 @@
       "homeScore": 0,
       "awayScore": 27,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-tsv-oberzwehren/-/spiel/02U3HEV8P0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-tsv-oberzwehren/-/spiel/02U3HEV8P0000000VS5489BTVV378D77",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3HEV8U4000000VS5489BTVV378D77",
@@ -55,7 +61,9 @@
       "homeScore": 0,
       "awayScore": 22,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-svh-kassel/-/spiel/02U3HEV8U4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-svh-kassel/-/spiel/02U3HEV8U4000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02U3HEV93O000000VS5489BTVV378D77",
@@ -68,7 +76,9 @@
       "homeScore": 11,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-spielverein-06-ks-ii/-/spiel/02U3HEV93O000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-spielverein-06-ks-ii/-/spiel/02U3HEV93O000000VS5489BTVV378D77",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3HEV99C000000VS5489BTVV378D77",
@@ -81,7 +91,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-jsg-fuldatal-i/-/spiel/02U3HEV99C000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-jsg-fuldatal-i/-/spiel/02U3HEV99C000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3HEV9I0000000VS5489BTVV378D77",
@@ -94,7 +106,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-spielverein-06-ks-ii/-/spiel/02U3HEV9I0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-spielverein-06-ks-ii/-/spiel/02U3HEV9I0000000VS5489BTVV378D77",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02U3HEV9K4000000VS5489BTVV378D77",
@@ -108,7 +122,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-vfl-kassel-iii/-/spiel/02U3HEV9K4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-vfl-kassel-iii/-/spiel/02U3HEV9K4000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02U3HEV9QS000000VS5489BTVV378D77",
@@ -121,7 +137,9 @@
       "homeScore": 3,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-spielverein-06-ks-ii/-/spiel/02U3HEV9QS000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-spielverein-06-ks-ii/-/spiel/02U3HEV9QS000000VS5489BTVV378D77",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02M8OP4GJK000000VS5489B1VT732LUQ"

@@ -6,19 +6,6 @@
   },
   "matches": [
     {
-      "id": "02TT1FNK0O000000VS5489BUVVJ8R9DS",
-      "groupId": "group8",
-      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
-      "homeTeam": "TSG Sandershausen III",
-      "awayTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
-      "awayTeam": "Spvgg. Olympia Kassel IV",
-      "homeScore": 0,
-      "awayScore": 15,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNK0O000000VS5489BUVVJ8R9DS"
-    },
-    {
       "id": "02TT1FNK50000000VS5489BUVVJ8R9DS",
       "groupId": "group8",
       "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
@@ -29,20 +16,9 @@
       "homeScore": 9,
       "awayScore": 6,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-sv-kaufungen-07-iv/-/spiel/02TT1FNK50000000VS5489BUVVJ8R9DS"
-    },
-    {
-      "id": "02TT1FNKA8000000VS5489BUVVJ8R9DS",
-      "groupId": "group8",
-      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02ILRKSQNO000000VS5489B1VSO9MMK0",
-      "homeTeam": "FSK Vollmarshausen II",
-      "awayTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
-      "awayTeam": "Spvgg. Olympia Kassel IV",
-      "homeScore": 1,
-      "awayScore": 9,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/fsk-vollmarshausen-ii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKA8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-sv-kaufungen-07-iv/-/spiel/02TT1FNK50000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TT1FNKCS000000VS5489BUVVJ8R9DS",
@@ -55,20 +31,39 @@
       "homeScore": 10,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-svh-kassel-iv/-/spiel/02TT1FNKCS000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-svh-kassel-iv/-/spiel/02TT1FNKCS000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
-      "id": "02TT1FNKNC000000VS5489BUVVJ8R9DS",
+      "id": "02TT1FNKA8000000VS5489BUVVJ8R9DS",
       "groupId": "group8",
       "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
-      "homeTeam": "RSV Eintracht Vellmar",
+      "homeTeamId": "02ILRKSQNO000000VS5489B1VSO9MMK0",
+      "homeTeam": "FSK Vollmarshausen II",
       "awayTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
       "awayTeam": "Spvgg. Olympia Kassel IV",
-      "homeScore": 3,
-      "awayScore": 3,
+      "homeScore": 1,
+      "awayScore": 9,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKNC000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/fsk-vollmarshausen-ii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKA8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-22",
+      "matchdayTag": "3"
+    },
+    {
+      "id": "02TT1FNK0O000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
+      "homeTeam": "TSG Sandershausen III",
+      "awayTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
+      "awayTeam": "Spvgg. Olympia Kassel IV",
+      "homeScore": 0,
+      "awayScore": 15,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNK0O000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-04",
+      "matchdayTag": "1"
     },
     {
       "id": "02TT1FNKRK000000VS5489BUVVJ8R9DS",
@@ -81,7 +76,24 @@
       "homeScore": 10,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNKRK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNKRK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
+    },
+    {
+      "id": "02TT1FNKNC000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "homeTeam": "RSV Eintracht Vellmar",
+      "awayTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
+      "awayTeam": "Spvgg. Olympia Kassel IV",
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKNC000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-06",
+      "matchdayTag": "6"
     },
     {
       "id": "02TT1FNKUK000000VS5489BUVVJ8R9DS",
@@ -94,7 +106,9 @@
       "homeScore": 2,
       "awayScore": 8,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKUK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKUK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02TT1FNL60000000VS5489BUVVJ8R9DS",
@@ -107,7 +121,9 @@
       "homeScore": 12,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-sv-germks/-/spiel/02TT1FNL60000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-sv-germks/-/spiel/02TT1FNL60000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02IKR20SP4000000VS5489B2VVQ9C6A6"

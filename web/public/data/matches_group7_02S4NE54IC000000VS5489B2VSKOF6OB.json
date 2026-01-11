@@ -16,7 +16,9 @@
       "homeScore": 4,
       "awayScore": 4,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jsg-fuldatal-ii/-/spiel/02U3FBMA7O000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jsg-fuldatal-ii/-/spiel/02U3FBMA7O000000VS5489BTVV378D77",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3FBMAC4000000VS5489BTVV378D77",
@@ -30,7 +32,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMAC4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMAC4000000VS5489BTVV378D77",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3FBMAF8000000VS5489BTVV378D77",
@@ -43,7 +47,9 @@
       "homeScore": 1,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-tsv-wolfsanger-3/-/spiel/02U3FBMAF8000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-tsv-wolfsanger-3/-/spiel/02U3FBMAF8000000VS5489BTVV378D77",
+      "matchDate": "2025-09-17",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3FBMAHK000000VS5489BTVV378D77",
@@ -56,7 +62,9 @@
       "homeScore": 3,
       "awayScore": 4,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMAHK000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMAHK000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02U3FBMAO0000000VS5489BTVV378D77",
@@ -69,7 +77,9 @@
       "homeScore": 5,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-tsg-wilhelmshoehe-iii/-/spiel/02U3FBMAO0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-tsg-wilhelmshoehe-iii/-/spiel/02U3FBMAO0000000VS5489BTVV378D77",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3FBMAT4000000VS5489BTVV378D77",
@@ -82,7 +92,9 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jfv-soehre-iv/-/spiel/02U3FBMAT4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jfv-soehre-iv/-/spiel/02U3FBMAT4000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3FBMB34000000VS5489BTVV378D77",
@@ -95,7 +107,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMB34000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMB34000000VS5489BTVV378D77",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02U3FBMB70000000VS5489BTVV378D77",
@@ -108,7 +122,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-csc-03-kassel-2/-/spiel/02U3FBMB70000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-csc-03-kassel-2/-/spiel/02U3FBMB70000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02U3FBMBB0000000VS5489BTVV378D77",
@@ -121,7 +137,9 @@
       "homeScore": 6,
       "awayScore": 6,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMBB0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-ii-jsg-nieste-staufenberg-iii/-/spiel/02U3FBMBB0000000VS5489BTVV378D77",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02S4NE54IC000000VS5489B2VSKOF6OB"

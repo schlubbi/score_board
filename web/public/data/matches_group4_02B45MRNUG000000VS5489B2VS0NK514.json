@@ -17,7 +17,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-vfl-kassel-iii/-/spiel/02U3HEV8IK000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-vfl-kassel-iii/-/spiel/02U3HEV8IK000000VS5489BTVV378D77",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3HEV8LO000000VS5489BTVV378D77",
@@ -30,7 +32,9 @@
       "homeScore": 17,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-jsg-fuldatal-i/-/spiel/02U3HEV8LO000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-jsg-fuldatal-i/-/spiel/02U3HEV8LO000000VS5489BTVV378D77",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3HEV8R8000000VS5489BTVV378D77",
@@ -43,7 +47,9 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-ksv-baunatal-v/-/spiel/02U3HEV8R8000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-ksv-baunatal-v/-/spiel/02U3HEV8R8000000VS5489BTVV378D77",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3HEV90S000000VS5489BTVV378D77",
@@ -56,7 +62,9 @@
       "homeScore": 15,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-jsg-fuldatal-i/-/spiel/02U3HEV90S000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-jsg-fuldatal-i/-/spiel/02U3HEV90S000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02U3HEV958000000VS5489BTVV378D77",
@@ -69,7 +77,9 @@
       "homeScore": 6,
       "awayScore": 7,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-tsv-oberzwehren/-/spiel/02U3HEV958000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-tsv-oberzwehren/-/spiel/02U3HEV958000000VS5489BTVV378D77",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3HEV99C000000VS5489BTVV378D77",
@@ -82,20 +92,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-jsg-fuldatal-i/-/spiel/02U3HEV99C000000VS5489BTVV378D77"
-    },
-    {
-      "id": "02U3HEV9H0000000VS5489BTVV378D77",
-      "groupId": "group4",
-      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
-      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
-      "homeTeam": "SV Kaufungen 07 III",
-      "awayTeamId": "02B45MRNUG000000VS5489B2VS0NK514",
-      "awayTeam": "JSG Fuldatal I",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-jsg-fuldatal-i/-/spiel/02U3HEV9H0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-jsg-fuldatal-i/-/spiel/02U3HEV99C000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3HEV9MC000000VS5489BTVV378D77",
@@ -108,7 +107,9 @@
       "homeScore": 1,
       "awayScore": 13,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-svh-kassel/-/spiel/02U3HEV9MC000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-svh-kassel/-/spiel/02U3HEV9MC000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02U3HEV9T0000000VS5489BTVV378D77",
@@ -121,7 +122,24 @@
       "homeScore": 19,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-jsg-fuldatal-i/-/spiel/02U3HEV9T0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-jsg-fuldatal-i/-/spiel/02U3HEV9T0000000VS5489BTVV378D77",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
+    },
+    {
+      "id": "02U3HEV9H0000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+      "homeTeam": "SV Kaufungen 07 III",
+      "awayTeamId": "02B45MRNUG000000VS5489B2VS0NK514",
+      "awayTeam": "JSG Fuldatal I",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-jsg-fuldatal-i/-/spiel/02U3HEV9H0000000VS5489BTVV378D77",
+      "matchDate": "2025-11-20",
+      "matchdayTag": "7"
     }
   ],
   "teamId": "02B45MRNUG000000VS5489B2VS0NK514"

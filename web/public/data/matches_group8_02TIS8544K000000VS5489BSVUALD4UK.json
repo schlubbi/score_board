@@ -17,7 +17,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNJU8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNJU8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02TT1FNK6G000000VS5489BUVVJ8R9DS",
@@ -31,7 +33,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-sv-germks/-/spiel/02TT1FNK6G000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-sv-germks/-/spiel/02TT1FNK6G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TT1FNK8O000000VS5489BUVVJ8R9DS",
@@ -45,7 +49,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNK8O000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNK8O000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-17",
+      "matchdayTag": "3"
     },
     {
       "id": "02TT1FNKES000000VS5489BUVVJ8R9DS",
@@ -59,7 +65,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-sv-kaufungen-07-iv/-/spiel/02TT1FNKES000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-sv-kaufungen-07-iv/-/spiel/02TT1FNKES000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02TT1FNKJ8000000VS5489BUVVJ8R9DS",
@@ -72,7 +80,9 @@
       "homeScore": 0,
       "awayScore": 10,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/fsk-vollmarshausen-ii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNKJ8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/fsk-vollmarshausen-ii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNKJ8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02TT1FNKOK000000VS5489BUVVJ8R9DS",
@@ -86,7 +96,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-svh-kassel-iv/-/spiel/02TT1FNKOK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-svh-kassel-iv/-/spiel/02TT1FNKOK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TT1FNKRK000000VS5489BUVVJ8R9DS",
@@ -99,7 +111,9 @@
       "homeScore": 10,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNKRK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNKRK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02TT1FNL2S000000VS5489BUVVJ8R9DS",
@@ -112,7 +126,9 @@
       "homeScore": 3,
       "awayScore": 4,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNL2S000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNL2S000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     }
   ],
   "teamId": "02TIS8544K000000VS5489BSVUALD4UK"

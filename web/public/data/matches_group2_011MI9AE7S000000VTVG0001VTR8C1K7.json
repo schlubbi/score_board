@@ -16,7 +16,9 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-vfl-kassel-ii/-/spiel/02TS524178000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-vfl-kassel-ii/-/spiel/02TS524178000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02TS5241A0000000VS5489BUVVJ8R9DS",
@@ -29,7 +31,9 @@
       "homeScore": 8,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iii-tsv-heiligenrode/-/spiel/02TS5241A0000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iii-tsv-heiligenrode/-/spiel/02TS5241A0000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TS5241D8000000VS5489BUVVJ8R9DS",
@@ -42,7 +46,9 @@
       "homeScore": 5,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/csc-03-kassel-tsv-heiligenrode/-/spiel/02TS5241D8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/csc-03-kassel-tsv-heiligenrode/-/spiel/02TS5241D8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02TS5241F8000000VS5489BUVVJ8R9DS",
@@ -56,7 +62,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-fsk-vollmarshausen/-/spiel/02TS5241F8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-fsk-vollmarshausen/-/spiel/02TS5241F8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02TS5241LG000000VS5489BUVVJ8R9DS",
@@ -69,7 +77,9 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-ksv-baunatal-iii/-/spiel/02TS5241LG000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-ksv-baunatal-iii/-/spiel/02TS5241LG000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TS5241QK000000VS5489BUVVJ8R9DS",
@@ -82,7 +92,9 @@
       "homeScore": 5,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-jsg-nieste-staufenberg-ii/-/spiel/02TS5241QK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsv-heiligenrode-jsg-nieste-staufenberg-ii/-/spiel/02TS5241QK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     }
   ],
   "teamId": "011MI9AE7S000000VTVG0001VTR8C1K7"

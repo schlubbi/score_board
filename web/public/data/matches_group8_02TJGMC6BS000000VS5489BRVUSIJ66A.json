@@ -6,19 +6,6 @@
   },
   "matches": [
     {
-      "id": "02TT1FNK1G000000VS5489BUVVJ8R9DS",
-      "groupId": "group8",
-      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
-      "homeTeam": "SV Kaufungen 07 IV",
-      "awayTeamId": "02TMDS383O000000VS5489BSVTNMVP4D",
-      "awayTeam": "SVH Kassel IV",
-      "homeScore": 6,
-      "awayScore": 0,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-svh-kassel-iv/-/spiel/02TT1FNK1G000000VS5489BUVVJ8R9DS"
-    },
-    {
       "id": "02TT1FNK50000000VS5489BUVVJ8R9DS",
       "groupId": "group8",
       "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
@@ -29,20 +16,9 @@
       "homeScore": 9,
       "awayScore": 6,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-sv-kaufungen-07-iv/-/spiel/02TT1FNK50000000VS5489BUVVJ8R9DS"
-    },
-    {
-      "id": "02TT1FNK9G000000VS5489BUVVJ8R9DS",
-      "groupId": "group8",
-      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
-      "homeTeam": "SV Kaufungen 07 IV",
-      "awayTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
-      "awayTeam": "RSV Eintracht Vellmar",
-      "homeScore": 3,
-      "awayScore": 3,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNK9G000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-sv-kaufungen-07-iv/-/spiel/02TT1FNK50000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TT1FNKES000000VS5489BUVVJ8R9DS",
@@ -56,7 +32,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-sv-kaufungen-07-iv/-/spiel/02TT1FNKES000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-sv-kaufungen-07-iv/-/spiel/02TT1FNKES000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02TT1FNKIC000000VS5489BUVVJ8R9DS",
@@ -69,7 +47,9 @@
       "homeScore": 3,
       "awayScore": 7,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-osc-vellmar-ii/-/spiel/02TT1FNKIC000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-osc-vellmar-ii/-/spiel/02TT1FNKIC000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02TT1FNKLK000000VS5489BUVVJ8R9DS",
@@ -82,7 +62,9 @@
       "homeScore": 1,
       "awayScore": 11,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-germks-sv-kaufungen-07-iv/-/spiel/02TT1FNKLK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-germks-sv-kaufungen-07-iv/-/spiel/02TT1FNKLK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TT1FNKSG000000VS5489BUVVJ8R9DS",
@@ -95,7 +77,39 @@
       "homeScore": 5,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-tsg-sandershausen-iii/-/spiel/02TT1FNKSG000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-tsg-sandershausen-iii/-/spiel/02TT1FNKSG000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
+    },
+    {
+      "id": "02TT1FNK1G000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
+      "homeTeam": "SV Kaufungen 07 IV",
+      "awayTeamId": "02TMDS383O000000VS5489BSVTNMVP4D",
+      "awayTeam": "SVH Kassel IV",
+      "homeScore": 6,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-svh-kassel-iv/-/spiel/02TT1FNK1G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-07",
+      "matchdayTag": "1"
+    },
+    {
+      "id": "02TT1FNK9G000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
+      "homeTeam": "SV Kaufungen 07 IV",
+      "awayTeamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
+      "awayTeam": "RSV Eintracht Vellmar",
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNK9G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-12",
+      "matchdayTag": "3"
     },
     {
       "id": "02TT1FNL88000000VS5489BUVVJ8R9DS",
@@ -108,7 +122,9 @@
       "homeScore": 2,
       "awayScore": 8,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/fsk-vollmarshausen-ii-sv-kaufungen-07-iv/-/spiel/02TT1FNL88000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/fsk-vollmarshausen-ii-sv-kaufungen-07-iv/-/spiel/02TT1FNL88000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02TJGMC6BS000000VS5489BRVUSIJ66A"

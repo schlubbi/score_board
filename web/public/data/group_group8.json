@@ -3,7 +3,7 @@
     "id": "group8",
     "name": "EJKK Kassel Gr. 8",
     "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-    "lastUpdated": "2026-01-11T20:59:24.700371Z",
+    "lastUpdated": "2026-01-11T21:23:53.816694Z",
     "teamCount": 9
   },
   "teams": [
@@ -14,6 +14,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
         "teamName": "Spvgg. Olympia Kassel IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000ATVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 1,
         "games": 8,
         "wins": 7,
@@ -23,7 +24,7 @@
         "goalsAgainst": 16,
         "goalDiff": 60,
         "points": 22,
-        "scrapedAt": "2026-01-11T20:59:24.590461Z"
+        "scrapedAt": "2026-01-11T21:23:53.712981Z"
       },
       "groupMetrics": {
         "offense": 9.5,
@@ -55,6 +56,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02EIA8S2R4000000VS5489B2VS183IS6",
         "teamName": "OSC Vellmar II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BGVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 7,
         "wins": 5,
@@ -64,7 +66,7 @@
         "goalsAgainst": 21,
         "goalDiff": 30,
         "points": 18,
-        "scrapedAt": "2026-01-11T20:59:24.59047Z"
+        "scrapedAt": "2026-01-11T21:23:53.713004Z"
       },
       "groupMetrics": {
         "offense": 7.285714285714286,
@@ -96,6 +98,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
         "teamName": "RSV Eintracht Vellmar",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000AGVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 8,
         "wins": 5,
@@ -105,7 +108,7 @@
         "goalsAgainst": 14,
         "goalDiff": 25,
         "points": 18,
-        "scrapedAt": "2026-01-11T20:59:24.590479Z"
+        "scrapedAt": "2026-01-11T21:23:53.71302Z"
       },
       "groupMetrics": {
         "offense": 4.875,
@@ -137,6 +140,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
         "teamName": "SV Kaufungen 07 IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 4,
         "games": 7,
         "wins": 4,
@@ -146,7 +150,7 @@
         "goalsAgainst": 22,
         "goalDiff": 20,
         "points": 16,
-        "scrapedAt": "2026-01-11T20:59:24.590487Z"
+        "scrapedAt": "2026-01-11T21:23:53.713035Z"
       },
       "groupMetrics": {
         "offense": 6,
@@ -178,6 +182,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
         "teamName": "TSG Sandershausen III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BDVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 5,
         "games": 7,
         "wins": 3,
@@ -187,7 +192,7 @@
         "goalsAgainst": 39,
         "goalDiff": -25,
         "points": 12,
-        "scrapedAt": "2026-01-11T20:59:24.590493Z"
+        "scrapedAt": "2026-01-11T21:23:53.713052Z"
       },
       "groupMetrics": {
         "offense": 2,
@@ -219,6 +224,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
         "teamName": "SV Germ.KS",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000AMVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 6,
         "games": 7,
         "wins": 1,
@@ -228,7 +234,7 @@
         "goalsAgainst": 50,
         "goalDiff": -38,
         "points": 7,
-        "scrapedAt": "2026-01-11T20:59:24.590517Z"
+        "scrapedAt": "2026-01-11T21:23:53.713068Z"
       },
       "groupMetrics": {
         "offense": 1.7142857142857142,
@@ -260,6 +266,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02TMDS383O000000VS5489BSVTNMVP4D",
         "teamName": "SVH Kassel IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000APVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 7,
         "games": 7,
         "wins": 1,
@@ -269,7 +276,7 @@
         "goalsAgainst": 39,
         "goalDiff": -30,
         "points": 6,
-        "scrapedAt": "2026-01-11T20:59:24.590526Z"
+        "scrapedAt": "2026-01-11T21:23:53.713085Z"
       },
       "groupMetrics": {
         "offense": 1.2857142857142858,
@@ -301,6 +308,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02TIS8544K000000VS5489BSVUALD4UK",
         "teamName": "JSG Nieste/​Staufenberg IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 8,
         "games": 3,
         "wins": 1,
@@ -310,7 +318,7 @@
         "goalsAgainst": 14,
         "goalDiff": 0,
         "points": 3,
-        "scrapedAt": "2026-01-11T20:59:24.590533Z"
+        "scrapedAt": "2026-01-11T21:23:53.713099Z"
       },
       "groupMetrics": {
         "offense": 4.666666666666667,
@@ -342,6 +350,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02ILRKSQNO000000VS5489B1VSO9MMK0",
         "teamName": "FSK Vollmarshausen II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BHVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 9,
         "games": 8,
         "wins": 1,
@@ -351,7 +360,7 @@
         "goalsAgainst": 51,
         "goalDiff": -42,
         "points": 3,
-        "scrapedAt": "2026-01-11T20:59:24.59054Z"
+        "scrapedAt": "2026-01-11T21:23:53.713113Z"
       },
       "groupMetrics": {
         "offense": 1.125,

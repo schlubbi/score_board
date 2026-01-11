@@ -6,19 +6,6 @@
   },
   "matches": [
     {
-      "id": "02TT1FNK0O000000VS5489BUVVJ8R9DS",
-      "groupId": "group8",
-      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
-      "homeTeam": "TSG Sandershausen III",
-      "awayTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
-      "awayTeam": "Spvgg. Olympia Kassel IV",
-      "homeScore": 0,
-      "awayScore": 15,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNK0O000000VS5489BUVVJ8R9DS"
-    },
-    {
       "id": "02TT1FNK5O000000VS5489BUVVJ8R9DS",
       "groupId": "group8",
       "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
@@ -29,7 +16,9 @@
       "homeScore": 10,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-tsg-sandershausen-iii/-/spiel/02TT1FNK5O000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-tsg-sandershausen-iii/-/spiel/02TT1FNK5O000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TT1FNK8O000000VS5489BUVVJ8R9DS",
@@ -43,7 +32,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNK8O000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNK8O000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-17",
+      "matchdayTag": "3"
     },
     {
       "id": "02TT1FNKB4000000VS5489BUVVJ8R9DS",
@@ -56,7 +47,24 @@
       "homeScore": 6,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-tsg-sandershausen-iii/-/spiel/02TT1FNKB4000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-tsg-sandershausen-iii/-/spiel/02TT1FNKB4000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
+    },
+    {
+      "id": "02TT1FNK0O000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
+      "homeTeam": "TSG Sandershausen III",
+      "awayTeamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
+      "awayTeam": "Spvgg. Olympia Kassel IV",
+      "homeScore": 0,
+      "awayScore": 15,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNK0O000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-04",
+      "matchdayTag": "1"
     },
     {
       "id": "02TT1FNKHG000000VS5489BUVVJ8R9DS",
@@ -69,7 +77,9 @@
       "homeScore": 2,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-sv-germks/-/spiel/02TT1FNKHG000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-sv-germks/-/spiel/02TT1FNKHG000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-11",
+      "matchdayTag": "5"
     },
     {
       "id": "02TT1FNKSG000000VS5489BUVVJ8R9DS",
@@ -82,20 +92,9 @@
       "homeScore": 5,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-tsg-sandershausen-iii/-/spiel/02TT1FNKSG000000VS5489BUVVJ8R9DS"
-    },
-    {
-      "id": "02TT1FNL0O000000VS5489BUVVJ8R9DS",
-      "groupId": "group8",
-      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
-      "homeTeam": "TSG Sandershausen III",
-      "awayTeamId": "02ILRKSQNO000000VS5489B1VSO9MMK0",
-      "awayTeam": "FSK Vollmarshausen II",
-      "homeScore": 6,
-      "awayScore": 1,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-fsk-vollmarshausen-ii/-/spiel/02TT1FNL0O000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-tsg-sandershausen-iii/-/spiel/02TT1FNKSG000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02TT1FNL50000000VS5489BUVVJ8R9DS",
@@ -108,7 +107,24 @@
       "homeScore": 1,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/svh-kassel-iv-tsg-sandershausen-iii/-/spiel/02TT1FNL50000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/svh-kassel-iv-tsg-sandershausen-iii/-/spiel/02TT1FNL50000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-03",
+      "matchdayTag": "9"
+    },
+    {
+      "id": "02TT1FNL0O000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
+      "homeTeam": "TSG Sandershausen III",
+      "awayTeamId": "02ILRKSQNO000000VS5489B1VSO9MMK0",
+      "awayTeam": "FSK Vollmarshausen II",
+      "homeScore": 6,
+      "awayScore": 1,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/tsg-sandershausen-iii-fsk-vollmarshausen-ii/-/spiel/02TT1FNL0O000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-09",
+      "matchdayTag": "8"
     }
   ],
   "teamId": "02M5LG2NR8000000VS5489B1VT732LUQ"

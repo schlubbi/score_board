@@ -16,7 +16,9 @@
       "homeScore": 0,
       "awayScore": 21,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-ksv-baunatal-v/-/spiel/02U3HEV8H0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-ii-ksv-baunatal-v/-/spiel/02U3HEV8H0000000VS5489BTVV378D77",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3HEV8MK000000VS5489BTVV378D77",
@@ -29,7 +31,9 @@
       "homeScore": 8,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-sv-kaufungen-07-iii/-/spiel/02U3HEV8MK000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-sv-kaufungen-07-iii/-/spiel/02U3HEV8MK000000VS5489BTVV378D77",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3HEV8R8000000VS5489BTVV378D77",
@@ -42,7 +46,9 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-ksv-baunatal-v/-/spiel/02U3HEV8R8000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-fuldatal-i-ksv-baunatal-v/-/spiel/02U3HEV8R8000000VS5489BTVV378D77",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3HEV8VS000000VS5489BTVV378D77",
@@ -55,7 +61,9 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-soccer-academy-ks-2/-/spiel/02U3HEV8VS000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-soccer-academy-ks-2/-/spiel/02U3HEV8VS000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02U3HEV92O000000VS5489BTVV378D77",
@@ -69,7 +77,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/vfl-kassel-iii-ksv-baunatal-v/-/spiel/02U3HEV92O000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/vfl-kassel-iii-ksv-baunatal-v/-/spiel/02U3HEV92O000000VS5489BTVV378D77",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3HEV9B8000000VS5489BTVV378D77",
@@ -82,20 +92,9 @@
       "homeScore": 0,
       "awayScore": 9,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-jsg-ahnatal-ii/-/spiel/02U3HEV9B8000000VS5489BTVV378D77"
-    },
-    {
-      "id": "02U3HEV9DS000000VS5489BTVV378D77",
-      "groupId": "group4",
-      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
-      "homeTeamId": "011MIDBML0000000VTVG0001VTR8C1K7",
-      "homeTeam": "SVH Kassel",
-      "awayTeamId": "02Q09MJ4JK000000VS5489B2VTB2M2VN",
-      "awayTeam": "KSV Baunatal V",
-      "homeScore": 7,
-      "awayScore": 3,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/svh-kassel-ksv-baunatal-v/-/spiel/02U3HEV9DS000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-jsg-ahnatal-ii/-/spiel/02U3HEV9B8000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3HEV9NK000000VS5489BTVV378D77",
@@ -108,7 +107,24 @@
       "homeScore": 5,
       "awayScore": 5,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-ksv-baunatal-v/-/spiel/02U3HEV9NK000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-ksv-baunatal-v/-/spiel/02U3HEV9NK000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
+    },
+    {
+      "id": "02U3HEV9DS000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "011MIDBML0000000VTVG0001VTR8C1K7",
+      "homeTeam": "SVH Kassel",
+      "awayTeamId": "02Q09MJ4JK000000VS5489B2VTB2M2VN",
+      "awayTeam": "KSV Baunatal V",
+      "homeScore": 7,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/svh-kassel-ksv-baunatal-v/-/spiel/02U3HEV9DS000000VS5489BTVV378D77",
+      "matchDate": "2025-11-11",
+      "matchdayTag": "7"
     },
     {
       "id": "02U3HEV9RS000000VS5489BTVV378D77",
@@ -121,7 +137,9 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-tsv-oberzwehren/-/spiel/02U3HEV9RS000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-tsv-oberzwehren/-/spiel/02U3HEV9RS000000VS5489BTVV378D77",
+      "matchDate": "2025-11-22",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02Q09MJ4JK000000VS5489B2VTB2M2VN"

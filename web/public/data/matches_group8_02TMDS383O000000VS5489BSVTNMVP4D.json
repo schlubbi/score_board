@@ -6,19 +6,6 @@
   },
   "matches": [
     {
-      "id": "02TT1FNK1G000000VS5489BUVVJ8R9DS",
-      "groupId": "group8",
-      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
-      "homeTeam": "SV Kaufungen 07 IV",
-      "awayTeamId": "02TMDS383O000000VS5489BSVTNMVP4D",
-      "awayTeam": "SVH Kassel IV",
-      "homeScore": 6,
-      "awayScore": 0,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-svh-kassel-iv/-/spiel/02TT1FNK1G000000VS5489BUVVJ8R9DS"
-    },
-    {
       "id": "02TT1FNK4C000000VS5489BUVVJ8R9DS",
       "groupId": "group8",
       "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
@@ -29,7 +16,9 @@
       "homeScore": 2,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/svh-kassel-iv-fsk-vollmarshausen-ii/-/spiel/02TT1FNK4C000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/svh-kassel-iv-fsk-vollmarshausen-ii/-/spiel/02TT1FNK4C000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TT1FNKCS000000VS5489BUVVJ8R9DS",
@@ -42,7 +31,9 @@
       "homeScore": 10,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-svh-kassel-iv/-/spiel/02TT1FNKCS000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/spvgg-olympia-kassel-iv-svh-kassel-iv/-/spiel/02TT1FNKCS000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02TT1FNKGK000000VS5489BUVVJ8R9DS",
@@ -55,7 +46,9 @@
       "homeScore": 1,
       "awayScore": 6,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/svh-kassel-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNKGK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/svh-kassel-iv-rsv-eintracht-vellmar/-/spiel/02TT1FNKGK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02TT1FNKOK000000VS5489BUVVJ8R9DS",
@@ -69,7 +62,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-svh-kassel-iv/-/spiel/02TT1FNKOK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iv-svh-kassel-iv/-/spiel/02TT1FNKOK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TT1FNKQK000000VS5489BUVVJ8R9DS",
@@ -82,20 +77,9 @@
       "homeScore": 1,
       "awayScore": 10,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/svh-kassel-iv-osc-vellmar-ii/-/spiel/02TT1FNKQK000000VS5489BUVVJ8R9DS"
-    },
-    {
-      "id": "02TT1FNKVK000000VS5489BUVVJ8R9DS",
-      "groupId": "group8",
-      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-      "homeTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
-      "homeTeam": "SV Germ.KS",
-      "awayTeamId": "02TMDS383O000000VS5489BSVTNMVP4D",
-      "awayTeam": "SVH Kassel IV",
-      "homeScore": 2,
-      "awayScore": 3,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-germks-svh-kassel-iv/-/spiel/02TT1FNKVK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/svh-kassel-iv-osc-vellmar-ii/-/spiel/02TT1FNKQK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02TT1FNL50000000VS5489BUVVJ8R9DS",
@@ -108,7 +92,39 @@
       "homeScore": 1,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/svh-kassel-iv-tsg-sandershausen-iii/-/spiel/02TT1FNL50000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/svh-kassel-iv-tsg-sandershausen-iii/-/spiel/02TT1FNL50000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-03",
+      "matchdayTag": "9"
+    },
+    {
+      "id": "02TT1FNK1G000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
+      "homeTeam": "SV Kaufungen 07 IV",
+      "awayTeamId": "02TMDS383O000000VS5489BSVTNMVP4D",
+      "awayTeam": "SVH Kassel IV",
+      "homeScore": 6,
+      "awayScore": 0,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-svh-kassel-iv/-/spiel/02TT1FNK1G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-07",
+      "matchdayTag": "1"
+    },
+    {
+      "id": "02TT1FNKVK000000VS5489BUVVJ8R9DS",
+      "groupId": "group8",
+      "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+      "homeTeamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+      "homeTeam": "SV Germ.KS",
+      "awayTeamId": "02TMDS383O000000VS5489BSVTNMVP4D",
+      "awayTeam": "SVH Kassel IV",
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-germks-svh-kassel-iv/-/spiel/02TT1FNKVK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     }
   ],
   "teamId": "02TMDS383O000000VS5489BSVTNMVP4D"

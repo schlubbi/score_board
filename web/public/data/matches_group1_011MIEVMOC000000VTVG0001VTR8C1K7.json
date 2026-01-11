@@ -16,7 +16,9 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-i-olympia-kassel-ii/-/spiel/02TS51PLQ0000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-olympia-kassel-ii/-/spiel/02TS51PLQ0000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02TS51PLVS000000VS5489BUVVJ8R9DS",
@@ -29,7 +31,9 @@
       "homeScore": 0,
       "awayScore": 11,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-i-ksv-baunatal-ii/-/spiel/02TS51PLVS000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-ksv-baunatal-ii/-/spiel/02TS51PLVS000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02TS51PM2G000000VS5489BUVVJ8R9DS",
@@ -43,7 +47,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-osc-vellmar-i/-/spiel/02TS51PM2G000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-osc-vellmar-i/-/spiel/02TS51PM2G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02TS51PM5G000000VS5489BUVVJ8R9DS",
@@ -56,7 +62,9 @@
       "homeScore": 6,
       "awayScore": 5,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-i-jsg-nieste-staufenberg-1/-/spiel/02TS51PM5G000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-jsg-nieste-staufenberg-1/-/spiel/02TS51PM5G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-29",
+      "matchdayTag": "5"
     },
     {
       "id": "02TS51PM7S000000VS5489BUVVJ8R9DS",
@@ -69,7 +77,9 @@
       "homeScore": 4,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/eintracht-baunatal-ii-osc-vellmar-i/-/spiel/02TS51PM7S000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-ii-osc-vellmar-i/-/spiel/02TS51PM7S000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TS51PMDG000000VS5489BUVVJ8R9DS",
@@ -82,7 +92,9 @@
       "homeScore": 2,
       "awayScore": 10,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-i-jfv-soehre-i/-/spiel/02TS51PMDG000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-i-jfv-soehre-i/-/spiel/02TS51PMDG000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     }
   ],
   "teamId": "011MIEVMOC000000VTVG0001VTR8C1K7"

@@ -113,6 +113,19 @@ header h1 {
   margin: 0.35rem 0 0;
 }
 
+.lede-list {
+  margin: 0.35rem 0 0;
+  padding-left: 1.1rem;
+  max-width: 760px;
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.lede-list li + li {
+  margin-top: 0.35rem;
+}
+
 .actions {
   display: flex;
   flex-direction: column;
@@ -189,6 +202,62 @@ select {
   background: #f8fafc;
 }
 
+.trend-metric {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.trend-metric select {
+  margin-left: 0;
+}
+
+.enhanced-summary {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.enhanced-summary-title {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.enhanced-settings {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.enhanced-settings-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.enhanced-settings-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.enhanced-setting-value {
+  font-weight: 600;
+  margin: 0.15rem 0 0.35rem;
+}
+
+.enhanced-weight {
+  margin-top: 0.5rem;
+}
+
+.inactive-row {
+  opacity: 0.65;
+}
+
 .table-scroll {
   overflow-x: auto;
 }
@@ -260,6 +329,315 @@ tr:last-child td {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
+}
+
+.team-compare-controls {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) minmax(320px, 2fr);
+  gap: 1rem;
+  align-items: start;
+  margin-bottom: 1.25rem;
+}
+
+.team-compare-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.team-compare-field input {
+  padding: 0.45rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5f5;
+  background: #f8fafc;
+}
+
+.team-compare-field-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.link {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+button.link:hover {
+  text-decoration: underline;
+}
+
+.compare-team-list {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  background: #f8fafc;
+  max-height: 340px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.compare-team-item {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.team-compare-note {
+  margin-top: 0.25rem;
+}
+
+.compare-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.compare-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.compare-card.mine {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.compare-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-bottom: 0.25rem;
+}
+
+.compare-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.team-logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 0.6rem;
+  background: #f1f5f9;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.team-logo.fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 0.75rem;
+}
+
+.trend-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.trend-chart {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.trend-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: #334155;
+}
+
+.trend-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.mini-logo {
+  width: 18px;
+  height: 18px;
+  border-radius: 0.35rem;
+  background: #f1f5f9;
+  object-fit: contain;
+}
+
+.mini-logo.fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.quadrant-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.quadrant {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  aspect-ratio: 16 / 9;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  background:
+    linear-gradient(#f1f5f9 1px, transparent 1px),
+    linear-gradient(90deg, #f1f5f9 1px, transparent 1px);
+  background-size: 20% 20%;
+  overflow: hidden;
+}
+
+.quadrant-axis {
+  position: absolute;
+  background: rgba(100, 116, 139, 0.35);
+}
+
+.quadrant-axis.x {
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+}
+
+.quadrant-axis.y {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+}
+
+.quadrant-label {
+  position: absolute;
+  font-size: 0.7rem;
+  color: #64748b;
+  padding: 0.25rem 0.5rem;
+}
+
+.quadrant-label.tl {
+  top: 0.25rem;
+  left: 0.25rem;
+}
+
+.quadrant-label.tr {
+  top: 0.25rem;
+  right: 0.25rem;
+  text-align: right;
+}
+
+.quadrant-label.bl {
+  bottom: 0.25rem;
+  left: 0.25rem;
+}
+
+.quadrant-label.br {
+  bottom: 0.25rem;
+  right: 0.25rem;
+  text-align: right;
+}
+
+.quad-point {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  border: 3px solid #94a3b8;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.15);
+  overflow: hidden;
+}
+
+.quad-point img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.quad-point .fallback {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.metric-row {
+  display: grid;
+  grid-template-columns: 110px 1fr 60px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.metric-row.secondary .metric-label,
+.metric-row.secondary .metric-value {
+  color: #64748b;
+}
+
+.metric-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #475569;
+}
+
+.metric-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: #0f172a;
+  font-size: 0.85rem;
+}
+
+.metric-bar {
+  height: 10px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  overflow: hidden;
+}
+
+.metric-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+}
+
+@media (max-width: 860px) {
+  .team-compare-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-row {
+    grid-template-columns: 100px 1fr 60px;
+  }
 }
 
 .recommendation-card {

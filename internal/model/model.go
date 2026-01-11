@@ -33,6 +33,7 @@ type TeamStats struct {
 	StaffelID    string    `json:"staffelId"`
 	TeamID       string    `json:"teamId"`
 	TeamName     string    `json:"teamName"`
+	LogoURL      string    `json:"logoUrl,omitempty"`
 	Rank         int       `json:"rank"`
 	Games        int       `json:"games"`
 	Wins         int       `json:"wins"`

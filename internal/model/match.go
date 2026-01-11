@@ -28,6 +28,7 @@ type MatchResult struct {
 	Status      MatchStatus `json:"status"`
 	Note        string      `json:"note,omitempty"`
 	URL         string      `json:"url"`
+	MatchDate   string      `json:"matchDate,omitempty"`
 	MatchdayTag string      `json:"matchdayTag,omitempty"`
 }
 

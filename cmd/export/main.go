@@ -35,7 +35,8 @@ func main() {
 
 	leagueRepo := repository.New()
 	indoorRepo := repository.New()
-	svc := service.New(scraper.New(nil), leagueRepo, leagueConfigs, indoorRepo, groups.IndoorPreGamesStaffelID)
+	s := scraper.New(nil)
+	svc := service.New(s, leagueRepo, leagueConfigs, indoorRepo, groups.IndoorPreGamesStaffelID)
 
 	log.Println("scraping league ...")
 	if err := svc.Refresh(ctx); err != nil {
@@ -44,6 +45,12 @@ func main() {
 	log.Println("scraping indoor ...")
 	if err := svc.RefreshIndoor(ctx); err != nil {
 		log.Printf("indoor scrape failed: %v", err)
+	}
+
+	// Best-effort enrichment for match ordering on the compare visuals.
+	for _, snap := range leagueRepo.Snapshots() {
+		snap.Matches = s.EnrichMatchMetadata(ctx, snap.Matches)
+		leagueRepo.Upsert(snap)
 	}
 
 	if err := os.MkdirAll(*outDir, 0o755); err != nil {
@@ -58,7 +65,15 @@ func main() {
 		mustWrite(filepath.Join(*outDir, fmt.Sprintf("group_%s.json", snap.Config.ID)), buildGroupDetail(leagueRepo, snap))
 		for _, team := range snap.Teams {
 			matches := filterTeamMatches(snap.Matches, team.TeamID)
-			sort.SliceStable(matches, func(i, j int) bool { return matches[i].ID < matches[j].ID })
+			sort.SliceStable(matches, func(i, j int) bool {
+				if matches[i].MatchDate != matches[j].MatchDate {
+					return matches[i].MatchDate < matches[j].MatchDate
+				}
+				if matches[i].MatchdayTag != matches[j].MatchdayTag {
+					return matches[i].MatchdayTag < matches[j].MatchdayTag
+				}
+				return matches[i].ID < matches[j].ID
+			})
 			mustWrite(filepath.Join(*outDir, fmt.Sprintf("matches_%s_%s.json", snap.Config.ID, team.TeamID)), map[string]any{
 				"group": map[string]string{"id": snap.Config.ID, "name": snap.Config.Name},
 				"teamId":  team.TeamID,
@@ -189,7 +204,15 @@ func buildOverallElo(repo *repository.Repository) map[string]any {
 	for _, snap := range snaps {
 		allMatches = append(allMatches, snap.Matches...)
 	}
-	sort.SliceStable(allMatches, func(i, j int) bool { return allMatches[i].ID < allMatches[j].ID })
+	sort.SliceStable(allMatches, func(i, j int) bool {
+		if allMatches[i].MatchDate != allMatches[j].MatchDate {
+			return allMatches[i].MatchDate < allMatches[j].MatchDate
+		}
+		if allMatches[i].MatchdayTag != allMatches[j].MatchdayTag {
+			return allMatches[i].MatchdayTag < allMatches[j].MatchdayTag
+		}
+		return allMatches[i].ID < allMatches[j].ID
+	})
 	elo := power.ComputeElo(allMatches, 1500, 20)
 
 	type teamElo struct {

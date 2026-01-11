@@ -17,7 +17,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-1-tsg-wilhelmshoehe/-/spiel/02TS51PLN4000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-1-tsg-wilhelmshoehe/-/spiel/02TS51PLN4000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02TS51PLSS000000VS5489BUVVJ8R9DS",
@@ -31,7 +33,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-eintracht-baunatal-ii/-/spiel/02TS51PLSS000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-eintracht-baunatal-ii/-/spiel/02TS51PLSS000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TS51PLV8000000VS5489BUVVJ8R9DS",
@@ -45,7 +49,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/jfv-soehre-i-tsg-wilhelmshoehe/-/spiel/02TS51PLV8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jfv-soehre-i-tsg-wilhelmshoehe/-/spiel/02TS51PLV8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02TS51PM2G000000VS5489BUVVJ8R9DS",
@@ -59,7 +65,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-osc-vellmar-i/-/spiel/02TS51PM2G000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-osc-vellmar-i/-/spiel/02TS51PM2G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02TS51PM9C000000VS5489BUVVJ8R9DS",
@@ -73,7 +81,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt HEIM",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ksv-baunatal-ii/-/spiel/02TS51PM9C000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ksv-baunatal-ii/-/spiel/02TS51PM9C000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TS51PMAC000000VS5489BUVVJ8R9DS",
@@ -87,7 +97,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/olympia-kassel-ii-tsg-wilhelmshoehe/-/spiel/02TS51PMAC000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/olympia-kassel-ii-tsg-wilhelmshoehe/-/spiel/02TS51PMAC000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     }
   ],
   "teamId": "012SPDHLPG000000VV0AG811VVMSC00G"

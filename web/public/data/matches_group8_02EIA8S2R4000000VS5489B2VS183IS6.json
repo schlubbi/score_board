@@ -17,7 +17,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "U",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNJU8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-jsg-nieste-staufenberg-iv/-/spiel/02TT1FNJU8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02TT1FNK80000000VS5489BUVVJ8R9DS",
@@ -30,7 +32,9 @@
       "homeScore": 1,
       "awayScore": 21,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-germks-osc-vellmar-ii/-/spiel/02TT1FNK80000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-germks-osc-vellmar-ii/-/spiel/02TT1FNK80000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02TT1FNKB4000000VS5489BUVVJ8R9DS",
@@ -43,7 +47,9 @@
       "homeScore": 6,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-tsg-sandershausen-iii/-/spiel/02TT1FNKB4000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-tsg-sandershausen-iii/-/spiel/02TT1FNKB4000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02TT1FNKIC000000VS5489BUVVJ8R9DS",
@@ -56,7 +62,9 @@
       "homeScore": 3,
       "awayScore": 7,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-osc-vellmar-ii/-/spiel/02TT1FNKIC000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iv-osc-vellmar-ii/-/spiel/02TT1FNKIC000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02TT1FNKKG000000VS5489BUVVJ8R9DS",
@@ -69,7 +77,9 @@
       "homeScore": 4,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-fsk-vollmarshausen-ii/-/spiel/02TT1FNKKG000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-fsk-vollmarshausen-ii/-/spiel/02TT1FNKKG000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TT1FNKQK000000VS5489BUVVJ8R9DS",
@@ -82,7 +92,9 @@
       "homeScore": 1,
       "awayScore": 10,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/svh-kassel-iv-osc-vellmar-ii/-/spiel/02TT1FNKQK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/svh-kassel-iv-osc-vellmar-ii/-/spiel/02TT1FNKQK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02TT1FNKUK000000VS5489BUVVJ8R9DS",
@@ -95,7 +107,9 @@
       "homeScore": 2,
       "awayScore": 8,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKUK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/osc-vellmar-ii-spvgg-olympia-kassel-iv/-/spiel/02TT1FNKUK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02TT1FNL78000000VS5489BUVVJ8R9DS",
@@ -108,7 +122,9 @@
       "homeScore": 6,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-osc-vellmar-ii/-/spiel/02TT1FNL78000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/rsv-eintracht-vellmar-osc-vellmar-ii/-/spiel/02TT1FNL78000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02EIA8S2R4000000VS5489B2VS183IS6"

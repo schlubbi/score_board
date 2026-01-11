@@ -3,7 +3,7 @@
     "id": "group5",
     "name": "EJKK Kassel Gr. 5",
     "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
-    "lastUpdated": "2026-01-11T20:59:24.225828Z",
+    "lastUpdated": "2026-01-11T21:23:53.345199Z",
     "teamCount": 8
   },
   "teams": [
@@ -14,6 +14,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
         "teamName": "TSG Wilhelmshöhe II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9G8000001VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 1,
         "games": 7,
         "wins": 6,
@@ -23,7 +24,7 @@
         "goalsAgainst": 10,
         "goalDiff": 54,
         "points": 18,
-        "scrapedAt": "2026-01-11T20:59:24.147084Z"
+        "scrapedAt": "2026-01-11T21:23:53.275697Z"
       },
       "groupMetrics": {
         "offense": 9.142857142857142,
@@ -55,6 +56,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "02M84T8CJK000000VS5489B1VT732LUQ",
         "teamName": "TSV Hertingshausen",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A9VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 7,
         "wins": 5,
@@ -64,7 +66,7 @@
         "goalsAgainst": 24,
         "goalDiff": 34,
         "points": 15,
-        "scrapedAt": "2026-01-11T20:59:24.147103Z"
+        "scrapedAt": "2026-01-11T21:23:53.275707Z"
       },
       "groupMetrics": {
         "offense": 8.285714285714286,
@@ -96,6 +98,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "02EPVED62O000000VS5489B1VT0RKM5V",
         "teamName": "JSG Ahnatal",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F000009SVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 7,
         "wins": 5,
@@ -105,7 +108,7 @@
         "goalsAgainst": 18,
         "goalDiff": 8,
         "points": 15,
-        "scrapedAt": "2026-01-11T20:59:24.147119Z"
+        "scrapedAt": "2026-01-11T21:23:53.275717Z"
       },
       "groupMetrics": {
         "offense": 3.7142857142857144,
@@ -137,6 +140,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
         "teamName": "SV Kaufungen 07 II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 4,
         "games": 7,
         "wins": 4,
@@ -146,7 +150,7 @@
         "goalsAgainst": 17,
         "goalDiff": 5,
         "points": 12,
-        "scrapedAt": "2026-01-11T20:59:24.147142Z"
+        "scrapedAt": "2026-01-11T21:23:53.275726Z"
       },
       "groupMetrics": {
         "offense": 3.142857142857143,
@@ -178,6 +182,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "029JRT7UNG000000VS5489B1VT684KFR",
         "teamName": "SVH Kassel II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000APVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 5,
         "games": 7,
         "wins": 2,
@@ -187,7 +192,7 @@
         "goalsAgainst": 26,
         "goalDiff": -4,
         "points": 8,
-        "scrapedAt": "2026-01-11T20:59:24.147155Z"
+        "scrapedAt": "2026-01-11T21:23:53.275734Z"
       },
       "groupMetrics": {
         "offense": 3.142857142857143,
@@ -219,6 +224,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "011MICAA94000000VTVG0001VTR8C1K7",
         "teamName": "SV Nordshausen",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B8VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 6,
         "games": 7,
         "wins": 2,
@@ -228,7 +234,7 @@
         "goalsAgainst": 50,
         "goalDiff": -28,
         "points": 7,
-        "scrapedAt": "2026-01-11T20:59:24.147169Z"
+        "scrapedAt": "2026-01-11T21:23:53.275745Z"
       },
       "groupMetrics": {
         "offense": 3.142857142857143,
@@ -260,6 +266,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "02PPCOTUB8000000VS5489B2VUGLP840",
         "teamName": "JFV Söhre III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01KV4DEDV8000000VV0AG811VULRS8KS/verband/0123456789ABCDEF0123456700004170",
         "rank": 7,
         "games": 7,
         "wins": 1,
@@ -269,7 +276,7 @@
         "goalsAgainst": 56,
         "goalDiff": -38,
         "points": 4,
-        "scrapedAt": "2026-01-11T20:59:24.147181Z"
+        "scrapedAt": "2026-01-11T21:23:53.275754Z"
       },
       "groupMetrics": {
         "offense": 2.5714285714285716,
@@ -301,6 +308,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "011MIBTMUO000000VTVG0001VTR8C1K7",
         "teamName": "TSV Vellmar",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 8,
         "games": 7,
         "wins": 0,
@@ -310,7 +318,7 @@
         "goalsAgainst": 54,
         "goalDiff": -31,
         "points": 2,
-        "scrapedAt": "2026-01-11T20:59:24.147193Z"
+        "scrapedAt": "2026-01-11T21:23:53.275763Z"
       },
       "groupMetrics": {
         "offense": 3.2857142857142856,

@@ -16,20 +16,9 @@
       "homeScore": 9,
       "awayScore": 7,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tuspo-waldau-svh-kassel-iii/-/spiel/02TSCSPVTO000000VS5489BUVVJ8R9DS"
-    },
-    {
-      "id": "02TSCSQ01G000000VS5489BUVVJ8R9DS",
-      "groupId": "group6",
-      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
-      "homeTeamId": "02TLFMCMAG000000VS5489BRVTFKGF73",
-      "homeTeam": "SV Kaufungen 07 V",
-      "awayTeamId": "023KKO5SK0000000VS548985VTNSAQK7",
-      "awayTeam": "Tuspo Waldau",
-      "homeScore": 1,
-      "awayScore": 10,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-v-tuspo-waldau/-/spiel/02TSCSQ01G000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-svh-kassel-iii/-/spiel/02TSCSPVTO000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02TSCSQ050000000VS5489BUVVJ8R9DS",
@@ -42,20 +31,24 @@
       "homeScore": 9,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-tuspo-waldau/-/spiel/02TSCSQ050000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tuspo-rengershausen-tuspo-waldau/-/spiel/02TSCSQ050000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
-      "id": "02TSCSQ07C000000VS5489BUVVJ8R9DS",
+      "id": "02TSCSQ01G000000VS5489BUVVJ8R9DS",
       "groupId": "group6",
       "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
-      "homeTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
-      "homeTeam": "Eintracht Baunatal IV",
+      "homeTeamId": "02TLFMCMAG000000VS5489BRVTFKGF73",
+      "homeTeam": "SV Kaufungen 07 V",
       "awayTeamId": "023KKO5SK0000000VS548985VTNSAQK7",
       "awayTeam": "Tuspo Waldau",
-      "homeScore": 8,
-      "awayScore": 2,
+      "homeScore": 1,
+      "awayScore": 10,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iv-tuspo-waldau/-/spiel/02TSCSQ07C000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-v-tuspo-waldau/-/spiel/02TSCSQ01G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-18",
+      "matchdayTag": "2"
     },
     {
       "id": "02TSCSQ0D0000000VS5489BUVVJ8R9DS",
@@ -68,7 +61,9 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jfv-soehre-v-tuspo-waldau/-/spiel/02TSCSQ0D0000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jfv-soehre-v-tuspo-waldau/-/spiel/02TSCSQ0D0000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02TSCSQ0E0000000VS5489BUVVJ8R9DS",
@@ -81,7 +76,24 @@
       "homeScore": 3,
       "awayScore": 5,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tuspo-waldau-tsg-sandershausen-ii/-/spiel/02TSCSQ0E0000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tuspo-waldau-tsg-sandershausen-ii/-/spiel/02TSCSQ0E0000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-23",
+      "matchdayTag": "6"
+    },
+    {
+      "id": "02TSCSQ07C000000VS5489BUVVJ8R9DS",
+      "groupId": "group6",
+      "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
+      "homeTeam": "Eintracht Baunatal IV",
+      "awayTeamId": "023KKO5SK0000000VS548985VTNSAQK7",
+      "awayTeam": "Tuspo Waldau",
+      "homeScore": 8,
+      "awayScore": 2,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/eintracht-baunatal-iv-tuspo-waldau/-/spiel/02TSCSQ07C000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-09",
+      "matchdayTag": "4"
     },
     {
       "id": "02TSCSQ0J4000000VS5489BUVVJ8R9DS",
@@ -94,7 +106,9 @@
       "homeScore": 5,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-vellmar-ii-tuspo-waldau/-/spiel/02TSCSQ0J4000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsv-vellmar-ii-tuspo-waldau/-/spiel/02TSCSQ0J4000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-13",
+      "matchdayTag": "7"
     }
   ],
   "teamId": "023KKO5SK0000000VS548985VTNSAQK7"

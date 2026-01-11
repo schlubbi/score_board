@@ -89,6 +89,12 @@ func extractTeam(sel *goquery.Selection, cfg model.GroupConfig) (model.TeamStats
 	rank := parseInt(strings.TrimSuffix(rankText, "."))
 
 	clubCell := cols.Eq(2)
+	logoURL, _ := clubCell.Find(".club-logo img").Attr("src")
+	logoURL = strings.TrimSpace(logoURL)
+	if strings.HasPrefix(logoURL, "//") {
+		logoURL = "https:" + logoURL
+	}
+
 	name := strings.TrimSpace(clubCell.Find(".club-name").Text())
 	if name == "" {
 		return model.TeamStats{}, false
@@ -111,6 +117,7 @@ func extractTeam(sel *goquery.Selection, cfg model.GroupConfig) (model.TeamStats
 		StaffelID:    cfg.StaffelID,
 		TeamID:       teamID,
 		TeamName:     name,
+		LogoURL:      logoURL,
 		Rank:         rank,
 		Games:        games,
 		Wins:         wins,
@@ -322,6 +329,71 @@ func (s *Scraper) parseCrossTableMatches(doc *goquery.Document, cfg model.GroupC
 	})
 
 	return matches
+}
+
+var (
+	matchdayRegex   = regexp.MustCompile(`(?i)(\d+)\.\s*spieltag`)
+	matchDateRegex  = regexp.MustCompile(`/spieldatum/(\d{4}-\d{2}-\d{2})/`)
+)
+
+// EnrichMatchMetadata loads the match pages and tries to extract matchday + match date.
+// This is intentionally best-effort (network hiccups should not fail the overall scrape).
+func (s *Scraper) EnrichMatchMetadata(ctx context.Context, matches []model.MatchResult) []model.MatchResult {
+	out := make([]model.MatchResult, len(matches))
+	copy(out, matches)
+
+	for i := range out {
+		m := out[i]
+		if m.URL == "" {
+			continue
+		}
+		if m.MatchDate != "" && m.MatchdayTag != "" {
+			continue
+		}
+
+		url := strings.TrimSpace(m.URL)
+		if strings.HasPrefix(url, "//") {
+			url = "https:" + url
+		}
+		if strings.HasPrefix(url, "/") {
+			url = "https://www.fussball.de" + url
+		}
+
+		doc, err := s.fetchDocument(ctx, url)
+		if err != nil {
+			continue
+		}
+
+		if m.MatchDate == "" {
+			anchor := doc.Find("a[href*='/spieldatum/']").First()
+			if anchor.Length() > 0 {
+				href, _ := anchor.Attr("href")
+				if mm := matchDateRegex.FindStringSubmatch(href); len(mm) == 2 {
+					m.MatchDate = mm[1]
+				}
+			}
+		}
+
+		if m.MatchdayTag == "" {
+			doc.Find("li.row").Each(func(_ int, row *goquery.Selection) {
+				if m.MatchdayTag != "" {
+					return
+				}
+				label := strings.TrimSpace(row.Find("span").First().Text())
+				if label != "Spiel:" {
+					return
+				}
+				value := strings.TrimSpace(row.Find("span").Eq(1).Text())
+				if mm := matchdayRegex.FindStringSubmatch(value); len(mm) == 2 {
+					m.MatchdayTag = mm[1]
+				}
+			})
+		}
+
+		out[i] = m
+	}
+
+	return out
 }
 
 const tournamentURLTemplate = "https://www.fussball.de/spieltagsuebersicht/-/staffel/%s"

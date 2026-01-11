@@ -7,6 +7,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02IKR20SP4000000VS5489B2VVQ9C6A6",
         "teamName": "Spvgg. Olympia Kassel IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000ATVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 1,
         "games": 8,
         "wins": 7,
@@ -16,52 +17,10 @@
         "goalsAgainst": 16,
         "goalDiff": 60,
         "points": 22,
-        "scrapedAt": "2026-01-11T20:59:24.590461Z"
+        "scrapedAt": "2026-01-11T21:23:53.712981Z"
       },
-      "elo": 1662.8458591380909,
+      "elo": 1658.3489879755641,
       "games": 8
-    },
-    {
-      "team": {
-        "groupId": "group7",
-        "groupName": "EJKK Kassel Gr. 7",
-        "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
-        "teamId": "02II92G5ES000000VS5489B2VVQ9C6A6",
-        "teamName": "JSG Fuldatal II",
-        "rank": 1,
-        "games": 8,
-        "wins": 7,
-        "draws": 1,
-        "losses": 0,
-        "goalsFor": 52,
-        "goalsAgainst": 14,
-        "goalDiff": 38,
-        "points": 22,
-        "scrapedAt": "2026-01-11T20:59:24.412611Z"
-      },
-      "elo": 1633.1109585531672,
-      "games": 8
-    },
-    {
-      "team": {
-        "groupId": "group6",
-        "groupName": "EJKK Kassel Gr. 6",
-        "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
-        "teamId": "0206IVJC4S000000VS548985VSL7HPD7",
-        "teamName": "Tuspo Rengershausen",
-        "rank": 1,
-        "games": 7,
-        "wins": 6,
-        "draws": 1,
-        "losses": 0,
-        "goalsFor": 48,
-        "goalsAgainst": 10,
-        "goalDiff": 38,
-        "points": 19,
-        "scrapedAt": "2026-01-11T20:59:24.291049Z"
-      },
-      "elo": 1630.3165202896987,
-      "games": 7
     },
     {
       "team": {
@@ -70,6 +29,7 @@
         "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
         "teamId": "023QS6PAV8000000VS548984VVIKHNJO",
         "teamName": "TSV Wolfsanger 2",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9G8000002VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 1,
         "games": 8,
         "wins": 7,
@@ -79,10 +39,54 @@
         "goalsAgainst": 12,
         "goalDiff": 49,
         "points": 22,
-        "scrapedAt": "2026-01-11T20:59:23.962622Z"
+        "scrapedAt": "2026-01-11T21:23:53.109589Z"
       },
-      "elo": 1628.3931044789715,
+      "elo": 1629.7543811323953,
       "games": 8
+    },
+    {
+      "team": {
+        "groupId": "group7",
+        "groupName": "EJKK Kassel Gr. 7",
+        "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+        "teamId": "02II92G5ES000000VS5489B2VVQ9C6A6",
+        "teamName": "JSG Fuldatal II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000AAVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 1,
+        "games": 8,
+        "wins": 7,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 52,
+        "goalsAgainst": 14,
+        "goalDiff": 38,
+        "points": 22,
+        "scrapedAt": "2026-01-11T21:23:53.575834Z"
+      },
+      "elo": 1629.543613925092,
+      "games": 8
+    },
+    {
+      "team": {
+        "groupId": "group6",
+        "groupName": "EJKK Kassel Gr. 6",
+        "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+        "teamId": "0206IVJC4S000000VS548985VSL7HPD7",
+        "teamName": "Tuspo Rengershausen",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BBVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 1,
+        "games": 7,
+        "wins": 6,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 48,
+        "goalsAgainst": 10,
+        "goalDiff": 38,
+        "points": 19,
+        "scrapedAt": "2026-01-11T21:23:53.40819Z"
+      },
+      "elo": 1627.4901799785123,
+      "games": 7
     },
     {
       "team": {
@@ -91,6 +95,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "01HHE2TFGS000000VV0AG811VTCV2DMO",
         "teamName": "TSG Wilhelmshöhe II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9G8000001VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 1,
         "games": 7,
         "wins": 6,
@@ -100,9 +105,9 @@
         "goalsAgainst": 10,
         "goalDiff": 54,
         "points": 18,
-        "scrapedAt": "2026-01-11T20:59:24.147084Z"
+        "scrapedAt": "2026-01-11T21:23:53.275697Z"
       },
-      "elo": 1623.0647627920926,
+      "elo": 1623.1084405083843,
       "games": 7
     },
     {
@@ -112,6 +117,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02M8RTKAKG000000VS5489B2VUHJA7LU",
         "teamName": "RSV Eintracht Vellmar",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000AGVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 8,
         "wins": 5,
@@ -121,9 +127,9 @@
         "goalsAgainst": 14,
         "goalDiff": 25,
         "points": 18,
-        "scrapedAt": "2026-01-11T20:59:24.590479Z"
+        "scrapedAt": "2026-01-11T21:23:53.71302Z"
       },
-      "elo": 1611.663869051159,
+      "elo": 1616.452035187281,
       "games": 8
     },
     {
@@ -133,6 +139,7 @@
         "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
         "teamId": "02IK69D0H8000000VS5489B2VVQ9C6A6",
         "teamName": "TSV Wolfsanger 3",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9G8000002VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 8,
         "wins": 7,
@@ -142,31 +149,10 @@
         "goalsAgainst": 17,
         "goalDiff": 29,
         "points": 21,
-        "scrapedAt": "2026-01-11T20:59:24.412615Z"
+        "scrapedAt": "2026-01-11T21:23:53.575845Z"
       },
-      "elo": 1605.2596482029428,
+      "elo": 1612.3653968687065,
       "games": 8
-    },
-    {
-      "team": {
-        "groupId": "group3",
-        "groupName": "EJKK Kassel Gr. 3",
-        "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
-        "teamId": "02PS5Q1T8O000000VS5489B2VSE05932",
-        "teamName": "KSV Baunatal IV",
-        "rank": 1,
-        "games": 5,
-        "wins": 4,
-        "draws": 1,
-        "losses": 0,
-        "goalsFor": 57,
-        "goalsAgainst": 5,
-        "goalDiff": 52,
-        "points": 16,
-        "scrapedAt": "2026-01-11T20:59:23.803874Z"
-      },
-      "elo": 1600.4751457763425,
-      "games": 5
     },
     {
       "team": {
@@ -175,6 +161,7 @@
         "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
         "teamId": "02EI99T74C000000VS5489B2VS183IS6",
         "teamName": "KSV Baunatal II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F000009UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 1,
         "games": 5,
         "wins": 4,
@@ -184,9 +171,31 @@
         "goalsAgainst": 7,
         "goalDiff": 39,
         "points": 13,
-        "scrapedAt": "2026-01-11T20:59:23.472106Z"
+        "scrapedAt": "2026-01-11T21:23:52.720969Z"
       },
-      "elo": 1599.1222454256806,
+      "elo": 1599.1045295291412,
+      "games": 5
+    },
+    {
+      "team": {
+        "groupId": "group3",
+        "groupName": "EJKK Kassel Gr. 3",
+        "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+        "teamId": "02PS5Q1T8O000000VS5489B2VSE05932",
+        "teamName": "KSV Baunatal IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F000009UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 1,
+        "games": 5,
+        "wins": 4,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 57,
+        "goalsAgainst": 5,
+        "goalDiff": 52,
+        "points": 16,
+        "scrapedAt": "2026-01-11T21:23:52.966482Z"
+      },
+      "elo": 1598.0879356218252,
       "games": 5
     },
     {
@@ -196,6 +205,7 @@
         "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
         "teamId": "02IV80E83O000000VS5489B2VU3QR439",
         "teamName": "JSG Ahnatal II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F000009SVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 8,
         "wins": 6,
@@ -205,9 +215,9 @@
         "goalsAgainst": 16,
         "goalDiff": 41,
         "points": 18,
-        "scrapedAt": "2026-01-11T20:59:23.962637Z"
+        "scrapedAt": "2026-01-11T21:23:53.109609Z"
       },
-      "elo": 1595.550919798236,
+      "elo": 1595.9156225160618,
       "games": 8
     },
     {
@@ -217,6 +227,7 @@
         "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
         "teamId": "02H8P0M4L0000000VS5489B1VUEE4KFG",
         "teamName": "KSV Baunatal III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F000009UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 1,
         "games": 5,
         "wins": 4,
@@ -226,9 +237,9 @@
         "goalsAgainst": 3,
         "goalDiff": 39,
         "points": 13,
-        "scrapedAt": "2026-01-11T20:59:23.625397Z"
+        "scrapedAt": "2026-01-11T21:23:52.830806Z"
       },
-      "elo": 1592.4293472745298,
+      "elo": 1590.744706520208,
       "games": 5
     },
     {
@@ -238,6 +249,7 @@
         "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
         "teamId": "02PVV5T9N0000000VS5489B1VTF0A3SN",
         "teamName": "Eintracht Baunatal IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A5VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 7,
         "wins": 5,
@@ -247,9 +259,9 @@
         "goalsAgainst": 19,
         "goalDiff": 26,
         "points": 15,
-        "scrapedAt": "2026-01-11T20:59:24.291058Z"
+        "scrapedAt": "2026-01-11T21:23:53.408211Z"
       },
-      "elo": 1585.8626260765877,
+      "elo": 1588.1926634924873,
       "games": 7
     },
     {
@@ -259,6 +271,7 @@
         "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
         "teamId": "027J0UVHSS000000VS5489B2VVDR0U48",
         "teamName": "JSG Nordstadt",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B1VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 6,
         "wins": 5,
@@ -268,31 +281,10 @@
         "goalsAgainst": 15,
         "goalDiff": 26,
         "points": 15,
-        "scrapedAt": "2026-01-11T20:59:23.803879Z"
+        "scrapedAt": "2026-01-11T21:23:52.966515Z"
       },
-      "elo": 1580.8934779685544,
+      "elo": 1581.029132724179,
       "games": 6
-    },
-    {
-      "team": {
-        "groupId": "group1",
-        "groupName": "EJKK Kassel Gr. 1",
-        "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
-        "teamId": "011MIBVE2O000000VTVG0001VTR8C1K7",
-        "teamName": "Eintracht Baunatal II",
-        "rank": 2,
-        "games": 5,
-        "wins": 4,
-        "draws": 0,
-        "losses": 1,
-        "goalsFor": 38,
-        "goalsAgainst": 16,
-        "goalDiff": 22,
-        "points": 12,
-        "scrapedAt": "2026-01-11T20:59:23.472114Z"
-      },
-      "elo": 1570.9882634869,
-      "games": 5
     },
     {
       "team": {
@@ -301,6 +293,7 @@
         "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
         "teamId": "011MIDBML0000000VTVG0001VTR8C1K7",
         "teamName": "SVH Kassel",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000APVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 8,
         "wins": 6,
@@ -310,10 +303,32 @@
         "goalsAgainst": 18,
         "goalDiff": 39,
         "points": 18,
-        "scrapedAt": "2026-01-11T20:59:23.96265Z"
+        "scrapedAt": "2026-01-11T21:23:53.109632Z"
       },
-      "elo": 1570.7721975957547,
+      "elo": 1572.5457226479498,
       "games": 8
+    },
+    {
+      "team": {
+        "groupId": "group1",
+        "groupName": "EJKK Kassel Gr. 1",
+        "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+        "teamId": "011MIBVE2O000000VTVG0001VTR8C1K7",
+        "teamName": "Eintracht Baunatal II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A5VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 2,
+        "games": 5,
+        "wins": 4,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 38,
+        "goalsAgainst": 16,
+        "goalDiff": 22,
+        "points": 12,
+        "scrapedAt": "2026-01-11T21:23:52.72098Z"
+      },
+      "elo": 1571.314130183474,
+      "games": 5
     },
     {
       "team": {
@@ -322,6 +337,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "02M84T8CJK000000VS5489B1VT732LUQ",
         "teamName": "TSV Hertingshausen",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A9VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 7,
         "wins": 5,
@@ -331,9 +347,9 @@
         "goalsAgainst": 24,
         "goalDiff": 34,
         "points": 15,
-        "scrapedAt": "2026-01-11T20:59:24.147103Z"
+        "scrapedAt": "2026-01-11T21:23:53.275707Z"
       },
-      "elo": 1567.3100866864293,
+      "elo": 1569.3260645430028,
       "games": 7
     },
     {
@@ -343,6 +359,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02TJGMC6BS000000VS5489BRVUSIJ66A",
         "teamName": "SV Kaufungen 07 IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 4,
         "games": 7,
         "wins": 4,
@@ -352,9 +369,9 @@
         "goalsAgainst": 22,
         "goalDiff": 20,
         "points": 16,
-        "scrapedAt": "2026-01-11T20:59:24.590487Z"
+        "scrapedAt": "2026-01-11T21:23:53.713035Z"
       },
-      "elo": 1554.8385123312376,
+      "elo": 1554.6102342987483,
       "games": 7
     },
     {
@@ -364,6 +381,7 @@
         "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
         "teamId": "027KSP0LOK000000VS5489B2VVDR0U48",
         "teamName": "Eintracht Baunatal III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A5VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 5,
         "wins": 3,
@@ -373,9 +391,9 @@
         "goalsAgainst": 11,
         "goalDiff": 15,
         "points": 10,
-        "scrapedAt": "2026-01-11T20:59:23.625413Z"
+        "scrapedAt": "2026-01-11T21:23:52.830826Z"
       },
-      "elo": 1548.767205423554,
+      "elo": 1548.2936314894173,
       "games": 5
     },
     {
@@ -385,6 +403,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02EIA8S2R4000000VS5489B2VS183IS6",
         "teamName": "OSC Vellmar II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BGVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 2,
         "games": 7,
         "wins": 5,
@@ -394,9 +413,9 @@
         "goalsAgainst": 21,
         "goalDiff": 30,
         "points": 18,
-        "scrapedAt": "2026-01-11T20:59:24.59047Z"
+        "scrapedAt": "2026-01-11T21:23:53.713004Z"
       },
-      "elo": 1545.2480024539607,
+      "elo": 1546.273634418163,
       "games": 7
     },
     {
@@ -406,6 +425,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "02EPVED62O000000VS5489B1VT0RKM5V",
         "teamName": "JSG Ahnatal",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F000009SVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 7,
         "wins": 5,
@@ -415,9 +435,9 @@
         "goalsAgainst": 18,
         "goalDiff": 8,
         "points": 15,
-        "scrapedAt": "2026-01-11T20:59:24.147119Z"
+        "scrapedAt": "2026-01-11T21:23:53.275717Z"
       },
-      "elo": 1540.4911035198359,
+      "elo": 1538.1811738607587,
       "games": 7
     },
     {
@@ -427,6 +447,7 @@
         "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
         "teamId": "01L69EJGG8000000VV0AG811VVGM5Q6P",
         "teamName": "JFV Söhre I",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01KV4DEDV8000000VV0AG811VULRS8KS/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 5,
         "wins": 3,
@@ -436,9 +457,9 @@
         "goalsAgainst": 17,
         "goalDiff": 18,
         "points": 10,
-        "scrapedAt": "2026-01-11T20:59:23.472129Z"
+        "scrapedAt": "2026-01-11T21:23:52.720989Z"
       },
-      "elo": 1536.9315621233595,
+      "elo": 1536.8789163426538,
       "games": 5
     },
     {
@@ -448,6 +469,7 @@
         "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
         "teamId": "02S4NE54IC000000VS5489B2VSKOF6OB",
         "teamName": "JSG Nieste/​Staufenberg III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 8,
         "wins": 3,
@@ -457,9 +479,9 @@
         "goalsAgainst": 19,
         "goalDiff": 5,
         "points": 13,
-        "scrapedAt": "2026-01-11T20:59:24.412617Z"
+        "scrapedAt": "2026-01-11T21:23:53.575855Z"
       },
-      "elo": 1527.2958068819457,
+      "elo": 1527.0991440831547,
       "games": 8
     },
     {
@@ -469,6 +491,7 @@
         "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
         "teamId": "02IGMLV9G8000000VS5489B2VU2I8R4H",
         "teamName": "Spielverein 06 KS",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B0VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 6,
         "wins": 3,
@@ -478,9 +501,9 @@
         "goalsAgainst": 17,
         "goalDiff": 32,
         "points": 9,
-        "scrapedAt": "2026-01-11T20:59:23.803884Z"
+        "scrapedAt": "2026-01-11T21:23:52.96661Z"
       },
-      "elo": 1524.686226389595,
+      "elo": 1524.4839192765048,
       "games": 6
     },
     {
@@ -490,6 +513,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
         "teamName": "SV Kaufungen 07 II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 4,
         "games": 7,
         "wins": 4,
@@ -499,31 +523,10 @@
         "goalsAgainst": 17,
         "goalDiff": 5,
         "points": 12,
-        "scrapedAt": "2026-01-11T20:59:24.147142Z"
+        "scrapedAt": "2026-01-11T21:23:53.275726Z"
       },
-      "elo": 1520.2702402527577,
+      "elo": 1521.0169441142116,
       "games": 7
-    },
-    {
-      "team": {
-        "groupId": "group7",
-        "groupName": "EJKK Kassel Gr. 7",
-        "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
-        "teamId": "02U2QR4VCG000000VS5489BRVSGGHO8O",
-        "teamName": "CSC 03 Kassel 2",
-        "rank": 6,
-        "games": 8,
-        "wins": 2,
-        "draws": 3,
-        "losses": 3,
-        "goalsFor": 43,
-        "goalsAgainst": 17,
-        "goalDiff": 26,
-        "points": 9,
-        "scrapedAt": "2026-01-11T20:59:24.412625Z"
-      },
-      "elo": 1514.3585260175237,
-      "games": 8
     },
     {
       "team": {
@@ -532,6 +535,7 @@
         "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
         "teamId": "011MIB1T8O000000VTVG0001VTR8C1K7",
         "teamName": "TSV Heiligenrode II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 4,
         "games": 8,
         "wins": 4,
@@ -541,9 +545,31 @@
         "goalsAgainst": 33,
         "goalDiff": 15,
         "points": 12,
-        "scrapedAt": "2026-01-11T20:59:24.41262Z"
+        "scrapedAt": "2026-01-11T21:23:53.575864Z"
       },
-      "elo": 1509.4327971216792,
+      "elo": 1512.1466871168855,
+      "games": 8
+    },
+    {
+      "team": {
+        "groupId": "group7",
+        "groupName": "EJKK Kassel Gr. 7",
+        "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+        "teamId": "02U2QR4VCG000000VS5489BRVSGGHO8O",
+        "teamName": "CSC 03 Kassel 2",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000AFVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 6,
+        "games": 8,
+        "wins": 2,
+        "draws": 3,
+        "losses": 3,
+        "goalsFor": 43,
+        "goalsAgainst": 17,
+        "goalDiff": 26,
+        "points": 9,
+        "scrapedAt": "2026-01-11T21:23:53.575882Z"
+      },
+      "elo": 1509.1473348144527,
       "games": 8
     },
     {
@@ -553,6 +579,7 @@
         "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
         "teamId": "02S8L8U0BO000000VS5489B1VVVAF4P8",
         "teamName": "Soccer Academy KS 2",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/02E5KNTAC0000000VS5489B5VSRMTB01/verband/0123456789ABCDEF0123456700004170",
         "rank": 6,
         "games": 8,
         "wins": 3,
@@ -562,9 +589,9 @@
         "goalsAgainst": 26,
         "goalDiff": 13,
         "points": 11,
-        "scrapedAt": "2026-01-11T20:59:23.962718Z"
+        "scrapedAt": "2026-01-11T21:23:53.109676Z"
       },
-      "elo": 1502.8351192952366,
+      "elo": 1502.4895359142283,
       "games": 8
     },
     {
@@ -574,6 +601,7 @@
         "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
         "teamId": "011MIBHMMC000000VTVG0001VTR8C1K7",
         "teamName": "FSK Vollmarshausen zg.",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BHVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 7,
         "games": 0,
         "wins": 0,
@@ -583,7 +611,7 @@
         "goalsAgainst": 0,
         "goalDiff": 0,
         "points": 0,
-        "scrapedAt": "2026-01-11T20:59:23.625489Z"
+        "scrapedAt": "2026-01-11T21:23:52.830915Z"
       },
       "elo": 1500,
       "games": 0
@@ -595,6 +623,7 @@
         "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
         "teamId": "012SPDHLPG000000VV0AG811VVMSC00G",
         "teamName": "TSG Wilhelmshöhe zg.",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9G8000001VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 7,
         "games": 0,
         "wins": 0,
@@ -604,7 +633,7 @@
         "goalsAgainst": 0,
         "goalDiff": 0,
         "points": 0,
-        "scrapedAt": "2026-01-11T20:59:23.472163Z"
+        "scrapedAt": "2026-01-11T21:23:52.721027Z"
       },
       "elo": 1500,
       "games": 0
@@ -616,6 +645,7 @@
         "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
         "teamId": "02IH18AAJS000000VS5489B2VU2I8R4H",
         "teamName": "Tuspo Waldau II zg.",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BJVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 10,
         "games": 0,
         "wins": 0,
@@ -625,7 +655,7 @@
         "goalsAgainst": 0,
         "goalDiff": 0,
         "points": 0,
-        "scrapedAt": "2026-01-11T20:59:24.412634Z"
+        "scrapedAt": "2026-01-11T21:23:53.575917Z"
       },
       "elo": 1500,
       "games": 0
@@ -637,6 +667,7 @@
         "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
         "teamId": "027J4GENR8000000VS5489B1VUA37ON8",
         "teamName": "VfL Kassel III zg.",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B2VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 10,
         "games": 0,
         "wins": 0,
@@ -646,31 +677,10 @@
         "goalsAgainst": 0,
         "goalDiff": 0,
         "points": 0,
-        "scrapedAt": "2026-01-11T20:59:23.962774Z"
+        "scrapedAt": "2026-01-11T21:23:53.109739Z"
       },
       "elo": 1500,
       "games": 0
-    },
-    {
-      "team": {
-        "groupId": "group5",
-        "groupName": "EJKK Kassel Gr. 5",
-        "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
-        "teamId": "029JRT7UNG000000VS5489B1VT684KFR",
-        "teamName": "SVH Kassel II",
-        "rank": 5,
-        "games": 7,
-        "wins": 2,
-        "draws": 2,
-        "losses": 3,
-        "goalsFor": 22,
-        "goalsAgainst": 26,
-        "goalDiff": -4,
-        "points": 8,
-        "scrapedAt": "2026-01-11T20:59:24.147155Z"
-      },
-      "elo": 1499.6675203269801,
-      "games": 7
     },
     {
       "team": {
@@ -679,6 +689,7 @@
         "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
         "teamId": "02IKJ2BEC0000000VS5489B1VSO9MMK0",
         "teamName": "JFV Söhre II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01KV4DEDV8000000VV0AG811VULRS8KS/verband/0123456789ABCDEF0123456700004170",
         "rank": 5,
         "games": 5,
         "wins": 2,
@@ -688,10 +699,32 @@
         "goalsAgainst": 15,
         "goalDiff": -2,
         "points": 7,
-        "scrapedAt": "2026-01-11T20:59:23.803933Z"
+        "scrapedAt": "2026-01-11T21:23:52.966636Z"
       },
       "elo": 1498.8013086321953,
       "games": 5
+    },
+    {
+      "team": {
+        "groupId": "group5",
+        "groupName": "EJKK Kassel Gr. 5",
+        "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+        "teamId": "029JRT7UNG000000VS5489B1VT684KFR",
+        "teamName": "SVH Kassel II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000APVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 5,
+        "games": 7,
+        "wins": 2,
+        "draws": 2,
+        "losses": 3,
+        "goalsFor": 22,
+        "goalsAgainst": 26,
+        "goalDiff": -4,
+        "points": 8,
+        "scrapedAt": "2026-01-11T21:23:53.275734Z"
+      },
+      "elo": 1498.3788478987801,
+      "games": 7
     },
     {
       "team": {
@@ -700,6 +733,7 @@
         "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
         "teamId": "02Q09MJ4JK000000VS5489B2VTB2M2VN",
         "teamName": "KSV Baunatal V",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F000009UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 5,
         "games": 8,
         "wins": 3,
@@ -709,9 +743,9 @@
         "goalsAgainst": 30,
         "goalDiff": 14,
         "points": 11,
-        "scrapedAt": "2026-01-11T20:59:23.962705Z"
+        "scrapedAt": "2026-01-11T21:23:53.109661Z"
       },
-      "elo": 1498.0244978416044,
+      "elo": 1498.2298646350184,
       "games": 8
     },
     {
@@ -721,6 +755,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02TIS8544K000000VS5489BSVUALD4UK",
         "teamName": "JSG Nieste/​Staufenberg IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 8,
         "games": 3,
         "wins": 1,
@@ -730,31 +765,10 @@
         "goalsAgainst": 14,
         "goalDiff": 0,
         "points": 3,
-        "scrapedAt": "2026-01-11T20:59:24.590533Z"
+        "scrapedAt": "2026-01-11T21:23:53.713099Z"
       },
-      "elo": 1494.2652340033017,
+      "elo": 1494.1527536697968,
       "games": 3
-    },
-    {
-      "team": {
-        "groupId": "group4",
-        "groupName": "EJKK Kassel Gr. 4",
-        "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
-        "teamId": "01SIHLFDFS000000VS548985VV6960M6",
-        "teamName": "TSV Oberzwehren",
-        "rank": 4,
-        "games": 8,
-        "wins": 4,
-        "draws": 0,
-        "losses": 4,
-        "goalsFor": 56,
-        "goalsAgainst": 55,
-        "goalDiff": 1,
-        "points": 12,
-        "scrapedAt": "2026-01-11T20:59:23.962679Z"
-      },
-      "elo": 1491.6554435865844,
-      "games": 8
     },
     {
       "team": {
@@ -763,6 +777,7 @@
         "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
         "teamId": "02M5LFNISC000000VS5489B1VT732LUQ",
         "teamName": "TSG Sandershausen II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BDVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 6,
         "games": 7,
         "wins": 3,
@@ -772,10 +787,32 @@
         "goalsAgainst": 44,
         "goalDiff": -16,
         "points": 9,
-        "scrapedAt": "2026-01-11T20:59:24.29109Z"
+        "scrapedAt": "2026-01-11T21:23:53.408273Z"
       },
-      "elo": 1486.9344490301469,
+      "elo": 1493.2289854771489,
       "games": 7
+    },
+    {
+      "team": {
+        "groupId": "group4",
+        "groupName": "EJKK Kassel Gr. 4",
+        "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+        "teamId": "01SIHLFDFS000000VS548985VV6960M6",
+        "teamName": "TSV Oberzwehren",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B9VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 4,
+        "games": 8,
+        "wins": 4,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 56,
+        "goalsAgainst": 55,
+        "goalDiff": 1,
+        "points": 12,
+        "scrapedAt": "2026-01-11T21:23:53.109648Z"
+      },
+      "elo": 1491.7089453548424,
+      "games": 8
     },
     {
       "team": {
@@ -784,6 +821,7 @@
         "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
         "teamId": "02ID685NOO000000VS5489B2VU2I8R4H",
         "teamName": "TSV Vellmar II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 7,
         "wins": 3,
@@ -793,30 +831,9 @@
         "goalsAgainst": 35,
         "goalDiff": -9,
         "points": 10,
-        "scrapedAt": "2026-01-11T20:59:24.291068Z"
+        "scrapedAt": "2026-01-11T21:23:53.408227Z"
       },
-      "elo": 1482.644538366756,
-      "games": 7
-    },
-    {
-      "team": {
-        "groupId": "group6",
-        "groupName": "EJKK Kassel Gr. 6",
-        "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
-        "teamId": "02TLFMCMAG000000VS5489BRVTFKGF73",
-        "teamName": "SV Kaufungen 07 V",
-        "rank": 4,
-        "games": 7,
-        "wins": 3,
-        "draws": 1,
-        "losses": 3,
-        "goalsFor": 21,
-        "goalsAgainst": 30,
-        "goalDiff": -9,
-        "points": 10,
-        "scrapedAt": "2026-01-11T20:59:24.291076Z"
-      },
-      "elo": 1480.8475015009794,
+      "elo": 1483.5869134378102,
       "games": 7
     },
     {
@@ -826,6 +843,7 @@
         "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
         "teamId": "011MI9AE7S000000VTVG0001VTR8C1K7",
         "teamName": "TSV Heiligenrode",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 3,
         "games": 5,
         "wins": 2,
@@ -835,31 +853,10 @@
         "goalsAgainst": 19,
         "goalDiff": -5,
         "points": 6,
-        "scrapedAt": "2026-01-11T20:59:23.625436Z"
+        "scrapedAt": "2026-01-11T21:23:52.830841Z"
       },
-      "elo": 1479.5158754465456,
+      "elo": 1480.974651280401,
       "games": 5
-    },
-    {
-      "team": {
-        "groupId": "group7",
-        "groupName": "EJKK Kassel Gr. 7",
-        "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
-        "teamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
-        "teamName": "Tuspo Rengershausen II",
-        "rank": 5,
-        "games": 8,
-        "wins": 3,
-        "draws": 2,
-        "losses": 3,
-        "goalsFor": 27,
-        "goalsAgainst": 34,
-        "goalDiff": -7,
-        "points": 11,
-        "scrapedAt": "2026-01-11T20:59:24.412622Z"
-      },
-      "elo": 1473.634526475262,
-      "games": 8
     },
     {
       "team": {
@@ -868,6 +865,7 @@
         "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
         "teamId": "023KKO5SK0000000VS548985VTNSAQK7",
         "teamName": "Tuspo Waldau",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BJVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 5,
         "games": 7,
         "wins": 3,
@@ -877,52 +875,10 @@
         "goalsAgainst": 35,
         "goalDiff": -5,
         "points": 9,
-        "scrapedAt": "2026-01-11T20:59:24.291083Z"
+        "scrapedAt": "2026-01-11T21:23:53.408256Z"
       },
-      "elo": 1471.2324699271694,
+      "elo": 1478.5246053553274,
       "games": 7
-    },
-    {
-      "team": {
-        "groupId": "group2",
-        "groupName": "EJKK Kassel Gr. 2",
-        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
-        "teamId": "01SEIRK0LC000000VS548984VVB63HJG",
-        "teamName": "CSC 03 Kassel",
-        "rank": 4,
-        "games": 5,
-        "wins": 1,
-        "draws": 2,
-        "losses": 2,
-        "goalsFor": 8,
-        "goalsAgainst": 14,
-        "goalDiff": -6,
-        "points": 5,
-        "scrapedAt": "2026-01-11T20:59:23.62545Z"
-      },
-      "elo": 1468.8148141453646,
-      "games": 5
-    },
-    {
-      "team": {
-        "groupId": "group3",
-        "groupName": "EJKK Kassel Gr. 3",
-        "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
-        "teamId": "02F1C2CJPS000000VS5489B1VT1H0S9M",
-        "teamName": "TSG Sandershausen",
-        "rank": 4,
-        "games": 6,
-        "wins": 3,
-        "draws": 0,
-        "losses": 3,
-        "goalsFor": 23,
-        "goalsAgainst": 47,
-        "goalDiff": -24,
-        "points": 9,
-        "scrapedAt": "2026-01-11T20:59:23.803929Z"
-      },
-      "elo": 1468.6739416592548,
-      "games": 6
     },
     {
       "team": {
@@ -931,6 +887,7 @@
         "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
         "teamId": "012JPMODGS000000VV0AG80NVVJ79KI7",
         "teamName": "VfL Kassel II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B2VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 5,
         "games": 5,
         "wins": 1,
@@ -940,31 +897,98 @@
         "goalsAgainst": 25,
         "goalDiff": -14,
         "points": 4,
-        "scrapedAt": "2026-01-11T20:59:23.625462Z"
+        "scrapedAt": "2026-01-11T21:23:52.830884Z"
       },
-      "elo": 1462.3336493971847,
+      "elo": 1472.0188317211139,
       "games": 5
     },
     {
       "team": {
-        "groupId": "group4",
-        "groupName": "EJKK Kassel Gr. 4",
-        "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
-        "teamId": "02PS220PSG000000VS5489B1VVQNIHJA",
-        "teamName": "SV Kaufungen 07 III",
-        "rank": 7,
+        "groupId": "group7",
+        "groupName": "EJKK Kassel Gr. 7",
+        "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
+        "teamId": "02TNJRSCES000000VS5489BRVSS9M1SM",
+        "teamName": "Tuspo Rengershausen II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BBVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 5,
         "games": 8,
-        "wins": 2,
-        "draws": 1,
-        "losses": 5,
-        "goalsFor": 29,
-        "goalsAgainst": 32,
-        "goalDiff": -3,
-        "points": 7,
-        "scrapedAt": "2026-01-11T20:59:23.96273Z"
+        "wins": 3,
+        "draws": 2,
+        "losses": 3,
+        "goalsFor": 27,
+        "goalsAgainst": 34,
+        "goalDiff": -7,
+        "points": 11,
+        "scrapedAt": "2026-01-11T21:23:53.575873Z"
       },
-      "elo": 1459.4030742235905,
+      "elo": 1470.7921482767667,
       "games": 8
+    },
+    {
+      "team": {
+        "groupId": "group3",
+        "groupName": "EJKK Kassel Gr. 3",
+        "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
+        "teamId": "02F1C2CJPS000000VS5489B1VT1H0S9M",
+        "teamName": "TSG Sandershausen",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BDVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 4,
+        "games": 6,
+        "wins": 3,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 23,
+        "goalsAgainst": 47,
+        "goalDiff": -24,
+        "points": 9,
+        "scrapedAt": "2026-01-11T21:23:52.966624Z"
+      },
+      "elo": 1468.5726233188395,
+      "games": 6
+    },
+    {
+      "team": {
+        "groupId": "group6",
+        "groupName": "EJKK Kassel Gr. 6",
+        "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
+        "teamId": "02TLFMCMAG000000VS5489BRVTFKGF73",
+        "teamName": "SV Kaufungen 07 V",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 4,
+        "games": 7,
+        "wins": 3,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 21,
+        "goalsAgainst": 30,
+        "goalDiff": -9,
+        "points": 10,
+        "scrapedAt": "2026-01-11T21:23:53.408242Z"
+      },
+      "elo": 1468.3612652690385,
+      "games": 7
+    },
+    {
+      "team": {
+        "groupId": "group2",
+        "groupName": "EJKK Kassel Gr. 2",
+        "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
+        "teamId": "01SEIRK0LC000000VS548984VVB63HJG",
+        "teamName": "CSC 03 Kassel",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000AFVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 4,
+        "games": 5,
+        "wins": 1,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 8,
+        "goalsAgainst": 14,
+        "goalDiff": -6,
+        "points": 5,
+        "scrapedAt": "2026-01-11T21:23:52.83087Z"
+      },
+      "elo": 1460.4238905930758,
+      "games": 5
     },
     {
       "team": {
@@ -973,6 +997,7 @@
         "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
         "teamId": "011MIE97J8000000VTVG0001VTR8C1K7",
         "teamName": "JSG Nieste/​Staufenberg 1",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 5,
         "games": 5,
         "wins": 1,
@@ -982,10 +1007,32 @@
         "goalsAgainst": 31,
         "goalDiff": -6,
         "points": 3,
-        "scrapedAt": "2026-01-11T20:59:23.472144Z"
+        "scrapedAt": "2026-01-11T21:23:52.721004Z"
       },
-      "elo": 1458.2355566029016,
+      "elo": 1459.618106997468,
       "games": 5
+    },
+    {
+      "team": {
+        "groupId": "group4",
+        "groupName": "EJKK Kassel Gr. 4",
+        "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+        "teamId": "02PS220PSG000000VS5489B1VVQNIHJA",
+        "teamName": "SV Kaufungen 07 III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 7,
+        "games": 8,
+        "wins": 2,
+        "draws": 1,
+        "losses": 5,
+        "goalsFor": 29,
+        "goalsAgainst": 32,
+        "goalDiff": -3,
+        "points": 7,
+        "scrapedAt": "2026-01-11T21:23:53.109696Z"
+      },
+      "elo": 1458.2883442610694,
+      "games": 8
     },
     {
       "team": {
@@ -994,6 +1041,7 @@
         "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
         "teamId": "02Q08JPFBC000000VS5489B2VTB2M2VN",
         "teamName": "SVH Kassel III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000APVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 7,
         "games": 7,
         "wins": 1,
@@ -1003,30 +1051,9 @@
         "goalsAgainst": 26,
         "goalDiff": -6,
         "points": 5,
-        "scrapedAt": "2026-01-11T20:59:24.291098Z"
+        "scrapedAt": "2026-01-11T21:23:53.408287Z"
       },
-      "elo": 1455.266893512571,
-      "games": 7
-    },
-    {
-      "team": {
-        "groupId": "group5",
-        "groupName": "EJKK Kassel Gr. 5",
-        "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
-        "teamId": "011MICAA94000000VTVG0001VTR8C1K7",
-        "teamName": "SV Nordshausen",
-        "rank": 6,
-        "games": 7,
-        "wins": 2,
-        "draws": 1,
-        "losses": 4,
-        "goalsFor": 22,
-        "goalsAgainst": 50,
-        "goalDiff": -28,
-        "points": 7,
-        "scrapedAt": "2026-01-11T20:59:24.147169Z"
-      },
-      "elo": 1450.8142649219672,
+      "elo": 1453.6146182515183,
       "games": 7
     },
     {
@@ -1036,6 +1063,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02M5LG2NR8000000VS5489B1VT732LUQ",
         "teamName": "TSG Sandershausen III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BDVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 5,
         "games": 7,
         "wins": 3,
@@ -1045,9 +1073,31 @@
         "goalsAgainst": 39,
         "goalDiff": -25,
         "points": 12,
-        "scrapedAt": "2026-01-11T20:59:24.590493Z"
+        "scrapedAt": "2026-01-11T21:23:53.713052Z"
       },
-      "elo": 1449.3755270026727,
+      "elo": 1452.1635281952451,
+      "games": 7
+    },
+    {
+      "team": {
+        "groupId": "group5",
+        "groupName": "EJKK Kassel Gr. 5",
+        "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+        "teamId": "011MICAA94000000VTVG0001VTR8C1K7",
+        "teamName": "SV Nordshausen",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B8VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 6,
+        "games": 7,
+        "wins": 2,
+        "draws": 1,
+        "losses": 4,
+        "goalsFor": 22,
+        "goalsAgainst": 50,
+        "goalDiff": -28,
+        "points": 7,
+        "scrapedAt": "2026-01-11T21:23:53.275745Z"
+      },
+      "elo": 1451.6214810441224,
       "games": 7
     },
     {
@@ -1057,6 +1107,7 @@
         "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
         "teamId": "02IM9EO578000000VS5489B2VVQ9C6A6",
         "teamName": "TSG Wilhelmshöhe III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9G8000001VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 7,
         "games": 8,
         "wins": 1,
@@ -1066,9 +1117,9 @@
         "goalsAgainst": 31,
         "goalDiff": 4,
         "points": 6,
-        "scrapedAt": "2026-01-11T20:59:24.412627Z"
+        "scrapedAt": "2026-01-11T21:23:53.575891Z"
       },
-      "elo": 1448.483465732839,
+      "elo": 1448.5901213370335,
       "games": 8
     },
     {
@@ -1078,6 +1129,7 @@
         "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
         "teamId": "011MIEVMOC000000VTVG0001VTR8C1K7",
         "teamName": "OSC Vellmar I",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BGVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 4,
         "games": 5,
         "wins": 2,
@@ -1087,9 +1139,9 @@
         "goalsAgainst": 31,
         "goalDiff": -20,
         "points": 6,
-        "scrapedAt": "2026-01-11T20:59:23.472138Z"
+        "scrapedAt": "2026-01-11T21:23:52.720997Z"
       },
-      "elo": 1448.1437473117662,
+      "elo": 1448.198792988067,
       "games": 5
     },
     {
@@ -1099,6 +1151,7 @@
         "staffelId": "02TMJADUO0000008VS5489BUVSSD35NB-G",
         "teamId": "027I7PBKBS000000VS5489B2VVDR0U48",
         "teamName": "JSG Nieste/​Staufenberg II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 6,
         "games": 5,
         "wins": 0,
@@ -1108,31 +1161,10 @@
         "goalsAgainst": 30,
         "goalDiff": -29,
         "points": 3,
-        "scrapedAt": "2026-01-11T20:59:23.625476Z"
+        "scrapedAt": "2026-01-11T21:23:52.830901Z"
       },
-      "elo": 1448.1391083128212,
+      "elo": 1447.544288395784,
       "games": 5
-    },
-    {
-      "team": {
-        "groupId": "group8",
-        "groupName": "EJKK Kassel Gr. 8",
-        "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-        "teamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
-        "teamName": "SV Germ.KS",
-        "rank": 6,
-        "games": 7,
-        "wins": 1,
-        "draws": 1,
-        "losses": 5,
-        "goalsFor": 12,
-        "goalsAgainst": 50,
-        "goalDiff": -38,
-        "points": 7,
-        "scrapedAt": "2026-01-11T20:59:24.590517Z"
-      },
-      "elo": 1429.4737387084685,
-      "games": 7
     },
     {
       "team": {
@@ -1141,6 +1173,7 @@
         "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
         "teamId": "02EUPBBDSG000000VS5489B1VT0RKM5V",
         "teamName": "Olympia Kassel III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000ATVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 6,
         "games": 6,
         "wins": 0,
@@ -1150,10 +1183,32 @@
         "goalsAgainst": 31,
         "goalDiff": -26,
         "points": 2,
-        "scrapedAt": "2026-01-11T20:59:23.803939Z"
+        "scrapedAt": "2026-01-11T21:23:52.966716Z"
       },
-      "elo": 1425.8413407704768,
+      "elo": 1428.396521622875,
       "games": 6
+    },
+    {
+      "team": {
+        "groupId": "group8",
+        "groupName": "EJKK Kassel Gr. 8",
+        "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+        "teamId": "02TJ5C36FO000000VS5489BRVTS0PAOT",
+        "teamName": "SV Germ.KS",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000AMVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 6,
+        "games": 7,
+        "wins": 1,
+        "draws": 1,
+        "losses": 5,
+        "goalsFor": 12,
+        "goalsAgainst": 50,
+        "goalDiff": -38,
+        "points": 7,
+        "scrapedAt": "2026-01-11T21:23:53.713068Z"
+      },
+      "elo": 1426.9775272359022,
+      "games": 7
     },
     {
       "team": {
@@ -1162,6 +1217,7 @@
         "staffelId": "02TMJADVB4000005VS5489BUVSSD35NB-G",
         "teamId": "02U8KM964C000000VS5489BSVUPHJMG2",
         "teamName": "JFV Söhre V",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01KV4DEDV8000000VV0AG811VULRS8KS/verband/0123456789ABCDEF0123456700004170",
         "rank": 8,
         "games": 7,
         "wins": 1,
@@ -1171,30 +1227,9 @@
         "goalsAgainst": 35,
         "goalDiff": -19,
         "points": 4,
-        "scrapedAt": "2026-01-11T20:59:24.291105Z"
+        "scrapedAt": "2026-01-11T21:23:53.408301Z"
       },
-      "elo": 1406.8950012960909,
-      "games": 7
-    },
-    {
-      "team": {
-        "groupId": "group8",
-        "groupName": "EJKK Kassel Gr. 8",
-        "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
-        "teamId": "02TMDS383O000000VS5489BSVTNMVP4D",
-        "teamName": "SVH Kassel IV",
-        "rank": 7,
-        "games": 7,
-        "wins": 1,
-        "draws": 0,
-        "losses": 6,
-        "goalsFor": 9,
-        "goalsAgainst": 39,
-        "goalDiff": -30,
-        "points": 6,
-        "scrapedAt": "2026-01-11T20:59:24.590526Z"
-      },
-      "elo": 1405.4725827125778,
+      "elo": 1407.0007687381571,
       "games": 7
     },
     {
@@ -1204,6 +1239,7 @@
         "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
         "teamId": "02TK461K2K000000VS5489BRVUSIJ66A",
         "teamName": "Kasseler SV 2",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000ASVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 8,
         "games": 8,
         "wins": 0,
@@ -1213,10 +1249,32 @@
         "goalsAgainst": 32,
         "goalDiff": -22,
         "points": 3,
-        "scrapedAt": "2026-01-11T20:59:24.412629Z"
+        "scrapedAt": "2026-01-11T21:23:53.5759Z"
       },
-      "elo": 1403.2688637199835,
+      "elo": 1404.6988070707712,
       "games": 8
+    },
+    {
+      "team": {
+        "groupId": "group8",
+        "groupName": "EJKK Kassel Gr. 8",
+        "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
+        "teamId": "02TMDS383O000000VS5489BSVTNMVP4D",
+        "teamName": "SVH Kassel IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000APVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 7,
+        "games": 7,
+        "wins": 1,
+        "draws": 0,
+        "losses": 6,
+        "goalsFor": 9,
+        "goalsAgainst": 39,
+        "goalDiff": -30,
+        "points": 6,
+        "scrapedAt": "2026-01-11T21:23:53.713085Z"
+      },
+      "elo": 1402.7393993383887,
+      "games": 7
     },
     {
       "team": {
@@ -1225,6 +1283,7 @@
         "staffelId": "02TMJADUSK000008VS5489BUVSSD35NB-G",
         "teamId": "011MIB21U8000000VTVG0001VTR8C1K7",
         "teamName": "Kasseler SV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000ASVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 7,
         "games": 6,
         "wins": 0,
@@ -1234,7 +1293,7 @@
         "goalsAgainst": 62,
         "goalDiff": -58,
         "points": 2,
-        "scrapedAt": "2026-01-11T20:59:23.803943Z"
+        "scrapedAt": "2026-01-11T21:23:52.966811Z"
       },
       "elo": 1400.6285588035812,
       "games": 6
@@ -1246,6 +1305,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "02PPCOTUB8000000VS5489B2VUGLP840",
         "teamName": "JFV Söhre III",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01KV4DEDV8000000VV0AG811VULRS8KS/verband/0123456789ABCDEF0123456700004170",
         "rank": 7,
         "games": 7,
         "wins": 1,
@@ -1255,9 +1315,9 @@
         "goalsAgainst": 56,
         "goalDiff": -38,
         "points": 4,
-        "scrapedAt": "2026-01-11T20:59:24.147181Z"
+        "scrapedAt": "2026-01-11T21:23:53.275754Z"
       },
-      "elo": 1400.5276024860002,
+      "elo": 1400.5271715437884,
       "games": 7
     },
     {
@@ -1267,6 +1327,7 @@
         "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
         "teamId": "011MIBTMUO000000VTVG0001VTR8C1K7",
         "teamName": "TSV Vellmar",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000A4VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 8,
         "games": 7,
         "wins": 0,
@@ -1276,31 +1337,10 @@
         "goalsAgainst": 54,
         "goalDiff": -31,
         "points": 2,
-        "scrapedAt": "2026-01-11T20:59:24.147193Z"
+        "scrapedAt": "2026-01-11T21:23:53.275763Z"
       },
-      "elo": 1397.854419013937,
+      "elo": 1397.8398764869517,
       "games": 7
-    },
-    {
-      "team": {
-        "groupId": "group1",
-        "groupName": "EJKK Kassel Gr. 1",
-        "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
-        "teamId": "01OUTOLJ0O000000VV0AG80NVT74RFIN",
-        "teamName": "Olympia Kassel II",
-        "rank": 6,
-        "games": 5,
-        "wins": 0,
-        "draws": 0,
-        "losses": 5,
-        "goalsFor": 3,
-        "goalsAgainst": 56,
-        "goalDiff": -53,
-        "points": 0,
-        "scrapedAt": "2026-01-11T20:59:23.472156Z"
-      },
-      "elo": 1386.578625049392,
-      "games": 5
     },
     {
       "team": {
@@ -1309,6 +1349,7 @@
         "staffelId": "02TMJADVF4000005VS5489BUVSSD35NB-G",
         "teamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3",
         "teamName": "JFV Söhre IV",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01KV4DEDV8000000VV0AG811VULRS8KS/verband/0123456789ABCDEF0123456700004170",
         "rank": 9,
         "games": 8,
         "wins": 1,
@@ -1318,10 +1359,32 @@
         "goalsAgainst": 104,
         "goalDiff": -88,
         "points": 3,
-        "scrapedAt": "2026-01-11T20:59:24.412631Z"
+        "scrapedAt": "2026-01-11T21:23:53.575908Z"
       },
-      "elo": 1385.155407294657,
+      "elo": 1385.6167465071373,
       "games": 8
+    },
+    {
+      "team": {
+        "groupId": "group1",
+        "groupName": "EJKK Kassel Gr. 1",
+        "staffelId": "02TMJADUIC000007VS5489BUVSSD35NB-G",
+        "teamId": "01OUTOLJ0O000000VV0AG80NVT74RFIN",
+        "teamName": "Olympia Kassel II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000ATVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
+        "rank": 6,
+        "games": 5,
+        "wins": 0,
+        "draws": 0,
+        "losses": 5,
+        "goalsFor": 3,
+        "goalsAgainst": 56,
+        "goalDiff": -53,
+        "points": 0,
+        "scrapedAt": "2026-01-11T21:23:52.721019Z"
+      },
+      "elo": 1384.885523959196,
+      "games": 5
     },
     {
       "team": {
@@ -1330,6 +1393,7 @@
         "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
         "teamId": "02B45MRNUG000000VS5489B2VS0NK514",
         "teamName": "JSG Fuldatal I",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000AAVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 8,
         "games": 8,
         "wins": 0,
@@ -1339,9 +1403,9 @@
         "goalsAgainst": 74,
         "goalDiff": -67,
         "points": 2,
-        "scrapedAt": "2026-01-11T20:59:23.962742Z"
+        "scrapedAt": "2026-01-11T21:23:53.109712Z"
       },
-      "elo": 1384.4362640205536,
+      "elo": 1382.8045515656834,
       "games": 8
     },
     {
@@ -1351,6 +1415,7 @@
         "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
         "teamId": "02M8OP4GJK000000VS5489B1VT732LUQ",
         "teamName": "Spielverein 06 KS II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000B0VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 9,
         "games": 8,
         "wins": 0,
@@ -1360,9 +1425,9 @@
         "goalsAgainst": 87,
         "goalDiff": -87,
         "points": 2,
-        "scrapedAt": "2026-01-11T20:59:23.962753Z"
+        "scrapedAt": "2026-01-11T21:23:53.109726Z"
       },
-      "elo": 1368.9293791594682,
+      "elo": 1368.2630319727512,
       "games": 8
     },
     {
@@ -1372,6 +1437,7 @@
         "staffelId": "02TT1ER3KO000004VS5489BUVVJ8R9DS-G",
         "teamId": "02ILRKSQNO000000VS5489B1VSO9MMK0",
         "teamName": "FSK Vollmarshausen II",
+        "logoUrl": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9F00000BHVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004170",
         "rank": 9,
         "games": 8,
         "wins": 1,
@@ -1381,11 +1447,11 @@
         "goalsAgainst": 51,
         "goalDiff": -42,
         "points": 3,
-        "scrapedAt": "2026-01-11T20:59:24.59054Z"
+        "scrapedAt": "2026-01-11T21:23:53.713113Z"
       },
-      "elo": 1346.816674598531,
+      "elo": 1348.2818996809108,
       "games": 8
     }
   ],
-  "updatedAt": "2026-01-11T20:59:24.700371Z"
+  "updatedAt": "2026-01-11T21:23:53.816694Z"
 }

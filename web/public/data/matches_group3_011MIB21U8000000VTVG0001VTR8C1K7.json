@@ -16,7 +16,9 @@
       "homeScore": 1,
       "awayScore": 15,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-jsg-nordstadt/-/spiel/02TSNJRPR8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-jsg-nordstadt/-/spiel/02TSNJRPR8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02TSNJRPSO000000VS5489BUVVJ8R9DS",
@@ -29,7 +31,9 @@
       "homeScore": 17,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/spielverein-06-ks-kasseler-sv/-/spiel/02TSNJRPSO000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/spielverein-06-ks-kasseler-sv/-/spiel/02TSNJRPSO000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TSNJRQ24000000VS5489BUVVJ8R9DS",
@@ -42,7 +46,9 @@
       "homeScore": 3,
       "awayScore": 8,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-tsg-sandershausen/-/spiel/02TSNJRQ24000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-tsg-sandershausen/-/spiel/02TSNJRQ24000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02TSNJRQ5G000000VS5489BUVVJ8R9DS",
@@ -55,7 +61,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/olympia-kassel-iii-kasseler-sv/-/spiel/02TSNJRQ5G000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/olympia-kassel-iii-kasseler-sv/-/spiel/02TSNJRQ5G000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02TSNJRQ8S000000VS5489BUVVJ8R9DS",
@@ -68,7 +76,9 @@
       "homeScore": 0,
       "awayScore": 22,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-ksv-baunatal-iv/-/spiel/02TSNJRQ8S000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-ksv-baunatal-iv/-/spiel/02TSNJRQ8S000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02TSNJRQH0000000VS5489BUVVJ8R9DS",
@@ -81,7 +91,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-jfv-soehre-ii/-/spiel/02TSNJRQH0000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-jfv-soehre-ii/-/spiel/02TSNJRQH0000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     }
   ],
   "teamId": "011MIB21U8000000VTVG0001VTR8C1K7"

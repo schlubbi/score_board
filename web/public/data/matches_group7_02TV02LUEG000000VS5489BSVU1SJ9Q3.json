@@ -16,7 +16,9 @@
       "homeScore": 29,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/csc-03-kassel-2-jfv-soehre-iv/-/spiel/02U3FBMA98000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/csc-03-kassel-2-jfv-soehre-iv/-/spiel/02U3FBMA98000000VS5489BTVV378D77",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3FBMA9S000000VS5489BTVV378D77",
@@ -29,7 +31,9 @@
       "homeScore": 1,
       "awayScore": 17,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tsv-heiligenrode-ii/-/spiel/02U3FBMA9S000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tsv-heiligenrode-ii/-/spiel/02U3FBMA9S000000VS5489BTVV378D77",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3FBMADK000000VS5489BTVV378D77",
@@ -42,7 +46,9 @@
       "homeScore": 3,
       "awayScore": 5,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-rengershausen-ii/-/spiel/02U3FBMADK000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-rengershausen-ii/-/spiel/02U3FBMADK000000VS5489BTVV378D77",
+      "matchDate": "2025-09-13",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3FBMAIK000000VS5489BTVV378D77",
@@ -55,7 +61,9 @@
       "homeScore": 21,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-iii-jfv-soehre-iv/-/spiel/02U3FBMAIK000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-iii-jfv-soehre-iv/-/spiel/02U3FBMAIK000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02U3FBMAM8000000VS5489BTVV378D77",
@@ -68,7 +76,9 @@
       "homeScore": 0,
       "awayScore": 14,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-jsg-fuldatal-ii/-/spiel/02U3FBMAM8000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-jsg-fuldatal-ii/-/spiel/02U3FBMAM8000000VS5489BTVV378D77",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3FBMAT4000000VS5489BTVV378D77",
@@ -81,7 +91,9 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jfv-soehre-iv/-/spiel/02U3FBMAT4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-nieste-staufenberg-iii-jfv-soehre-iv/-/spiel/02U3FBMAT4000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3FBMB08000000VS5489BTVV378D77",
@@ -95,7 +107,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-waldau-ii/-/spiel/02U3FBMB08000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tuspo-waldau-ii/-/spiel/02U3FBMB08000000VS5489BTVV378D77",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02U3FBMB7S000000VS5489BTVV378D77",
@@ -108,7 +122,9 @@
       "homeScore": 3,
       "awayScore": 6,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jfv-soehre-iv/-/spiel/02U3FBMB7S000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/kasseler-sv-2-jfv-soehre-iv/-/spiel/02U3FBMB7S000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02U3FBMB9S000000VS5489BTVV378D77",
@@ -121,7 +137,9 @@
       "homeScore": 0,
       "awayScore": 11,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tsv-wolfsanger-3/-/spiel/02U3FBMB9S000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jfv-soehre-iv-tsv-wolfsanger-3/-/spiel/02U3FBMB9S000000VS5489BTVV378D77",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02TV02LUEG000000VS5489BSVU1SJ9Q3"

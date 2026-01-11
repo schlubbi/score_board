@@ -16,7 +16,9 @@
       "homeScore": 1,
       "awayScore": 20,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-tsv-wolfsanger-2/-/spiel/02U3HEV8G4000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-tsv-wolfsanger-2/-/spiel/02U3HEV8G4000000VS5489BTVV378D77",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3HEV8NC000000VS5489BTVV378D77",
@@ -29,7 +31,9 @@
       "homeScore": 3,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-spielverein-06-ks-ii/-/spiel/02U3HEV8NC000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-spielverein-06-ks-ii/-/spiel/02U3HEV8NC000000VS5489BTVV378D77",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3HEV8QC000000VS5489BTVV378D77",
@@ -42,7 +46,9 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-tsv-wolfsanger-2/-/spiel/02U3HEV8QC000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-tsv-wolfsanger-2/-/spiel/02U3HEV8QC000000VS5489BTVV378D77",
+      "matchDate": "2025-09-18",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3HEV90S000000VS5489BTVV378D77",
@@ -55,7 +61,9 @@
       "homeScore": 15,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-jsg-fuldatal-i/-/spiel/02U3HEV90S000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-jsg-fuldatal-i/-/spiel/02U3HEV90S000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02U3HEV97C000000VS5489BTVV378D77",
@@ -68,7 +76,9 @@
       "homeScore": 2,
       "awayScore": 5,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-tsv-wolfsanger-2/-/spiel/02U3HEV97C000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-tsv-wolfsanger-2/-/spiel/02U3HEV97C000000VS5489BTVV378D77",
+      "matchDate": "2025-09-25",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3HEV9CS000000VS5489BTVV378D77",
@@ -82,7 +92,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-vfl-kassel-iii/-/spiel/02U3HEV9CS000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-vfl-kassel-iii/-/spiel/02U3HEV9CS000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3HEV9G0000000VS5489BTVV378D77",
@@ -95,7 +107,9 @@
       "homeScore": 2,
       "awayScore": 8,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-tsv-wolfsanger-2/-/spiel/02U3HEV9G0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-ii-tsv-wolfsanger-2/-/spiel/02U3HEV9G0000000VS5489BTVV378D77",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02U3HEV9NK000000VS5489BTVV378D77",
@@ -108,7 +122,9 @@
       "homeScore": 5,
       "awayScore": 5,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-ksv-baunatal-v/-/spiel/02U3HEV9NK000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-wolfsanger-2-ksv-baunatal-v/-/spiel/02U3HEV9NK000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
     },
     {
       "id": "02U3HEV9OK000000VS5489BTVV378D77",
@@ -121,7 +137,9 @@
       "homeScore": 2,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/svh-kassel-tsv-wolfsanger-2/-/spiel/02U3HEV9OK000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/svh-kassel-tsv-wolfsanger-2/-/spiel/02U3HEV9OK000000VS5489BTVV378D77",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "023QS6PAV8000000VS548984VVIKHNJO"

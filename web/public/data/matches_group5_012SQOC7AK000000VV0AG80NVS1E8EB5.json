@@ -16,7 +16,9 @@
       "homeScore": 5,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-jfv-soehre-iii/-/spiel/02TS5GHTAS000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-jfv-soehre-iii/-/spiel/02TS5GHTAS000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-08-30",
+      "matchdayTag": "1"
     },
     {
       "id": "02TS5GHTDG000000VS5489BUVVJ8R9DS",
@@ -29,7 +31,9 @@
       "homeScore": 1,
       "awayScore": 7,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-vellmar-sv-kaufungen-07-ii/-/spiel/02TS5GHTDG000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsv-vellmar-sv-kaufungen-07-ii/-/spiel/02TS5GHTDG000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02TS5GHTGO000000VS5489BUVVJ8R9DS",
@@ -42,20 +46,9 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/jsg-ahnatal-sv-kaufungen-07-ii/-/spiel/02TS5GHTGO000000VS5489BUVVJ8R9DS"
-    },
-    {
-      "id": "02TS5GHTIK000000VS5489BUVVJ8R9DS",
-      "groupId": "group5",
-      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
-      "homeTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
-      "homeTeam": "SV Kaufungen 07 II",
-      "awayTeamId": "029JRT7UNG000000VS5489B1VT684KFR",
-      "awayTeam": "SVH Kassel II",
-      "homeScore": 4,
-      "awayScore": 3,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-svh-kassel-ii/-/spiel/02TS5GHTIK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/jsg-ahnatal-sv-kaufungen-07-ii/-/spiel/02TS5GHTGO000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-19",
+      "matchdayTag": "3"
     },
     {
       "id": "02TS5GHTNK000000VS5489BUVVJ8R9DS",
@@ -68,7 +61,24 @@
       "homeScore": 3,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-hertingshausen-sv-kaufungen-07-ii/-/spiel/02TS5GHTNK000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsv-hertingshausen-sv-kaufungen-07-ii/-/spiel/02TS5GHTNK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-09-27",
+      "matchdayTag": "5"
+    },
+    {
+      "id": "02TS5GHTIK000000VS5489BUVVJ8R9DS",
+      "groupId": "group5",
+      "staffelId": "02TMJADV6G000005VS5489BUVSSD35NB-G",
+      "homeTeamId": "012SQOC7AK000000VV0AG80NVS1E8EB5",
+      "homeTeam": "SV Kaufungen 07 II",
+      "awayTeamId": "029JRT7UNG000000VS5489B1VT684KFR",
+      "awayTeam": "SVH Kassel II",
+      "homeScore": 4,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-svh-kassel-ii/-/spiel/02TS5GHTIK000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-24",
+      "matchdayTag": "4"
     },
     {
       "id": "02TS5GHTO8000000VS5489BUVVJ8R9DS",
@@ -81,7 +91,9 @@
       "homeScore": 2,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-sv-nordshausen/-/spiel/02TS5GHTO8000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-ii-sv-nordshausen/-/spiel/02TS5GHTO8000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02TS5GHTTC000000VS5489BUVVJ8R9DS",
@@ -94,7 +106,9 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ii-sv-kaufungen-07-ii/-/spiel/02TS5GHTTC000000VS5489BUVVJ8R9DS"
+      "url": "https://www.fussball.de/spiel/tsg-wilhelmshoehe-ii-sv-kaufungen-07-ii/-/spiel/02TS5GHTTC000000VS5489BUVVJ8R9DS",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     }
   ],
   "teamId": "012SQOC7AK000000VV0AG80NVS1E8EB5"

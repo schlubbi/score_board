@@ -6,19 +6,6 @@
   },
   "matches": [
     {
-      "id": "02U3HEV8JC000000VS5489BTVV378D77",
-      "groupId": "group4",
-      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
-      "homeTeamId": "02S8L8U0BO000000VS5489B1VVVAF4P8",
-      "homeTeam": "Soccer Academy KS 2",
-      "awayTeamId": "011MIDBML0000000VTVG0001VTR8C1K7",
-      "awayTeam": "SVH Kassel",
-      "homeScore": 1,
-      "awayScore": 3,
-      "status": "played",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-svh-kassel/-/spiel/02U3HEV8JC000000VS5489BTVV378D77"
-    },
-    {
       "id": "02U3HEV8KS000000VS5489BTVV378D77",
       "groupId": "group4",
       "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
@@ -30,7 +17,9 @@
       "awayScore": 0,
       "status": "not_played",
       "note": "Nichtantritt GAST",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-vfl-kassel-iii/-/spiel/02U3HEV8KS000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-vfl-kassel-iii/-/spiel/02U3HEV8KS000000VS5489BTVV378D77",
+      "matchDate": "2025-09-06",
+      "matchdayTag": "2"
     },
     {
       "id": "02U3HEV8S8000000VS5489BTVV378D77",
@@ -43,7 +32,9 @@
       "homeScore": 1,
       "awayScore": 5,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-jsg-ahnatal-ii/-/spiel/02U3HEV8S8000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-jsg-ahnatal-ii/-/spiel/02U3HEV8S8000000VS5489BTVV378D77",
+      "matchDate": "2025-09-16",
+      "matchdayTag": "3"
     },
     {
       "id": "02U3HEV8VS000000VS5489BTVV378D77",
@@ -56,7 +47,9 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-soccer-academy-ks-2/-/spiel/02U3HEV8VS000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/ksv-baunatal-v-soccer-academy-ks-2/-/spiel/02U3HEV8VS000000VS5489BTVV378D77",
+      "matchDate": "2025-09-20",
+      "matchdayTag": "4"
     },
     {
       "id": "02U3HEV97C000000VS5489BTVV378D77",
@@ -69,7 +62,9 @@
       "homeScore": 2,
       "awayScore": 5,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-tsv-wolfsanger-2/-/spiel/02U3HEV97C000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-tsv-wolfsanger-2/-/spiel/02U3HEV97C000000VS5489BTVV378D77",
+      "matchDate": "2025-09-25",
+      "matchdayTag": "5"
     },
     {
       "id": "02U3HEV98C000000VS5489BTVV378D77",
@@ -82,7 +77,9 @@
       "homeScore": 7,
       "awayScore": 8,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-soccer-academy-ks-2/-/spiel/02U3HEV98C000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/tsv-oberzwehren-soccer-academy-ks-2/-/spiel/02U3HEV98C000000VS5489BTVV378D77",
+      "matchDate": "2025-10-25",
+      "matchdayTag": "6"
     },
     {
       "id": "02U3HEV9I0000000VS5489BTVV378D77",
@@ -95,7 +92,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-spielverein-06-ks-ii/-/spiel/02U3HEV9I0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-spielverein-06-ks-ii/-/spiel/02U3HEV9I0000000VS5489BTVV378D77",
+      "matchDate": "2025-11-01",
+      "matchdayTag": "7"
     },
     {
       "id": "02U3HEV9L8000000VS5489BTVV378D77",
@@ -108,7 +107,24 @@
       "homeScore": 4,
       "awayScore": 6,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-soccer-academy-ks-2/-/spiel/02U3HEV9L8000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/sv-kaufungen-07-iii-soccer-academy-ks-2/-/spiel/02U3HEV9L8000000VS5489BTVV378D77",
+      "matchDate": "2025-11-08",
+      "matchdayTag": "8"
+    },
+    {
+      "id": "02U3HEV8JC000000VS5489BTVV378D77",
+      "groupId": "group4",
+      "staffelId": "02TMJADV14000008VS5489BUVSSD35NB-G",
+      "homeTeamId": "02S8L8U0BO000000VS5489B1VVVAF4P8",
+      "homeTeam": "Soccer Academy KS 2",
+      "awayTeamId": "011MIDBML0000000VTVG0001VTR8C1K7",
+      "awayTeam": "SVH Kassel",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "played",
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-svh-kassel/-/spiel/02U3HEV8JC000000VS5489BTVV378D77",
+      "matchDate": "2025-11-13",
+      "matchdayTag": "1"
     },
     {
       "id": "02U3HEV9T0000000VS5489BTVV378D77",
@@ -121,7 +137,9 @@
       "homeScore": 19,
       "awayScore": 0,
       "status": "played",
-      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-jsg-fuldatal-i/-/spiel/02U3HEV9T0000000VS5489BTVV378D77"
+      "url": "https://www.fussball.de/spiel/soccer-academy-ks-2-jsg-fuldatal-i/-/spiel/02U3HEV9T0000000VS5489BTVV378D77",
+      "matchDate": "2025-11-15",
+      "matchdayTag": "9"
     }
   ],
   "teamId": "02S8L8U0BO000000VS5489B1VVVAF4P8"
